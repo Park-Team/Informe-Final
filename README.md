@@ -16,9 +16,9 @@
 
 | Nombre                            | Código     |
 | --------------------------------- | ---------- |
+| Alonso Garay, Diego Jesus        | U20201C410|
 | Oliveira Paucar, Mauricio         | U201719831 |
-| Garro Vega, Marcelo Fabian        | U20201C410 |
-| Méndez Vargas, Sebastian Orlando  | U20201F140 |
-
+| Rodriguez Zuluoeta, Andres Fernando  | U20201F140 |
+ 
 
 <p align="center"><strong>Ciclo 2025-10</strong></p>
