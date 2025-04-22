@@ -269,8 +269,70 @@ Frente a las amenazas, como la posible entrada de nuevos actores al mercado o la
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+**Preguntas generales**
+- ¿Cuál es su nombre y apellido completo?
+- ¿Cuál es su edad?
+- ¿En qué distrito o lugar reside?
+- ¿Cuál es su ocupación?
+
+**Preguntas para el Guest**
+- ¿Con qué tipo de vehículo dispone? ¿Carro ligero, camioneta o moto?
+- ¿Con qué frecuencia usa su(s) vehículo(s)?
+- Hoy en día, es complicado encontrar un estacionamiento disponible. ¿Cuál cree que es la razón por la que sucede esto?
+- ¿Cuáles serían las horas donde es más difícil encontrar estacionamientos?
+- ¿Cuánto tiempo demora aproximadamente en encontrar estacionamiento?
+- ¿Estaría dispuesto a usar como estacionamiento los garajes de las viviendas? ¿Cuáles serían sus motivos?
+- ¿Cuáles serían los requisitos mínimos para asegurar la integridad del usuario y su vehículo?
+- Si este servicio llega a ser seguro para sus clientes, ¿cree que sería útil para los ciudadanos de las zonas urbanas del Perú? ¿En que los beneficiaría?
+- ¿Confiaría usted en una aplicación móvil que facilite la búsqueda de estos tipos de estacionamientos?
+
+**Preguntas para el Host**
+- ¿Con cuántos garajes o cocheras cuenta en su hogar?
+- ¿Cuál es el tamaño promedio de los garajes en su hogar?
+- ¿En qué momentos de su día a día sus garajes se encuentran desocupados?
+- ¿Cuenta con algún sistema de seguridad en su cochera?
+- ¿Ha llegado a considerar la posibilidad de alquilar sus garajes en algún momento? ¿Por qué?
+- ¿Cuáles serían los requisitos mínimos para asegurar la integridad del usuario y sus bienes, ya sea inmobiliario o no?
+- ¿Le interesaría tener una aplicación móvil que permita promocionar sus garajes como estacionamiento y generar ingresos, sin interrumpir sus actividades diarias?
+
 ### 2.2.2. Registro de entrevistas
+
+|Entrevista 1|
+|------------|
+|<img src="assets/Entrevista1.jpg" alt="Entrevista1"/>|
+|Minuto de inicio: 00:00 <br> Duracion 06:03|
+|Entrevista 2|
+|<img src="assets/Entrevista2.png" alt="Entrevista2"/>|
+|Minuto de inicio: 06:04 <br> Duracion 04:13|
+|Entrevista 3|
+|<img src="assets/Entrevista3.jpg" alt="Entrevista3"/>|
+|Minuto de inicio: 10:17 <br> Duracion 04:35|
+|Entrevista 4|
+|<img src="assets/Entrevista4.png" alt="Entrevista4"/>|
+|Minuto de inicio: 14:53 <br> Duracion 06:46|
+|Entrevista 5|
+|<img src="assets/Entrevista5.jpg" alt="Entrevista5"/>|
+|Minuto de inicio: 21:39 <br> Duracion 05:00|
+
+**Link de las entrevistas**: https://youtu.be/kp5V3bArxIw
+
 ### 2.2.3. Análisis de entrevistas
+
+**Segmento 1: Usuarios de parking**
+
+- El 100% de los entrevistados están de acuerdo que la falta o escasez de estacionamientos disponibles se debe a la alta demanda de vehículos motorizados de las zonas urbanas.
+- El 100% de los entrevistados presentan dificultades para encontrar estacionamiento principalmente en los tiempos de inicio de trabajo o estudio. Como ejemplo, de 7AM a 10AM o de 2PM a 4PM.
+- En la búsqueda de estacionamientos, indican tomar un aproximado de 20 a 30 minutos para conseguir un espacio disponible.
+- El 100% del segmento están conformes con la idea de estacionar sus vehículos en garajes de las viviendas, siempre y cuando este cuente con medidas de seguridad.
+
+**Segmento 2: Anfitriones**
+
+- El 100% de los entrevistados mencionan estar interesados en la posibilidad de poner en alquiler su garaje como estacionamiento para afrontar el problema principal, escasez de estacionamientos, y generar ingresos adicionales.
+- Un porcentaje de los entrevistados indican que sus espacios de estacionamientos suelen estar desocupados por las mañanas e incluso por las tardes, debido a sus actividades diarias.
+- De acuerdo con los entrevistados, al promocionar sus servicios de garaje como estacionamiento a personas desconocidas piden conseguir acceso a la información de estos usuarios y contar con un sistema de calificación para el servicio y el cliente.
+
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
