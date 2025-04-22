@@ -273,10 +273,60 @@ Frente a las amenazas, como la posible entrada de nuevos actores al mercado o la
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+**User Persona: Guest**
+ <img src="assets/UserPersonaGuest.png" alt="User Persona: Guest" />
+
+**User Persona: Host**
+<img src="assets/UserPersonaHost.png" alt="User Persona: Host" />
+
 ### 2.3.2. User Task Matrix
+
+**User Persona: Guest(Luis Gonzales)**
+|Actividad|Frecuencia de uso|Nivel de importancia|
+|---------|-----------------|--------------------|
+|Consultar en tiempo real los espacios de estacionamiento disponibles|Frecuente|Alta|
+|Realizar la reserva de un lugar para estacionar|Frecuente|Alta|
+|Revisar las condiciones de seguridad del estacionamiento antes de reservar|Ocasional|Alta|
+|Cancelar una reserva previamente hecha|Poco frecuente|Media|
+|Efectuar el pago del estacionamiento desde la misma plataforma|Frecuente|Alta|
+|Dejar una calificación sobre la experiencia de estacionamiento|Ocasional|Media|
+|Recibir notificaciones sobre espacios disponibles cercanos|Frecuente|Alta|
+
+**User Persona: Host(Alejandro García)**
+|Actividad|Frecuencia de uso|Nivel de importancia|
+|---------|-----------------|--------------------|
+|Publicar la disponibilidad de su cochera para alquiler en la app|Ocasional|Alta|
+|Validar la identidad de los usuarios interesados en su cochera|Ocasional|Alta|
+|Aceptar o rechazar solicitudes de reserva|Frecuente|Alta|
+|Recibir pagos por los periodos de alquiler de su espacio|Frecuente|Alta|
+|Atender solicitudes de cancelación de reservas|Poco frecuente|Media|
+|Interactuar con los usuarios mediante el sistema de mensajería de la plataforma|Ocasional|Media|
+|Actualizar datos e información sobre su cochera|Poco frecuente|Media|
+
 ### 2.3.3. User Journey Mapping
+
+**User Persona: Guest**
+<img src="assets/User JourneyMappingGuest.png" alt="User Persona: Guest" />
+
+**User Persona: Host**
+<img src="assets/User JourneyMappingHost.png" alt="User Persona: Host" />
+
 ### 2.3.4. Empathy Mapping
+**User Persona: Guest**
+<img src="assets/EmpathyMappingGuest.png" alt="User Persona: Guest" />
+
+**User Persona: Host**
+<img src="assets/EmpathyMappingHost.png" alt="User Persona: Host" />
+
 ### 2.3.5. As-is Scenario Mapping
+
+**User Persona: Guest**
+<img src="assets/As-Is Scenario Mapping - Guest.jpg" alt="User Persona: Guest" />
+
+**User Persona: Host**
+<img src="assets/As-Is Scenario Mapping - Host.jpg" alt="User Persona: Host" />
+
 ## 2.4. Ubiquitous Language
 # Capítulo III: Requirements specification
 ## 3.1. To-Be Scenario Mapping.
