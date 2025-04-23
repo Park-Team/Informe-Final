@@ -112,6 +112,41 @@
 
 
 # Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:<br>
+**ABET - EAC - Student Outcome 7**<br>
+- Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias deaprendizaje apropiadas.
+En elsiguiente cuadro se describe las accionesrealizadas y enunciados de conclusiones
+por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET –
+EAC - Student Outcome 7.
+<table>
+        <tr>
+            <th>Criterio específico</th>
+            <th>Acciones realizadas </th>
+            <th>Conclusiones</th>
+        </tr>
+        <tr>
+            <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
+            <td>Alonso Garay, Diego Jesus<br>TB1<br>lorem<br>
+                Oliveira Paucar, Mauricio<br>TB1<br>lorem<br>
+                Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>lDesarrollé los capítulos 2 y 3 del proyecto EzPark, incluyendo análisis de requerimientos, user stories, Impact Mapping y Domain Message Flow Modeling. Aprendí a aplicar conceptos como Bounded Context y flujos de dominio en un sistema real.<br>
+            </td>
+            <td>Alonso Garay, Diego Jesus<br>TB1<br>lorem<br>
+                Oliveira Paucar, Mauricio<br>TB1<br>lorem<br>
+                Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>El proyecto me permitió adquirir nuevos conocimientos sobre modelado de dominio y diseño de soluciones, esenciales para mi desarrollo profesional en ingeniería de software.<br>
+                </td>
+        </tr>
+        <tr>
+            <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
+            <td>Alonso Garay, Diego Jesus<br>TB1<br>lorem<br>
+                Oliveira Paucar, Mauricio<br>TB1<br>lorem<br>
+                Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>Investigué por mi cuenta sobre Impact Mapping y Bounded Context, usando documentación y ejemplos externos, aplicando estrategias de autoaprendizaje para completar correctamente mi parte del proyecto.<br></td>
+            <td>Alonso Garay, Diego Jesus<br>TB1<br>lorem<br>
+                Oliveira Paucar, Mauricio<br>TB1<br>lorem<br>
+                Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>Comprendí que el aprendizaje continuo es clave para enfrentar desafíos reales en proyectos, y que debo seguir actualizándome constantemente.<br></td>
+        </tr>
+    </table>
+
 # Objetivos SMART
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
@@ -131,7 +166,7 @@ Por otro lado, los propietarios de espacios de estacionamiento tendrán la posib
 
 |                                                                                | Rodriguez Zuluoeta, Andres Fernando                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img height="90" width="400" src="./assets/team/andres.png"  alt="Andres" /> | <strong>Ingeniería de Software - U202124213</strong><br />Tengo 21 años, tengo conocimiento de lenguaje de programación como C ++ y Python. Me considero una persona centrada y responsable al momento de realizar trabajos en equipo. |
+| <img height="90" width="400" src="assets/Andres.jpg"  alt="Andres" /> | <strong>Ingeniería de Software - U202124213</strong><br />Tengo 21 años, tengo conocimiento de lenguaje de programación como C ++ y Python. Me considero una persona centrada y responsable al momento de realizar trabajos en equipo. |
 
 |                                                                                   | Alonso Garay, Diego Jesus                                                                                                                                                                                                                                                                                                                                                                                               |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
