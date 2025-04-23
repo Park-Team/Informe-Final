@@ -760,27 +760,37 @@ Para visualizar el Product Backlog de manera interactiva, se ha utilizado **Trel
 En esta fase, se adoptó un enfoque colaborativo y visual para facilitar el modelado del contexto del dominio. Esto se logró mediante la exploración de etapas como el Candidate Context Discovery, Domain Message Flows Modeling y la creación de Bounded Context Canvases.
 
 **Unstructured Exploration**
+
 Este método utiliza una representación gráfica donde todos los involucrados en un proyecto se juntan para analizar a fondo cómo funciona un sistema. Para esto, se emplean notas de colores variados que simbolizan diferentes componentes, lo que hace más sencilla la conversación y la identificación de lo que se necesita.
+
 <img src="assets/eventstorming.png" alt="eventstorming"/>
 
 **Pain Points**
+
 Los pain points son esos obstáculos o complicaciones que experimentan tanto los usuarios como las personas interesadas en el sistema. Detectar estos problemas es crucial porque nos permite enfocarnos en crear funcionalidades y soluciones que de verdad resuelvan las necesidades de quienes van a usar el sistema.
+
 <img src="assets/painpoints.png" alt="painpoints"/>
 
 **Timelines**
+
 La línea de tiempo del sistema describe el orden en que suceden las cosas dentro de él. Al definir esta secuencia de eventos, podemos entender mejor cómo se relacionan las acciones y cómo impactan el desarrollo del trabajo.
 <img src="assets/timelines.png" alt="timelines"/>
 
 **Pivotal Points**
 Los puntos pivote son esos instantes cruciales dentro de la secuencia de eventos que tienen la capacidad de transformar la condición del sistema o de afectar de manera importante la vivencia del usuario. Reconocer estos momentos nos permite enfocar nuestras energías en las partes más trascendentales del proceso.
+
 <img src="assets/pivotalpoints.png" alt="pivotalpoints"/>
 
 **Commands**
+
 Los comandos son las acciones o las órdenes que un usuario o el mismo sistema pueden llevar a cabo para generar una modificación en cómo se encuentra el sistema en un momento dado.
+
 <img src="assets/commands.png" alt="commands"/>
 
 **Policies**
+
 Las políticas son los lineamientos o normas que definen la manera en que se deben tomar las decisiones dentro del sistema. Esto puede abarcar reglas de negocio que establecen el momento en que ciertos comandos deben ejecutarse o la forma en que ciertos eventos deben ser gestionados.
+
 <img src="assets/policies1.png" alt="policies1"/>
 <img src="assets/policies2.png" alt="policies2"/>
 <img src="assets/policies3.png" alt="policies3"/>
@@ -788,11 +798,15 @@ Las políticas son los lineamientos o normas que definen la manera en que se deb
 <img src="assets/policies5.png" alt="policies5"/>
 
 **Read Model**
+
 Estos modelos se crean específicamente para que la búsqueda de datos sea rápida, y a menudo se diseñan de forma diferente a cómo se guardan los datos inicialmente para que el sistema funcione mejor y pueda manejar más trabajo.
+
 <img src="assets/readmodel.png" alt="readmodel"/>
 
 **External Systems**
+
 Los sistemas externos son aquellos otros sistemas o servicios con los que el sistema principal se comunica o trabaja en conjunto. Reconocer cuáles son estos sistemas nos ayuda a comprender qué conexiones y dependencias son necesarias para que todo funcione correctamente.
+
 <img src="assets/externalsystem.png" alt="externalsystem"/>
 
 #### 4.1.1.1. Candidate Context Discovery
@@ -806,6 +820,9 @@ Los sistemas externos son aquellos otros sistemas o servicios con los que el sis
 
 **Reservation Managment:**
 
+<img src="assets/reservationcandidate.jpg" alt="reservationcandidate" />
+
+
 #### 4.1.1.2. Domain Message Flows Modeling
 
 **Scenario: User management**
@@ -818,6 +835,7 @@ Los sistemas externos son aquellos otros sistemas o servicios con los que el sis
 
 **Scenario: Reservation Management**
 
+<img src="assets/reservationdomain.jpg" alt="reservationdomain" />
 
 
 #### 4.1.1.3. Bounded Context Canvases
@@ -832,13 +850,29 @@ Los sistemas externos son aquellos otros sistemas o servicios con los que el sis
 
 **Reservation Management**
 
+<img src="assets/reservationbounded.jpg" alt="reservationbounded" />
 
 
 ### 4.1.2. Context Mapping
+
+
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture Context Level Diagrams
+
+Este diagrama de contexto ilustra cómo los Guests y los Hosts interactúan directamente con el sistema EzPark para solicitar y ofrecer espacios de estacionamiento, respectivamente. Además, muestra cómo EzPark utiliza Google Cloud Storage para la gestión de datos de los usuarios. Es una representación de alto nivel de los límites del sistema y sus principales interacciones con el mundo exterior.
+
+<img src="assets/contextlevel.jpg" alt="contextlevel" />
+
+
 #### 4.1.3.2. Software Architecture Container Level Diagrams
+
+Este diagrama muestra cómo los usuarios interactúan con EzPark a través de interfaces web y móviles. Estas interfaces se comunican con la Aplicaciones API, que contiene la lógica del negocio. La API interactúa con una Base de Datos para la gestión de usuarios y con Google Cloud Storage para el almacenamiento de datos específicos. Es una vista de la arquitectura de software del sistema EzPark.
+
+<img src="assets/containerlevel.jpg" alt="containerlevel" />
+
 #### 4.1.3.3. Software Architecture Deployment Diagrams
+
+
 ## 4.2. Tactical-Level Domain-Driven Design
 ### 4.2.1. Bounded Context: User Management
 En este contexto, ParkTeam define los elementos fundamentales para la gestión de usuarios dentro de su producto EzPark. Este Bounded Context se enfoca en gestionar las entidades relacionadas con los usuarios, incluyendo su registro, autenticación, roles y perfiles.
@@ -1004,13 +1038,61 @@ Este diagrama de base de datos ilustra las principales tablas y sus relaciones d
 
 ### 4.2.3. Bounded Context: Reservation Management Context 
 #### 4.2.3.1. Domain Layer
+
+En esta capa, se representan las reglas de negocio centrales del dominio de reservas. Las clases identificadas son:
+
+- Reservation: Entidad que representa una reserva específica, incluyendo atributos como identificador, identificador del usuario (reservante), identificador del espacio reservado, fecha y hora de inicio, fecha y hora de fin, estado de la reserva.
+- ReservationId: Objeto de valor que encapsula el identificador único de la reserva.
+- ReservationStatus: Enumeración que define los posibles estados de una reserva
+- IReservationRepository: Interfaz que define el contrato para acceder a la persistencia de las reservas.
+- IReservationDomainService: Servicio de dominio que encapsula lógica de negocio compleja que no pertenece directamente a una entidad, como la verificación de la disponibilidad de un espacio para un rango de tiempo dado o la aplicación de políticas de cancelación.
+
+
 #### 4.2.3.2. Interface Layer
+
+Esta capa expone la funcionalidad del sistema al exterior, permitiendo la interacción con los usuarios y otros sistemas:
+
+- ReservationController: Controlador REST que maneja las solicitudes HTTP relacionadas con las reservas, como crear una nueva reserva, cancelar una reserva, obtener detalles de una reserva.
+
+
 #### 4.2.3.3. Application Layer
+
+Esta capa orquesta los casos de uso del dominio, coordinando las interacciones entre las entidades y servicios:
+
+- CreateReservationCommand: Comando que contiene los datos necesarios para crear una nueva reserva (identificador del usuario, identificador del espacio, fecha y hora de inicio, fecha y hora de fin).
+- GetReservationQuery: Consulta que contiene el identificador de una reserva para obtener sus detalles.
+
+
 #### 4.2.3.4. Infrastructure Layer
+
+Esta capa se encarga de la integración con tecnologías externas y la implementación de las interfaces definidas en el dominio:
+
+- ReservationRepository: Implementación de IReservationRepository que utiliza PostgreSQL para la persistencia de las reservas.
+- DateTimeServiceSystem: Implementación de un servicio para obtener la fecha y hora actual del sistema (podría ser una interfaz en la capa de aplicación si se necesita abstracción).
+
+
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama ofrece una visión general de los componentes de software dentro del contexto de "Reservation Management", así como de sus responsabilidades e interacciones.
+
+<img src="assets/reservationcomponentlevel.png" alt="reservationcomponentlevel" />
+
+
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+Este diagrama de clases ilustra las principales entidades y sus relaciones dentro de la capa de dominio del bounded context de "Reservation Management".
+
+<img src="assets/reservationlayerclass.png" alt="reservationlayerclass" />
+
+
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
+
+Este diagrama representa el esquema de la base de datos para el bounded context de "Reservation Management". Cada recuadro representa una tabla, y dentro de cada tabla se listan las columnas con su nombre y, en algunos casos, su tipo y si es una clave primaria (PK) o clave foránea (FK).
+
+<img src="assets/reservationdatabasedesign.png" alt="reservationdatabasedesign" />
+
+
 # Conclusiones
 ## Conclusiones y recomendaciones.
 - La aplicación EzPark tiene el potencial de abordar un problema real y común en entornos urbanos, que es la escasez de espacios de estacionamiento y la búsqueda ineficiente de lugares para estacionar. La propuesta de la aplicación para permitir a los usuarios buscar, reservar y pagar por espacios de estacionamiento de manera eficiente, así como permitir a los propietarios de espacios registrarse y alquilar a través de la plataforma, puede tener un impacto significativo en la experiencia de los conductores y en la congestión del tráfico en las áreas urbanas.
