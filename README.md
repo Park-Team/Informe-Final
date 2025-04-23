@@ -418,11 +418,127 @@ Se le ha realizado una entrevista a Rodrigo Tornero Loayza que cuenta con 21 añ
 # Capítulo III: Requirements specification
 ## 3.1. To-Be Scenario Mapping.
 
+**User Persona: Guest**
+<img src="assets/To-Be Scenario Mapping - Guest.jpg" alt="User Persona: Host" />
+
+**User Persona: Host**
+<img src="assets/To-Be Scenario Mapping - Host.jpg" alt="User Persona: Host" />
+
+
 ## 3.2. User Stories.
+
+#### **Epics**  
+
+| **Epic ID** | **Título**                          | **Descripción**                                                                 |
+|-------------|-------------------------------------|---------------------------------------------------------------------------------|
+| EP01        | Desplegar Landing Page          | Mostrar componentes informativos y visuales de la página principal del producto.|
+| EP02        | Gestionar Cuenta de Usuario     | Permitir registro, autenticación y gestión del perfil de usuarios.              |
+| EP03        | Buscar y Reservar Estacionamientos | Facilitar la búsqueda, filtrado, reserva y gestión de estacionamientos.       |
+| EP04        | Administrar Cocheras (Hosts)    | Habilitar la publicación, edición y gestión de espacios de estacionamiento.     |
+| EP05        | Procesar Pagos                  | Gestionar transacciones, facturación y métodos de pago.                         |
+| EP06        | Configurar Perfil de Usuario    | Permitir visualización y edición de datos personales, vehículos y preferencias.|
+| EP07        | Garantizar Seguridad y Notificaciones | Implementar funciones de seguridad y notificaciones relevantes.              |
+
+
+**User Stories**
+
+| **User Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relacionado con Epic ID** |
+|-------------------|------------|-----------------|-----------------------------|---------------------|
+| **US01** | **Acceder** a la Barra de Navegación | Como usuario, quiero usar una barra de navegación para ir a secciones clave. | **Escenario 1: Navegar a secciones**<br>- Dado que estoy en el landing page<br>- Cuando hago clic en "Cómo funciona" en la barra de navegación<br>- Entonces soy redirigido a la sección EP04<br><br>**Escenario 2: Menú desplegable**<br>- Dado que la barra de navegación tiene un menú hamburguesa (mobile)<br>- Cuando hago clic en el ícono<br>- Entonces se despliegan las opciones principales | EP01 |
+| **US02** | **Acceder** a la Sección comenzar | Como usuario, quiero ver una introducción visual del servicio. | **Escenario 1: Visualización básica**<br>- Dado que cargo la página principal<br>- Cuando la sección comenzar se muestra<br>- Entonces veo un título llamativo y un botón "Comenzar"<br><br>**Escenario 2: Redirección al registro**<br>- Dado que estoy en la sección Hero<br>- Cuando hago clic en "Comenzar"<br>- Entonces soy redirigido al formulario de registro | EP01 |
+| **US03** | **Acceder** a la Sección Ventajas ("Why Choose Us?") | Como usuario, quiero conocer las razones para usar EzPark. | **Escenario 1: Mostrar ventajas**<br>- Dado que estoy en la sección "Why Choose Us?"<br>- Cuando reviso el contenido<br>- Entonces veo 3 tarjetas con iconos y texto descriptivo<br><br>**Escenario 2: Responsividad**<br>- Dado que accedo desde móvil<br>- Cuando la sección se adapta<br>- Entonces las tarjetas se apilan verticalmente | EP01 |
+| **US04** | **Acceder** a la Sección Funcionamiento ("How It Works") | Como usuario, quiero entender cómo usar la app. | **Escenario 1: Pasos claros**<br>- Dado que estoy en "How It Works"<br>- Cuando leo la información<br>- Entonces identifico 3 pasos numerados con ilustraciones<br><br>**Escenario 2: Llamado a acción**<br>- Dado que llego al final de la sección<br>- Cuando veo el botón "Descargar ahora"<br>- Entonces este me redirige a las app stores | EP01 |
+| **US05** | **Acceder** a la Sección Testimonios | Como usuario, quiero ver opiniones de usuarios reales. | **Escenario 1: Testimonios auténticos**<br>- Dado que reviso la sección<br>- Cuando observo los testimonios<br>- Entonces cada uno muestra foto, nombre y cargo/ubicación<br><br>**Escenario 2: Carrusel interactivo**<br>- Dado que hay más de 3 testimonios<br>- Cuando hago clic en "Siguiente"<br>- Entonces se muestran nuevos testimonios con animación | EP01 |
+| **US06** | **Acceder** a la Sección Precios | Como usuario, quiero conocer los costos de los servicios. | **Escenario 1: Planes comparativos**<br>- Dado que veo la sección de precios<br>- Cuando analizo las opciones<br>- Entonces identifico al menos 3 planes con características diferenciadas<br><br>**Escenario 2: Destacar recomendado**<br>- Dado que existe un plan recomendado<br>- Cuando la página carga<br>- Entonces este plan tiene un destacado visual (ej: borde colorido) | EP01 |
+| **US07** | **Registrar** una Cuenta | Como usuario, quiero crear una cuenta para acceder a la app. | **Escenario 1: Registro exitoso**<br>- Dado que completo el formulario con datos válidos<br>- Cuando hago clic en "Registrarme"<br>- Entonces recibo un email de confirmación<br><br>**Escenario 2: Correo duplicado**<br>- Dado que ingreso un email ya registrado<br>- Cuando intento registrarme<br>- Entonces el sistema muestra "Este correo ya está en uso" | EP02 |
+| **US08** | **Iniciar** Sesión | Como usuario, quiero autenticarme de forma segura. | **Escenario 1: Login válido**<br>- Dado que ingreso credenciales correctas<br>- Cuando hago clic en "Ingresar"<br>- Entonces accedo a mi dashboard<br><br>**Escenario 2: Credenciales inválidas**<br>- Dado que ingreso una contraseña incorrecta<br>- Cuando intento iniciar sesión<br>- Entonces el sistema muestra "Credenciales no válidas" | EP02 |
+| **US09** | **Recuperar** Contraseña | Como usuario, quiero restablecer mi contraseña si la olvido. | **Escenario 1: Solicitud exitosa**<br>- Dado que ingreso mi email registrado<br>- Cuando hago clic en "Recuperar"<br>- Entonces recibo un enlace temporal al correo<br><br>**Escenario 2: Email no registrado**<br>- Dado que ingreso un email no existente<br>- Cuando solicito recuperación<br>- Entonces el sistema muestra "Email no encontrado" | EP02 |
+| **US10** | **Buscar** Estacionamientos Cercanos | Como usuario, quiero encontrar espacios disponibles cerca de mí. | **Escenario 1: Búsqueda por ubicación**<br>- Dado que abro la app<br>- Cuando ingreso mi ubicación actual<br>- Entonces veo una lista de estacionamientos en un radio de 5 km<br><br>**Escenario 2: Sin resultados**<br>- Dado que busco en una zona rural<br>- Cuando no hay estacionamientos disponibles<br>- Entonces el sistema muestra "No encontramos espacios en esta área" | EP03 |
+| **US11** | **Filtrar** por Precio | Como usuario, quiero ajustar la búsqueda a mi presupuesto. | **Escenario 1: Filtro aplicado**<br>- Dado que selecciono "Menos de S/10 por hora"<br>- Cuando aplico el filtro<br>- Entonces solo veo estacionamientos con precios ≤ S/10<br><br>**Escenario 2: Rango inválido**<br>- Dado que ingreso un rango negativo (ej: -S/5)<br>- Cuando intento filtrar<br>- Entonces el sistema muestra "Ingrese un valor válido" | EP03 |
+| **US12** | **Visualizar** Mapa Interactivo | Como usuario, quiero ver estacionamientos en un mapa. | **Escenario 1: Marcadores en mapa**<br>- Dado que activo la vista de mapa<br>- Cuando cargo la pantalla<br>- Entonces los estacionamientos aparecen como marcadores azules<br><br>**Escenario 2: Marcador seleccionado**<br>- Dado que hago clic en un marcador<br>- Cuando se despliega el popup<br>- Entonces muestra precio, distancia y botón "Reservar" | EP03 |
+| **US13** | **Reservar** un Estacionamiento | Como usuario, quiero asegurar un espacio para mi vehículo. | **Escenario 1: Reserva exitosa**<br>- Dado que selecciono un espacio disponible<br>- Cuando confirmo la reserva y pago<br>- Entonces recibo un código QR de acceso<br><br>**Escenario 2: Espacio ocupado**<br>- Dado que otro usuario reserva primero<br>- Cuando intento reservar<br>- Entonces el sistema muestra "Este espacio ya no está disponible" | EP03 |
+| **US14** | **Cancelar** una Reserva | Como usuario, quiero anular una reserva si no la necesito. | **Escenario 1: Cancelación a tiempo**<br>- Dado que cancelo 1 hora antes<br>- Cuando confirmo la acción<br>- Entonces recibo un reembolso del 80%<br><br>**Escenario 2: Fuera de plazo**<br>- Dado que intento cancelar 10 minutos antes<br>- Cuando el plazo ya expiró<br>- Entonces el sistema muestra "No puedes cancelar esta reserva" | EP03 |
+| **US15** | **Consultar** Historial de Reservas | Como usuario, quiero ver mis reservas anteriores. | **Escenario 1: Historial completo**<br>- Dado que accedo a "Mis reservas"<br>- Cuando selecciono "Historial"<br>- Entonces veo todas mis reservas pasadas ordenadas por fecha<br><br>**Escenario 2: Sin historial**<br>- Dado que soy un usuario nuevo<br>- Cuando reviso el historial<br>- Entonces el sistema muestra "Aún no tienes reservas" | EP03 |
+| **US16** | **Calificar** Experiencias | Como usuario, quiero evaluar estacionamientos después de usarlos. | **Escenario 1: Reseña completa**<br>- Dado que finalizo una reserva<br>- Cuando dejo 5 estrellas y un comentario<br>- Entonces la reseña aparece en el perfil del estacionamiento<br><br>**Escenario 2: Reseña anónima**<br>- Dado que selecciono "Publicar anónimamente"<br>- Cuando envío la calificación<br>- Entonces solo se muestra "Usuario verificado" en lugar de mi nombre | EP03 |
+| **US17** | **Ver** Próximas Reservas | Como usuario, quiero conocer mis reservas futuras. | **Escenario 1: Reservas activas**<br>- Dado que tengo 2 reservas pendientes<br>- Cuando abro la sección<br>- Entonces veo ambas con fechas y ubicaciones<br><br>**Escenario 2: Recordatorio automático**<br>- Dado que tengo una reserva en 1 hora<br>- Cuando el sistema detecta mi ubicación<br>- Entonces recibo una notificación push "Tu reserva inicia pronto" | EP03 |
+| **US18** | **Actualizar** Perfil | Como usuario, quiero editar mi información personal. | **Escenario 1: Cambio de teléfono**<br>- Dado que modifico mi número<br>- Cuando guardo los cambios<br>- Entonces recibo un SMS de verificación<br><br>**Escenario 2: Foto de perfil**<br>- Dado que subo una nueva foto<br>- Cuando la imagen excede 5MB<br>- Entonces el sistema muestra "El archivo es demasiado grande" | EP02 |
+| **US19** | **Eliminar** Cuenta | Como usuario, quiero borrar mi cuenta permanentemente. | **Escenario 1: Confirmación requerida**<br>- Dado que hago clic en "Eliminar cuenta"<br>- Cuando ingreso mi contraseña para confirmar<br>- Entonces todos mis datos se borran en 72 horas<br><br>**Escenario 2: Con reservas activas**<br>- Dado que tengo una reserva pendiente<br>- Cuando intento eliminar mi cuenta<br>- Entonces el sistema bloquea la acción hasta completar la reserva | EP02 |
+| **US20** | **Vincular** Métodos de Login | Como usuario, quiero asociar cuentas (Google/Facebook). | **Escenario 1: Vinculación exitosa**<br>- Dado que selecciono "Google"<br>- Cuando ingreso credenciales válidas<br>- Entonces mi cuenta queda vinculada<br><br>**Escenario 2: Cuenta ya vinculada**<br>- Dado que intento vincular Facebook otra vez<br>- Cuando ya está asociado<br>- Entonces el sistema muestra "Esta cuenta ya está conectada" | EP02 |
+| **US21** | **Revisar** Detalles de Estacionamiento | Como usuario, quiero información completa antes de reservar. | **Escenario 1: Detalles clave**<br>- Dado que selecciono un estacionamiento<br>- Cuando abro su ficha<br>- Entonces veo fotos, horarios, precio y reglas<br><br>**Escenario 2: Sin fotos**<br>- Dado que el Host no subió imágenes<br>- Cuando veo la ficha<br>- Entonces se muestra un ícono de "Imagen no disponible" | EP03 |
+| **US22** | **Listar** Estacionamientos | Como usuario, quiero ver opciones en formato de lista. | **Escenario 1: Ordenar por precio**<br>- Dado que selecciono "Más barato primero"<br>- Cuando la lista se actualiza<br>- Entonces el primer resultado cuesta ≤ S/5<br><br>**Escenario 2: Sin conexión**<br>- Dado que pierdo internet<br>- Cuando intento cargar la lista<br>- Entonces el sistema muestra datos en caché con alerta "Modo offline" | EP03 |
+| **US23** | **Previsualizar** Entorno (Street View) | Como usuario, quiero ver el área del estacionamiento. | **Escenario 1: Integración con Google**<br>- Dado que hago clic en "Ver ubicación"<br>- Cuando se carga Street View<br>- Entonces puedo navegar 360° alrededor del lugar<br><br>**Escenario 2: Zona no cubierta**<br>- Dado que el estacionamiento está en una calle privada<br>- Cuando intento abrir Street View<br>- Entonces el sistema muestra "Vista no disponible" | EP03 |
+| **US24** | **Publicar** una Cochera | Como Host, quiero ofrecer mi espacio para alquilar. | **Escenario 1: Publicación exitosa**<br>- Dado que completo todos los campos obligatorios<br>- Cuando subo fotos y confirmo<br>- Entonces mi cochera aparece en búsquedas en 24h<br><br>**Escenario 2: Geolocalización fallida**<br>- Dado que el GPS no detecta mi dirección<br>- Cuando ingreso manualmente "Av. Perú 123"<br>- Entonces el sistema sugiere "¿Quiso decir Av. Perú 125?" | EP04 |
+| **US25** | **Modificar** Información de Cochera | Como Host, quiero actualizar los datos de mi espacio. | **Escenario 1: Cambio de horario**<br>- Dado que edito "Horario de atención"<br>- Cuando guardo los cambios<br>- Entonces las reservas futuras se ajustan automáticamente<br><br>**Escenario 2: Precio inválido**<br>- Dado que ingreso "S/0" como precio<br>- Cuando intento guardar<br>- Entonces el sistema muestra "El precio debe ser mayor a S/3" | EP04 |
+| **US26** | **Ver** Cocheras Publicadas | Como Host, quiero revisar mis espacios en la plataforma. | **Escenario 1: Estado actualizado**<br>- Dado que tengo 2 cocheras publicadas<br>- Cuando abro "Mis espacios"<br>- Entonces veo una como "Disponible" y otra como "Ocupado"<br><br>**Escenario 2: Filtro por estado**<br>- Dado que selecciono "Mostrar solo ocupadas"<br>- Cuando aplico el filtro<br>- Entonces solo veo la cochera con reservas activas | EP04 |
+| **US27** | **Eliminar** una Cochera | Como Host, quiero retirar un espacio de la plataforma. | **Escenario 1: Eliminación estándar**<br>- Dado que no tengo reservas futuras<br>- Cuando elimino la cochera<br>- Entonces desaparece de los resultados de búsqueda<br><br>**Escenario 2: Con reservas pendientes**<br>- Dado que tengo una reserva para mañana<br>- Cuando intento eliminar<br>- Entonces el sistema requiere que cancele primero la reserva | EP04 |
+| **US28** | **Pagar** por Reserva | Como usuario, quiero realizar transacciones seguras. | **Escenario 1: Pago con tarjeta**<br>- Dado que ingreso los datos de mi VISA<br>- Cuando confirmo el pago de S/15<br>- Entonces recibo un comprobante por email<br><br>**Escenario 2: Tarjeta rechazada**<br>- Dado que mi tarjeta tiene fondos insuficientes<br>- Cuando intento pagar<br>- Entonces el sistema muestra "Transacción rechazada" | EP05 |
+| **US29** | **Descargar** Facturas | Como usuario, quiero obtener comprobantes de mis transacciones. | **Escenario 1: Factura en PDF**<br>- Dado que selecciono una reserva pasada<br>- Cuando hago clic en "Descargar factura"<br>- Entonces se genera un PDF con logo de EzPark<br><br>**Escenario 2: Sin facturas**<br>- Dado que soy un usuario nuevo<br>- Cuando reviso "Mis facturas"<br>- Entonces el sistema muestra "Aún no tienes transacciones" | EP05 |
+| **US30** | **Guardar** Métodos de Pago | Como usuario, quiero almacenar tarjetas para futuros pagos. | **Escenario 1: Tarjeta guardada**<br>- Dado que ingreso los datos de mi Mastercard<br>- Cuando marco "Guardar para futuros pagos"<br>- Entonces aparece en mi perfil como "•••• 4567"<br><br>**Escenario 2: Tarjeta expirada**<br>- Dado que ingreso una tarjeta vencida<br>- Cuando intento guardarla<br>- Entonces el sistema muestra "Fecha de expiración inválida" | EP05 |
+| **US31** | **Ver** Perfil | Como usuario, quiero acceder a mi información personal. | **Escenario 1: Datos básicos**<br>- Dado que abro "Mi perfil"<br>- Cuando la página carga<br>- Entonces veo mi nombre, foto y correo electrónico<br><br>**Escenario 2: Edición rápida**<br>- Dado que hago clic en "Editar" junto a mi nombre<br>- Cuando modifico el campo<br>- Entonces los cambios se guardan sin recargar la página | EP06 |
+| **US32** | **Agregar** Vehículo | Como usuario, quiero registrar mi auto para reservas. | **Escenario 1: Auto registrado**<br>- Dado que ingreso placa "ABC-123" y modelo "Toyota Yaris"<br>- Cuando guardo<br>- Entonces aparece en "Mis vehículos"<br><br>**Escenario 2: Placa inválida**<br>- Dado que ingreso "XYZ-999" (placa no existente)<br>- Cuando intento guardar<br>- Entonces el sistema valida con la base de SUNARP | EP06 |
+| **US33** | **Editar** Datos de Vehículo | Como usuario, quiero actualizar la información de mi vehículo. | **Escenario 1: Cambio de modelo**<br>- Dado que modifico "Toyota Yaris" a "Toyota Corolla"<br>- Cuando confirmo<br>- Entonces todas mis reservas futuras reflejan el cambio<br><br>**Escenario 2: Sin cambios**<br>- Dado que no modifico ningún campo<br>- Cuando hago clic en "Guardar"<br>- Entonces el sistema ignora la acción | EP06 |
+| **US34** | **Eliminar** Vehículo | Como usuario, quiero borrar un vehículo registrado. | **Escenario 1: Eliminación confirmada**<br>- Dado que selecciono "Eliminar" en un vehículo<br>- Cuando confirmo la acción<br>- Entonces desaparece de mi lista<br><br>**Escenario 2: Con reservas activas**<br>- Dado que tengo una reserva pendiente para este auto<br>- Cuando intento eliminarlo<br>- Entonces el sistema muestra "No puedes eliminar un vehículo con reservas" | EP06 |
+| **US35** | **Gestionar** Métodos de Pago | Como usuario, quiero ver y administrar mis tarjetas guardadas. | **Escenario 1: Lista de tarjetas**<br>- Dado que tengo 2 tarjetas guardadas<br>- Cuando abro "Métodos de pago"<br>- Entonces veo ambas con sus últimos 4 dígitos<br><br>**Escenario 2: Predeterminar una tarjeta**<br>- Dado que hago clic en "Establecer como predeterminada"<br>- Cuando selecciono una VISA<br>- Entonces aparece con un check verde en futuras compras | EP06 |
+| **US36** | **Personalizar** Notificaciones | Como usuario, quiero elegir qué alertas recibir. | **Escenario 1: Desactivar notificaciones**<br>- Dado que desmarco "Promociones"<br>- Cuando guardo<br>- Entonces dejo de recibir emails promocionales<br><br>**Escenario 2: Notificaciones push**<br>- Dado que activo "Recordatorios de reserva"<br>- Cuando tengo una reserva en 2 horas<br>- Entonces recibo una alerta en mi móvil | EP06 |
+| **US37** | **Recibir** Notificación de Reserva | Como usuario, quiero ser notificado al confirmar una reserva. | **Escenario 1: Notificación push**<br>- Dado que completo una reserva<br>- Cuando se confirma el pago<br>- Entonces mi móvil muestra "¡Reserva confirmada en Av. Perú 123!"<br><br>**Escenario 2: Sin permisos**<br>- Dado que tengo notificaciones desactivadas<br>- Cuando hago una reserva<br>- Entonces el sistema sugiere "Activa notificaciones para recibir alertas" | EP07 |
+| **US38** | **Alertar** sobre Expiración | Como usuario, quiero un recordatorio antes de que venza mi reserva. | **Escenario 1: Alerta programada**<br>- Dado que mi reserva termina en 30 minutos<br>- Cuando el sistema detecta mi ubicación lejos del estacionamiento<br>- Entonces recibo "Tu tiempo está por terminar"<br><br>**Escenario 2: Renovación automática**<br>- Dado que activo "Renovar automáticamente"<br>- Cuando el tiempo se agota<br>- Entonces se cobra 1 hora adicional sin notificación | EP07 |
+| **US39** | **Verificar** Identidad | Como usuario, quiero que la app valide la identidad de Hosts/conductores. | **Escenario 1: Verificación de Host**<br>- Dado que un Host sube su DNI y selfie<br>- Cuando el sistema valida los datos<br>- Entonces su perfil muestra un sello "Identidad verificada"<br><br>**Escenario 2: Documento rechazado**<br>- Dado que subo una foto borrosa de mi DNI<br>- Cuando el sistema no puede leerla<br>- Entonces recibo "Sube una imagen más clara" | EP07 |
 
 ## 3.3. Impact Mapping.
 
 ## 3.4. Product Backlog.
+
+| # Orden | User Story ID | Título | Story Points |
+|---------|--------------|--------|--------------|
+| 1 | US02 | Acceder a la Sección comenzar | 2 |
+| 2 | US01 | Acceder a la Barra de Navegación | 1 |
+| 3 | US03 | Acceder a la Sección Ventajas ("Why Choose Us?") | 2 |
+| 4 | US04 | Acceder a la Sección Funcionamiento ("How It Works") | 3 |
+| 5 | US05 | Acceder a la Sección Testimonios | 2 |
+| 6 | US06 | Acceder a la Sección Precios | 3 |
+| 7 | US10 | Buscar Estacionamientos Cercanos | 5 |
+| 8 | US12 | Visualizar Mapa Interactivo | 8 |
+| 9 | US13 | Reservar un Estacionamiento | 8 |
+| 10 | US21 | Revisar Detalles de Estacionamiento | 3 |
+| 11 | US22 | Listar Estacionamientos | 3 |
+| 12 | US23 | Previsualizar Entorno (Street View) | 5 |
+| 13 | US07 | Registrar una Cuenta | 5 |
+| 14 | US08 | Iniciar Sesión | 3 |
+| 15 | US28 | Pagar por Reserva | 5 |
+| 16 | US30 | Guardar Métodos de Pago | 3 |
+| 17 | US29 | Descargar Facturas | 2 |
+| 18 | US24 | Publicar una Cochera | 5 |
+| 19 | US25 | Modificar Información de Cochera | 3 |
+| 20 | US26 | Ver Cocheras Publicadas | 2 |
+| 21 | US27 | Eliminar una Cochera | 3 |
+| 22 | US16 | Calificar Experiencias | 2 |
+| 23 | US17 | Ver Próximas Reservas | 3 |
+| 24 | US14 | Cancelar una Reserva | 3 |
+| 25 | US15 | Consultar Historial de Reservas | 2 |
+| 26 | US31 | Ver Perfil | 1 |
+| 27 | US18 | Actualizar Perfil | 3 |
+| 28 | US32 | Agregar Vehículo | 3 |
+| 29 | US33 | Editar Datos de Vehículo | 2 |
+| 30 | US34 | Eliminar Vehículo | 2 |
+| 31 | US35 | Gestionar Métodos de Pago | 3 |
+| 32 | US09 | Recuperar Contraseña | 3 |
+| 33 | US20 | Vincular Métodos de Login | 3 |
+| 34 | US19 | Eliminar Cuenta | 3 |
+| 35 | US36 | Personalizar Notificaciones | 2 |
+| 36 | US37 | Recibir Notificación de Reserva | 2 |
+| 37 | US38 | Alertar sobre Expiración | 3 |
+| 38 | US39 | Verificar Identidad | 5 |
+| 39 | US11 |Filtrar por Precio | 3|
+
+
+### **Herramienta de Gestión del Product Backlog**
+Para visualizar el Product Backlog de manera interactiva, se ha utilizado **Trello**. A continuación, se incluye una captura y el enlace público al tablero:
+
+#### **Captura del Product Backlog en Trello**:
+<img src="assets/ProductBacklog.png" alt="ProductBacklog"/>
+
+#### **Enlace al Tablero Público**:
+[Product Backlog - EzPark en Trello](https://trello.com/invite/b/68088a638ddf51d42031db4d/ATTI4ac925397a9cda133d661ba7bb801c83AAE4F040/aplicaciones-para-dispositivos-moviles-ezpark)
 
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design
