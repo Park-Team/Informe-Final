@@ -149,6 +149,43 @@ EAC - Student Outcome 7.
     </table>
 
 # Objetivos SMART
+
+**Oliveira Paucar, Mauricio**
+
+**Objetivo 1**
+- **Our focus is on** working as a backend developer using Python to build secure and efficient APIs for user management.  
+- **We believe it delivers** faster onboarding and authentication experiences for end users in small-to-medium-sized digital platforms.  
+- **This will be confirmed when** the APIs I develop are deployed and used in production with positive feedback from users or QA metrics.
+
+**Objetivo 2** 
+- **Our focus is on** completing three backend-focused bootcamps that cover authentication, RESTful design, and system architecture.  
+- **We believe it delivers** a robust knowledge foundation to build scalable solutions for web and mobile platforms.  
+- **This will be confirmed when** I complete the bootcamps and apply those concepts in a demo project validated by technical peers.
+
+**Alonso Garay, Diego Jesús**
+
+ **Objetivo 1**
+- **Our focus is on** building and launching an MVP for an urban mobility app inspired by EzPark's value proposition.  
+- **We believe it delivers** increased accessibility and convenience for drivers seeking short-term parking in busy districts.  
+- **This will be confirmed when** the MVP is publicly released and used by at least 20 external users with feedback collected.
+
+**Objetivo 2** 
+- **Our focus is on** completing an advanced UX/UI design course and redesigning a legacy app interface.  
+- **We believe it delivers** improved usability and user satisfaction for individuals using service-based applications.  
+- **This will be confirmed when** users report higher task success rates or NPS (Net Promoter Score) in user testing sessions.
+
+**Rodriguez Zuluoeta, Andrés Fernando**
+
+ **Objetivo 1**  
+- **Our focus is on** applying Domain-Driven Design in the development of a real-world software module.  
+- **We believe it delivers** a scalable and maintainable architecture that improves collaboration between developers and stakeholders in small tech companies.  
+- **This will be confirmed when** the module is deployed in a freelance or open-source project and reviewed positively by collaborators.
+
+**Objetivo 2** 
+- **Our focus is on** earning a Scrum Master certification (PSM I) and applying agile practices in a cross-functional team.  
+- **We believe it delivers** continuous improvement and effective team coordination in early-stage product development.  
+- **This will be confirmed when** I pass the certification and complete a full agile cycle in a real team setting with retrospectives and sprint reviews.
+
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
