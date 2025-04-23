@@ -415,6 +415,25 @@ Se le ha realizado una entrevista a Rodrigo Tornero Loayza que cuenta con 21 añ
 <img src="assets/As-Is Scenario Mapping - Host.jpg" alt="User Persona: Host" />
 
 ## 2.4. Ubiquitous Language
+
+| **Término (EN)**     | **Término (ES)**           | **Definición**                                                                 |
+|----------------------|----------------------------|--------------------------------------------------------------------------------|
+| **Guest**            | Conductor                  | Usuario que busca estacionamiento en zonas urbanas a través de la app EzPark. |
+| **Host**             | Anfitrión                  | Persona que posee cocheras y desea alquilarlas mediante EzPark.               |
+| **Parking Space**    | Cochera / Espacio de estacionamiento | Área privada o semiprivada destinada al aparcamiento de un vehículo.   |
+| **Reservation**      | Reserva                    | Acción mediante la cual un Guest asegura el uso temporal de una cochera.      |
+| **Available Spot**   | Cochera disponible         | Espacio libre y apto para ser reservado, con ubicación, horario y tarifa.     |
+| **Booking Request**  | Solicitud de reserva       | Pedido realizado por un Guest para utilizar una cochera en un horario dado.   |
+| **Trusted Host**     | Anfitrión verificado       | Host que ha validado su identidad y confiabilidad en la plataforma.           |
+| **Trusted Space**    | Cochera verificada         | Espacio que cumple requisitos de seguridad y ha sido validado por EzPark.     |
+| **Time Slot**        | Franja horaria             | Intervalo de tiempo en el cual una cochera está habilitada para reservarse.   |
+| **Parking Fee**      | Tarifa de estacionamiento  | Monto cobrado por el uso de una cochera según duración y horario.             |
+| **Urban Congestion** | Congestión urbana          | Exceso de vehículos en zonas urbanas por falta de estacionamientos adecuados. |
+| **Shared Parking**   | Estacionamiento compartido | Modelo donde los Hosts ofrecen sus cocheras temporalmente a otros usuarios.   |
+| **Reservation History** | Historial de reservas   | Registro donde el usuario consulta sus reservas pasadas o activas.            |
+| **Community Rating** | Calificación de la comunidad | Sistema de reseñas y puntuaciones tras completar una reserva.               |
+| **Security Filter**  | Filtro de seguridad        | Mecanismo que verifica identidad de usuarios y condiciones de las cocheras.   |
+
 # Capítulo III: Requirements specification
 ## 3.1. To-Be Scenario Mapping.
 
