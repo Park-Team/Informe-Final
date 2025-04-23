@@ -820,7 +820,7 @@ Los sistemas externos son aquellos otros sistemas o servicios con los que el sis
 
 **Reservation Managment:**
 
-<img src="assets/reservationcandidate.jpg" alt="reservationcandidate" />
+<img src="assets/reservationcandidate.png" alt="reservationcandidate" />
 
 
 #### 4.1.1.2. Domain Message Flows Modeling
@@ -835,7 +835,7 @@ Los sistemas externos son aquellos otros sistemas o servicios con los que el sis
 
 **Scenario: Reservation Management**
 
-<img src="assets/reservationdomain.jpg" alt="reservationdomain" />
+<img src="assets/reservationdomain.png" alt="reservationdomain" />
 
 
 #### 4.1.1.3. Bounded Context Canvases
@@ -850,7 +850,7 @@ Los sistemas externos son aquellos otros sistemas o servicios con los que el sis
 
 **Reservation Management**
 
-<img src="assets/reservationbounded.jpg" alt="reservationbounded" />
+<img src="assets/reservationbounded.png" alt="reservationbounded" />
 
 
 ### 4.1.2. Context Mapping
@@ -861,14 +861,14 @@ Los sistemas externos son aquellos otros sistemas o servicios con los que el sis
 
 Este diagrama de contexto ilustra cómo los Guests y los Hosts interactúan directamente con el sistema EzPark para solicitar y ofrecer espacios de estacionamiento, respectivamente. Además, muestra cómo EzPark utiliza Google Cloud Storage para la gestión de datos de los usuarios. Es una representación de alto nivel de los límites del sistema y sus principales interacciones con el mundo exterior.
 
-<img src="assets/contextlevel.jpg" alt="contextlevel" />
+<img src="assets/contextlevel.png" alt="contextlevel" />
 
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 
 Este diagrama muestra cómo los usuarios interactúan con EzPark a través de interfaces web y móviles. Estas interfaces se comunican con la Aplicaciones API, que contiene la lógica del negocio. La API interactúa con una Base de Datos para la gestión de usuarios y con Google Cloud Storage para el almacenamiento de datos específicos. Es una vista de la arquitectura de software del sistema EzPark.
 
-<img src="assets/containerlevel.jpg" alt="containerlevel" />
+<img src="assets/containerlevel.png" alt="containerlevel" />
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 
@@ -1096,6 +1096,8 @@ Este diagrama representa el esquema de la base de datos para el bounded context 
 # Conclusiones
 ## Conclusiones y recomendaciones.
 - La aplicación EzPark tiene el potencial de abordar un problema real y común en entornos urbanos, que es la escasez de espacios de estacionamiento y la búsqueda ineficiente de lugares para estacionar. La propuesta de la aplicación para permitir a los usuarios buscar, reservar y pagar por espacios de estacionamiento de manera eficiente, así como permitir a los propietarios de espacios registrarse y alquilar a través de la plataforma, puede tener un impacto significativo en la experiencia de los conductores y en la congestión del tráfico en las áreas urbanas.
+
+- La viabilidad de EzPark se sustenta en la creciente digitalización de los servicios y la adopción de soluciones tecnológicas para la vida cotidiana. La conveniencia de gestionar el estacionamiento a través de una aplicación móvil responde a las necesidades de un público cada vez más conectado y que valora la eficiencia y el ahorro de tiempo.
 
 - Creemos que se han cumplido adecuadamente todos los criterios solicitados para esta primera entrega. Cabe mencionar que el trabajo colaborativo y bien planificado ha sido muy importante para completar las secciones de este informe, como recomendación, sería excelente tener fechas y horarios preestablecidos para cada reunión.
 # Bibliografía
