@@ -33,7 +33,7 @@
 
 ![Project Report Collaboration Insights](./assets/collaboration-insights1.png)
 
-![Project Report Collaboration Insights](./assets/collaboration-insights2.png)
+![Project Report Collaboration Insights](./assets/collaboration-insights3.png)
 
 # Contenido
 - [**Student Outcome**](#student-outcome)
