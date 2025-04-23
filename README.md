@@ -722,15 +722,51 @@ Para visualizar el Product Backlog de manera interactiva, se ha utilizado **Trel
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. EventStorming
 #### 4.1.1.1. Candidate Context Discovery
+
+**User Managment:**
+
+
+**Parking Managment:**
+
+![Parking Managment Bounded Context](./assets/parking-management-bounded-context.png)
+
+**Reservation Managment:**
+
 #### 4.1.1.2. Domain Message Flows Modeling
+
+**Scenario: User management**
+
+
+
+**Scenario: Create Parking**
+
+![Parking Managment Message Flows Modeling](./assets/parking-management-message-flow.png)
+
+**Scenario: Reservation Management**
+
+
+
 #### 4.1.1.3. Bounded Context Canvases
+
+**User management**
+
+
+
+**Parking Management**
+
+![Parking Managment Context Canvases](./assets/parking-management-context-canvases.png)
+
+**Reservation Management**
+
+
+
 ### 4.1.2. Context Mapping
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture Context Level Diagrams
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 ## 4.2. Tactical-Level Domain-Driven Design
-### 4.2.1. Bounded Context:
+### 4.2.1. Bounded Context - User Management:
 #### 4.2.1.1. Domain Layer
 #### 4.2.1.2. Interface Layer
 #### 4.2.1.3. Application Layer
@@ -739,15 +775,114 @@ Para visualizar el Product Backlog de manera interactiva, se ha utilizado **Trel
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
-### 4.2.2. Bounded Context: 
+### 4.2.2. Bounded Context - Parking Management: 
 #### 4.2.2.1. Domain Layer
+
+La capa de dominio representa el núcleo del sistema de gestión de estacionamientos. En ella se encapsulan las entidades, objetos de valor, agregados, repositorios y servicios que reflejan las reglas de negocio fundamentales.
+ 
+Entidades y Objetos de Valor
+
+Parking:
+
+Entidad principal que representa un estacionamiento publicado por un usuario tipo Host. Contiene atributos como:
+
+- parkingId (identificador único) Objeto de valor que encapsula el identificador único del estacionamiento, garantizando su integridad e inmutabilidad.
+- ownerId (identificador del propietario) Objeto de valor que representa al usuario propietario del estacionamiento.
+- location (dirección y coordenadas geográficas) Objeto de valor que agrupa la dirección del estacionamiento junto con su latitud y longitud.
+- rate (tarifa por hora o día) Define el precio del estacionamiento junto con la unidad de tiempo.
+- availability (rango de horarios) Representa los intervalos de tiempo disponibles en los que un estacionamiento puede ser reservado.
+
+Agregado
+
+- ParkingAggregate: Agregado raíz que garantiza la consistencia de las operaciones realizadas sobre un estacionamiento y sus componentes relacionados.
+
+Repositorio (Interface)
+
+- IParkingRepository: Interfaz que define el contrato para operaciones de almacenamiento, consulta, actualización y eliminación de datos persistentes de estacionamientos.
+
+Servicios de Dominio
+
+- IParkingDomainService: Encapsula lógica de negocio que no pertenece a una sola entidad, como la validación de disponibilidad o la detección de solapamientos de horarios.
+
 #### 4.2.2.2. Interface Layer
+
+La capa de interfaz permite exponer los servicios del sistema al exterior a través de endpoints HTTP, facilitando la comunicación entre los clientes (por ejemplo, la aplicación móvil) y el backend.
+ 
+Controladores
+
+ParkingController: Controlador REST encargado de las siguientes operaciones:
+
+- POST /parkings: Registro de nuevos estacionamientos.
+- PUT /parkings/{id}: Actualización de los datos del estacionamiento.
+- GET /parkings/{id}: Obtención de los detalles de un estacionamiento específico.
+- PATCH /parkings/{id}/availability: Actualización de la disponibilidad horaria.
+ 
+DTOs (Data Transfer Objects)
+
+- RegisterParkingRequest: Objeto que encapsula los datos requeridos para registrar un nuevo estacionamiento.
+- UpdateParkingRequest: Contiene los datos que pueden modificarse en un estacionamiento existente.
+- AvailabilityUpdateRequest: Define la estructura para modificar la disponibilidad del espacio.
+- ParkingResponse: Estructura de respuesta con los datos completos de un estacionamiento, utilizada para devolver información al cliente.
+
 #### 4.2.2.3. Application Layer
+
+Esta capa coordina los casos de uso de negocio. Se encarga de procesar los comandos recibidos desde la capa de interfaz y delegar la lógica necesaria al dominio.
+ 
+Comandos
+
+- RegisterParkingCommand: Contiene los datos necesarios para crear un nuevo estacionamiento.
+- UpdateParkingCommand: Encapsula los datos para actualizar información de un estacionamiento.
+- ChangeAvailabilityCommand: Solicita modificar los horarios disponibles de un estacionamiento.
+
+Manejadores
+
+- RegisterParkingHandler: Procesa el comando de registro, construye el agregado y lo persiste utilizando IParkingRepository.
+- UpdateParkingHandler: Recupera el agregado desde el repositorio, aplica cambios y guarda el nuevo estado.
+- ChangeAvailabilityHandler: Gestiona la actualización del atributo availability y asegura que no se superpongan intervalos de tiempo.
+
+Eventos del Dominio
+
+- ParkingRegisteredEvent
+- ParkingUpdatedEvent
+- AvailabilityChangedEvent
+ 
+Manejador de Eventos
+
+- ParkingEventHandler: Responde ante eventos del dominio, como el registro exitoso de un estacionamiento, pudiendo ejecutar acciones como notificaciones.
+
 #### 4.2.2.4. Infrastructure Layer
+
+La capa de infraestructura implementa los mecanismos técnicos necesarios para soportar la lógica de negocio, incluyendo persistencia, servicios externos y utilitarios.
+ 
+Repositorios
+
+- ParkingRepositoryPostgres: Implementación de IParkingRepository basada en PostgreSQL. Incluye métodos para insertar, actualizar, eliminar y consultar estacionamientos en la base de datos.
+ 
+Servicios
+
+- NotificationService: Servicio encargado de enviar notificaciones al propietario del estacionamiento una vez que este ha sido registrado o modificado exitosamente.
+- GeoLocationService: Servicio que transforma direcciones en coordenadas y viceversa, permitiendo almacenar ubicaciones geográficas precisas.
+- AvailabilityScheduler: Componente encargado de validar y procesar rangos de disponibilidad, evitando conflictos de horario o solapamientos.
+
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama de componentes ilustra cómo se descompone el contenedor de Parking Management en componentes específicos, sus responsabilidades y las interacciones entre ellos. Cada componente tiene una función clave en el flujo de operaciones del sistema, desde la exposición de servicios REST hasta la interacción con el dominio y la persistencia de datos
+
+![Parking Managment  Component Level Diagram](./assets/parking-management-component-diagram.png)
+
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+Este diagrama de clases ilustra las principales entidades y sus relaciones dentro de la capa de dominio del Bounded Context: Parking Management.
+
+![Parking Managment Class Diagram](./assets/parking-management-class-diagram.png)
+
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
+Este diagrama de base de datos ilustra las principales tablas y sus relaciones dentro del contexto de Parking Management. En el diagrama se representan las entidades clave como Parking, Location, Rate, Availability, cada una con sus atributos respectivos.
+
+![Parking Managment Database Design Diagram](./assets/parking-management-database-diagram.png)
+
 ### 4.2.3. Bounded Context: 
 #### 4.2.3.1. Domain Layer
 #### 4.2.3.2. Interface Layer
@@ -759,6 +894,5 @@ Para visualizar el Product Backlog de manera interactiva, se ha utilizado **Trel
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 # Conclusiones
 ## Conclusiones y recomendaciones.
-## Video About-the-team
 # Bibliografía
 # Anexos
