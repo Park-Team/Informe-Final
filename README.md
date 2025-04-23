@@ -486,6 +486,12 @@ Se le ha realizado una entrevista a Rodrigo Tornero Loayza que cuenta con 21 añ
 
 ## 3.3. Impact Mapping.
 
+**User Persona: Guest**
+<img src="assets/Impact map - Guest.png" alt="Impact map - Guest" />
+
+**User Persona: Host**
+<img src="assets/Impact map - Host.png" alt="Impact map - Host" />
+
 ## 3.4. Product Backlog.
 
 | # Orden | User Story ID | Título | Story Points |
