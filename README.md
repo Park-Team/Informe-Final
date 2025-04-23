@@ -77,7 +77,7 @@
 - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
 - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
 - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-- [4.2.1. Bounded Context:](#421-bounded-context)
+- [4.2.1. Bounded Context: User Management](#421-bounded-context-user-management)
 - [4.2.1.1. Domain Layer](#4211-domain-layer)
 - [4.2.1.2. Interface Layer](#4212-interface-layer)
 - [4.2.1.3. Application Layer](#4213-application-layer)
@@ -86,7 +86,7 @@
 - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
 - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
 - [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)
-- [4.2.2. Bounded Context: ](#422-bounded-context)
+- [4.2.2. Bounded Context: Parking Management ](#422-bounded-context-parking-management)
 - [4.2.2.1. Domain Layer](#4221-domain-layer)
 - [4.2.2.2. Interface Layer](#4222-interface-layer)
 - [4.2.2.3. Application Layer](#4223-application-layer)
@@ -95,7 +95,7 @@
 - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
 - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
 - [2.6.2.6.2. Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)
-- [4.2.3. Bounded Context: ](#423-bounded-context)
+- [4.2.3. Bounded Context: Reservation Management Context ](#423-bounded-context-reservation-management-context)
 - [4.2.3.1. Domain Layer](#4231-domain-layer)
 - [4.2.3.2. Interface Layer](#4232-interface-layer)
 - [4.2.3.3. Application Layer](#4233-application-layer)
@@ -759,7 +759,7 @@ Para visualizar el Product Backlog de manera interactiva, se ha utilizado **Trel
 #### 4.1.1.1. Candidate Context Discovery
 
 **User Managment:**
-
+<img src="assets/CandidateContextDiscoveryUserManagement.jpg" alt="CandidateContextDiscoveryUserManagement" />
 
 **Parking Managment:**
 
@@ -771,7 +771,7 @@ Para visualizar el Product Backlog de manera interactiva, se ha utilizado **Trel
 
 **Scenario: User management**
 
-
+<img src="assets/DomainMessageFlowsModelingUserManagement.jpg" alt="DomainMessageFlowsModelingUserManagement" />
 
 **Scenario: Create Parking**
 
@@ -785,7 +785,7 @@ Para visualizar el Product Backlog de manera interactiva, se ha utilizado **Trel
 
 **User management**
 
-
+<img src="assets/BoundedContextCanvasesUserManagement.jpg" alt="BoundedContextCanvasesUserManagement" />
 
 **Parking Management**
 
@@ -801,16 +801,61 @@ Para visualizar el Product Backlog de manera interactiva, se ha utilizado **Trel
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 ## 4.2. Tactical-Level Domain-Driven Design
-### 4.2.1. Bounded Context - User Management:
+### 4.2.1. Bounded Context: User Management
+En este contexto, ParkTeam define los elementos fundamentales para la gestión de usuarios dentro de su producto EzPark. Este Bounded Context se enfoca en gestionar las entidades relacionadas con los usuarios, incluyendo su registro, autenticación, roles y perfiles.
 #### 4.2.1.1. Domain Layer
+En esta capa, se representan las reglas de negocio centrales del dominio de usuarios. Las clases identificadas son:
+- User: Entidad que representa a un usuario del sistema, incluyendo atributos como identificador, correo electrónico, contraseña y rol.
+- UserId: Objeto de valor que encapsula el identificador único del usuario.
+- Email: Objeto de valor que asegura la validez del formato del correo electrónico.
+- Password: Objeto de valor que maneja el hashing y la validación de contraseñas.
+- Role: Enumeración que define los posibles roles de usuario, como DRIVER, OWNER y ADMIN.
+- UserProfile: Entidad que contiene información adicional del usuario, como nombre, dirección y número de teléfono.
+- UserAggregate: Agregado que agrupa a las entidades y objetos de valor relacionados con el usuario, asegurando la consistencia transaccional.
+- UserFactory: Fábrica que se encarga de crear instancias válidas del agregado de usuario.
+- IUserRepository: Interfaz que define el contrato para acceder a la persistencia de los usuarios.
+- IUserDomainService: Servicio de dominio que encapsula lógica de negocio que no pertenece a una entidad específica, como la verificación de identidad.
+
 #### 4.2.1.2. Interface Layer
+
+Esta capa expone la funcionalidad del sistema al exterior, permitiendo la interacción con los usuarios:
+- UserController: Controlador REST que maneja las solicitudes HTTP relacionadas con los usuarios, como registro, inicio de sesión y gestión de perfiles.
+- AuthController: Controlador REST que gestiona la autenticación, incluyendo la generación y validación de tokens.
+
 #### 4.2.1.3. Application Layer
+
+Esta capa orquesta los casos de uso del dominio, coordinando las interacciones entre las entidades y servicios:
+- RegisterUserCommand: Comando que contiene los datos necesarios para registrar un nuevo usuario.
+- RegisterUserHandler: Manejador que procesa el comando de registro, utilizando los servicios y repositorios del dominio.
+- LoginCommand: Comando que contiene los datos necesarios para autenticar a un usuario.
+- LoginHandler: Manejador que procesa el comando de inicio de sesión, generando tokens de autenticación.
+- UserEventHandler: Manejador de eventos que responde a eventos del dominio, como "UserRegistered" o "UserLoggedIn".
+
 #### 4.2.1.4. Infrastructure Layer
+
+Esta capa se encarga de la integración con tecnologías externas y la implementación de las interfaces definidas en el dominio:
+- UserRepositoryPostgres: Implementación de IUserRepository que utiliza PostgreSQL para la persistencia de los usuarios.
+- JwtTokenService: Servicio que genera y valida tokens JWT para la autenticación de usuarios.
+- PasswordHasherBCrypt: Servicio que implementa el hashing seguro de contraseñas utilizando BCrypt.
+- EmailSenderSMTP: Servicio que envía correos electrónicos de verificación a los usuarios.
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este apartado incluirá el diagrama de componentes del modelo C4 para el contenedor relacionado con la gestión de usuarios. El diagrama mostrará cómo se descompone el contenedor en componentes, sus responsabilidades y las interacciones entre ellos
+
+<img src="assets/Bounded ContextSoftwareArchitectureComponentLevelDiagramsUserManagement.png" alt="Bounded ContextSoftwareArchitectureComponentLevelDiagramsUserManagement" />
+
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+Este apartado presentará el diagrama de clases UML para las clases del Domain Layer en el Bounded Context de gestión de usuarios. Incluirá clases, interfaces, enumeraciones, atributos, métodos, visibilidad y relaciones entre ellas.
+<img src="assets/BoundedContextDomainLayerClassDiagramsUserManagement.png" alt="BoundedContextDomainLayerClassDiagramsUserManagement" />
+
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
-### 4.2.2. Bounded Context - Parking Management: 
+Este apartado mostrará el diagrama de la base de datos que incluye las tablas, columnas, claves primarias y foráneas, y las relaciones entre las tablas necesarias para la persistencia de la información de los usuarios.
+<img src="assets/BoundedContextDatabaseDesignDiagramUserManagement.png" alt="BoundedContextDatabaseDesignDiagramUserManagement" />
+
+### 4.2.2. Bounded Context: Parking Management 
 #### 4.2.2.1. Domain Layer
 
 La capa de dominio representa el núcleo del sistema de gestión de estacionamientos. En ella se encapsulan las entidades, objetos de valor, agregados, repositorios y servicios que reflejan las reglas de negocio fundamentales.
@@ -918,7 +963,7 @@ Este diagrama de base de datos ilustra las principales tablas y sus relaciones d
 
 ![Parking Managment Database Design Diagram](./assets/parking-management-database-diagram.png)
 
-### 4.2.3. Bounded Context: 
+### 4.2.3. Bounded Context: Reservation Management Context 
 #### 4.2.3.1. Domain Layer
 #### 4.2.3.2. Interface Layer
 #### 4.2.3.3. Application Layer
