@@ -179,10 +179,105 @@ El problema de la escasez de espacios de estacionamiento afecta de manera signif
 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+
+En las zonas urbanas del Perú, la creciente demanda de espacios de estacionamiento ha generado una experiencia problemática tanto para los conductores como para los propietarios de garajes. Los conductores se enfrentan a una situación frustrante al buscar estacionamiento, perdiendo tiempo valioso y, en muchos casos, dejando sus vehículos en la vía pública, lo que genera riesgos innecesarios. Mientras tanto, los propietarios de cocheras tienen espacios vacíos que podrían ser alquilados para generar ingresos pasivos.
+
+Actualmente, los conductores carecen de una forma eficiente y segura para encontrar estacionamientos disponibles cerca de su destino. Esto no solo aumenta el tiempo que invierten en la búsqueda de un lugar donde estacionar, sino que también contribuye a la congestión del tráfico. Por otro lado, los propietarios de cocheras tienen dificultades para aprovechar sus espacios debido a la inseguridad y desconfianza que sienten al permitir que personas desconocidas accedan a sus propiedades, que en muchos casos están integradas a sus viviendas.
+
+Es necesario crear una solución que permita a los conductores encontrar de manera rápida y segura espacios de estacionamiento disponibles, mientras que, al mismo tiempo, ofrezca un entorno confiable y seguro para que los propietarios de cocheras puedan alquilar sus espacios sin temor a los riesgos asociados. La solución debe abordar las necesidades y preocupaciones de ambas partes sin comprometer la experiencia ni la seguridad de ninguna de ellas.
+
 #### 1.2.2.2. Lean UX Assumptions
+
+**<ins>Business Assumptions</ins>**
+
+1. **Creo que mis usuarios necesitan** una mejor manera de encontrar lugares de estacionamientos y, de ser posible, reservarlos.
+2. **Estas necesidades se pueden resolver** con una aplicación que les permite a los conductores reservar en los garajes de la ciudad, debido a que la mayoría del tiempo se encuentran desocupados o libres.
+3. **Mis clientes iniciales son** los ciudadanos que cuenten con algún vehículo motorizado con dificultades para encontrar estacionamiento y/o deseen poner en alquiler sus garajes.
+4. **El valor #1 que el cliente requiere de mi servicio** es encontrar y reservar espacios para estacionar en un corto periodo de tiempo. Además, los usuarios desean saber si esta metodología es totalmente segura para ambos tipos de usuario.
+5. **Voy a adquirir a mis clientes a través de** estrategias de Marketing en diversas redes sociales, resaltando las principales características y beneficios de la aplicación.
+6. **Mi competencia en el mercado** serán las empresas que se dedican a ofrecer sus servicios de estacionamiento.
+7. **Los venceremos debido a que** ofrecemos a los usuarios poder generar ingresos de manera pasiva al rentar sus garajes como estacionamiento.
+8. **Mis mayores riesgos del producto es** no encontrar una manera de brindar seguridad a los conductores como a los propietarios de los garajes.
+9. **Resolveremos esto con** la incorporación de un sistema que se encargue de validar los parámetros de seguridad de los conductores y los garajes en alquiler para ofrecer una mayor seguridad al público.
+
+**Sabremos que hemos tenido éxito cuando veamos los siguientes cambios en el comportamiento de nuestros clientes:**
+
+- Reducción significativa en los tiempos de búsqueda de espacios disponibles para estacionar.
+- Ingresos económicos en los propietarios con garajes registrados en la aplicación.
+
+**¿Qué otras suposiciones tenemos que, de probarse falsas, pueden causar el fracaso del proyecto?**
+
+- El permitir el acceso a cualquier usuario con propósitos malignos o perversos generará en todos los usuarios inseguridad. Por consiguiente, muchos de ellos dejarán la aplicación.
+
+**<ins>User Assumptions</ins>**
+**Clientes de parking**
+¿Quién es el usuario?
+Conductores que en su día a día necesitan encontrar estacionamiento para sus vehículos motorizados.
+
+¿Dónde encaja nuestro servicio? ¿En su trabajo o en su vida?
+Nuestro servicio encaja tanto para su trabajo como para sus actividades diarias. El usuario tiene la necesidad de encontrar un estacionamiento cercano a su puesto de trabajo. Asimismo, para otras actividades en algún punto específico de la ciudad desean tener su vehículo en un lugar cercano.
+
+¿Qué problema tiene nuestro servicio y cómo se resuelve?
+Problema será la posible inseguridad del usuario al alquilar en una cochera de cualquier persona desconocida.
+Lo podemos resolver mediante un sistema de filtros que garanticen al usuario la seguridad de la cochera y contar con bases legales para la publicación del producto.
+
+¿Cuándo y cómo es usado nuestro producto?
+El producto es usado mayormente cuando el usuario necesita encontrar algún lugar de estacionamiento para cualquier actividad.
+La aplicación se puede usar como un sistema de búsqueda y reserva de cocheras.
+
+**Anfitriones de garajes**
+¿Quién es el usuario?
+Personas con garajes que desean poner en alquiler para generar ingresos pasivos.
+
+¿Dónde encaja nuestro servicio? ¿En su trabajo o en su vida?
+Nuestro servicio encaja en su vida porque pueden poner en alquiler sus garajes mientras realizan cualquier actividad.
+
+¿Qué problema tiene nuestro servicio y cómo se resuelve?
+El problema será el proceso para poder registrar sus cocheras, debido a que puede llegar a ser confuso o tedioso para el anfitrión.
+Lo podemos resolver mediante capacitación sobre el proceso de filtros para facilitar al usuario el registro.
+
+¿Cuándo y cómo es usado nuestro producto?
+Nuestra aplicación es usada principalmente cuando el anfitrión dispone de cualquier garaje disponible que desee poner en alquiler para generar ingresos.
+Nuestro producto es usado como un gestor de cocheras sobre reservas, estados, recibos, etc.
+
+**<ins>Features</ins>**
+
+¿Qué características son importantes?
+
+- Hacer reservas de estacionamientos desde cualquier ubicación con conexión a internet, ya sea mediante un ordenador o un dispositivo móvil.
+- Inscribir estacionamientos para alquilar y obtener ingresos adicionales según la tarifa establecida por el propietario.
+- Verificar la disponibilidad de estacionamientos dentro de la zona o dirección especificada.
+
+¿Cómo debe verse y comportarse nuestro producto?
+
+- La interfaz de usuario contará con un diseño intuitivo, sencillo y atractivo, siguiendo las pautas de estilo específicas de nuestro sector.
+- Se enfocará principalmente en la experiencia del usuario para garantizar una alta eficiencia en el funcionamiento de la aplicación.
+- Estará disponible las 24 horas del día, los 7 días de la semana.
+- Se respalda con una sólida arquitectura de software para abordar cualquier incidencia que pueda surgir.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+- Creemos que la función de reservar cocheras facilitará al usuario encontrar un espacio para estacionamiento.
+Sabremos que tendremos éxito cuando la mayoría de los usuarios consigan un estacionamiento en un plazo máximo de 5 minutos.
+
+- Creemos que la implementación de Google Maps en la aplicación permitirá al usuario localizar las cocheras de manera más eficiente.
+Sabremos que estaremos en lo cierto cuando el 100% de los usuarios no tengan dificultades para encontrar estacionamientos en la plataforma.
+
+- Creemos que permitir que los usuarios registren sus cocheras incrementará la cantidad de espacios disponibles para estacionamiento.
+Sabremos que estaremos en lo cierto cuando el índice de escasez de estacionamientos se reduzca en al menos un 20%.
+
 #### 1.2.2.4. Lean UX Canvas
+
+![Lean UX Canvas de ParkTeam](./assets/lean-ux-canvas.jpg)
+
 ## 1.3. Segmentos objetivo
+
+Nuestro segmento objetivo está compuesto por dos tipos de usuarios:
+
+**Guest:** Individuo que busca soluciones convenientes y accesibles para sus necesidades de buscar estacionamiento en entornos urbanos para su vehículo.
+
+**Host:** Propietario de una vivienda que cuente con una cochera privada que busque sacar provecho de forma efectiva de estos mismos.
+
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
