@@ -132,7 +132,7 @@ EAC - Student Outcome 7.
         </tr>
         <tr>
             <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
-            <td>Alonso Garay, Diego Jesus<br>TB1<br>lorem<br>
+            <td>Alonso Garay, Diego Jesus<br>TB1<br>Desarrollé el capítulo 4 del proyecto EzPark. Aprendí a comprender los conceptos necesarios para desarrollar los diagramas presentes del capítulo correctamente.<br>
                 Oliveira Paucar, Mauricio<br>TB1<br>En esta entrega realice el Capitulo 1 y algunos puntos del Capitulo 4. En estos puntos pude ver conceptos nuevos, pasados y mejorar aquellos puntos que creia necesarios con la ayuda de mi docente.<br>
                 Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>lDesarrollé los capítulos 2 y 3 del proyecto EzPark, incluyendo análisis de requerimientos, user stories, Impact Mapping y Domain Message Flow Modeling. Aprendí a aplicar conceptos como Bounded Context y flujos de dominio en un sistema real.<br>
             </td>
@@ -141,7 +141,7 @@ EAC - Student Outcome 7.
         </tr>
         <tr>
             <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
-            <td>Alonso Garay, Diego Jesus<br>TB1<br>lorem<br>
+            <td>Alonso Garay, Diego Jesus<br>TB1<br>Durante el desarrollo del trabajo aprendimos puntos importantes sobre la colaboración y sobre como se debe investigar para la elaboración de un buen proyecto.<br>
                 Oliveira Paucar, Mauricio<br>TB1<br>En todo momento del trabajo se aprendimos nuevas cosas o mejoramos lo que ya creaiamos correcto, ya que con el tiempo algunas cosas se actulizan y tenemos que estar en constante aprendizaje para poder entregar lo mejor en nuestros trabajos.<br>
                 Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>Investigué por mi cuenta sobre Impact Mapping y Bounded Context, usando documentación y ejemplos externos, aplicando estrategias de autoaprendizaje para completar correctamente mi parte del proyecto.<br></td>
             <td>El equipo comprendió que el aprendizaje continuo es esencial para enfrentar desafíos reales en proyectos, y que es necesario mantenerse actualizado de manera constante para seguir creciendo profesionalmente.<br></td>
@@ -171,7 +171,7 @@ Por otro lado, los propietarios de espacios de estacionamiento tendrán la posib
 
 |                                                                                   | Alonso Garay, Diego Jesus                                                                                                                                                                                                                                                                                                                                                                                               |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img height="90" width="400" src="./assets/team/diego.png" alt="Diego" /> | <strong>Ingeniería de Software - U20221d014</strong><br /> ... |
+| <img height="90" width="400" src="./assets/team/diego.jpg" alt="Diego" /> | <strong>Ingeniería de Software - U20221d014</strong><br /> Tengo 22 años, tengo conocimiento en el uso de programas de edición como Photoshop y también sobre el uso de algunos lenguajes de programación. Por lo general siempre busco dar lo necesario para realizar un buen trabajo y presentar correctamente algún proyecto. |
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
