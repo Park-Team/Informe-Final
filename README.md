@@ -118,7 +118,9 @@
 ### 1.1.1. Descripción de la Startup
 
 EzPark nace como respuesta a la creciente problemática de la escasez de espacios de estacionamiento en entornos urbanos. La congestión vehicular, sumada a la ineficiencia en la búsqueda de lugares disponibles para aparcar, genera frustración y retrasos, afectando la experiencia de los conductores a nivel global. Al mismo tiempo, los propietarios de espacios de estacionamiento no utilizados enfrentan la dificultad de encontrar una forma efectiva de monetizar estos activos.
+
 El objetivo principal de EzPark es transformar la manera en que los usuarios encuentran y aprovechan los espacios de estacionamiento. Para ello, desarrollaremos una aplicación móvil con una interfaz intuitiva y amigable, que permitirá a los usuarios buscar, reservar y pagar por estacionamientos de manera ágil y eficiente. Los conductores podrán localizar fácilmente espacios disponibles cercanos a su destino, lo que les permitirá ahorrar tiempo y evitar la frustración derivada de una búsqueda ineficaz.
+
 Por otro lado, los propietarios de espacios de estacionamiento tendrán la posibilidad de registrarse en la plataforma para poner a disposición sus cocheras o garajes para alquiler. La aplicación proporcionará herramientas para que los propietarios gestionen sus espacios, ajusten precios, establezcan horarios de disponibilidad y reciban pagos de forma segura. Este modelo permitirá a los propietarios optimizar el uso de sus activos y generar ingresos adicionales, mientras colaboran en la reducción de la congestión del tráfico urbano.
 
 ### 1.1.2. Perfiles de integrantes del equipo
@@ -137,6 +139,44 @@ Por otro lado, los propietarios de espacios de estacionamiento tendrán la posib
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
+
+Antecedentes
+
+En la actualidad, las áreas urbanas experimentan un aumento constante en la congestión del tráfico debido al crecimiento de la población y al incremento del uso de vehículos motorizados.
+Este problema de tráfico, agravado por la ineficiente búsqueda de espacios de estacionamiento, ha generado una experiencia frustrante para los conductores en todo el mundo. Además, esta situación también representa un desafío para quienes poseen espacios de estacionamiento no utilizados en áreas urbanas, ya que no cuentan con una plataforma efectiva para aprovechar estos activos.
+
+
+Problemática
+
+What?
+
+La problemática percibida por nuestra startup es la escasez de espacios de estacionamiento en los entornos urbanos y la complejidad actual en la búsqueda de lugares para estacionar. Esto es debido a la alta demanda de vehículos motorizados para las actividades cotidianas.
+
+When?
+
+Esta preocupación ha estado aumentando a lo largo del tiempo, a medida que las ciudades han experimentado un crecimiento de la población y, por lo tanto, la cantidad de vehículos en circulación, la congestión de tráfico y la búsqueda ineficiente de estacionamiento se ha vuelto más apremiante en los últimos años.
+
+Where?
+
+El problema surge principalmente en áreas urbanas densamente pobladas de todo el mundo, donde el espacio es limitado y la demanda de vehículos es alta.
+
+Who?
+
+Los afectados por este problema son los conductores que enfrentan las dificultades para encontrar lugares de estacionamiento convenientes. Además, muchos propietarios de espacios de estacionamiento tienden a enfrentarse a empresas grandes dedicadas a este rubro, dificultando la promoción de sus servicios.
+
+Why?
+
+Esto ocurre debido a la insuficiencia de lugares de estacionamiento disponibles en áreas urbanas, lo que lleva a una congestión de tráfico más intensa y a la dificultad para los conductores de encontrar estacionamientos de manera oportuna.
+
+How?
+
+El problema sucede cuando la congestión del tráfico y la falta de espacios de estacionamiento disponibles conlleva a que la población tenga dificultades de encontrar estacionamientos de manera conveniente y eficiente.
+
+How much?
+
+El problema de la escasez de espacios de estacionamiento afecta de manera significativa a Lima, la capital, donde de acuerdo con un estudio realizado por la ONG Luz Ámbar en 2016 se ha demostrado que hay una insuficiencia de alrededor de 45,000 estacionamientos vehiculares en cinco distritos. Sin embargo, esta cifra resulta insuficiente en comparación con el tamaño del parque automotor de la ciudad, que consta de aproximadamente 1 millón 800,000 unidades. Esta disparidad entre la cantidad de vehículos y la disponibilidad de estacionamientos contribuye a la congestión del tráfico y al desafío constante para los conductores de encontrar lugares para estacionar de manera eficiente.
+
+
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 #### 1.2.2.2. Lean UX Assumptions
