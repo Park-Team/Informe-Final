@@ -27,7 +27,7 @@
 
 | Versión |   Fecha    | Autor | Descripción de modificación | 
 |:-------:|:----------:|:-----:|:----------------------------| 
-|TB1      |            |       |                             |
+|TB1      |      23/04/2025      |    ParkTeam   |    Se hizo la entrega del primer avance del Informe, desde la presentacion de la startup, hasta el capitulo 4 y las primeras conclusiones.                         |
 
 # Project Report Collaboration Insights
 # Contenido
@@ -128,22 +128,18 @@ EAC - Student Outcome 7.
         <tr>
             <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
             <td>Alonso Garay, Diego Jesus<br>TB1<br>lorem<br>
-                Oliveira Paucar, Mauricio<br>TB1<br>lorem<br>
+                Oliveira Paucar, Mauricio<br>TB1<br>En esta entrega realice el Capitulo 1 y algunos puntos del Capitulo 4. En estos puntos pude ver conceptos nuevos, pasados y mejorar aquellos puntos que creia necesarios con la ayuda de mi docente.<br>
                 Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>lDesarrollé los capítulos 2 y 3 del proyecto EzPark, incluyendo análisis de requerimientos, user stories, Impact Mapping y Domain Message Flow Modeling. Aprendí a aplicar conceptos como Bounded Context y flujos de dominio en un sistema real.<br>
             </td>
-            <td>Alonso Garay, Diego Jesus<br>TB1<br>lorem<br>
-                Oliveira Paucar, Mauricio<br>TB1<br>lorem<br>
-                Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>El proyecto me permitió adquirir nuevos conocimientos sobre modelado de dominio y diseño de soluciones, esenciales para mi desarrollo profesional en ingeniería de software.<br>
+            <td>El proyecto permitió al equipo adquirir nuevos conocimientos sobre modelado de dominio y diseño de soluciones, herramientas fundamentales para el desarrollo profesional en ingeniería de software."<br>
                 </td>
         </tr>
         <tr>
             <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
             <td>Alonso Garay, Diego Jesus<br>TB1<br>lorem<br>
-                Oliveira Paucar, Mauricio<br>TB1<br>lorem<br>
+                Oliveira Paucar, Mauricio<br>TB1<br>En todo momento del trabajo se aprendimos nuevas cosas o mejoramos lo que ya creaiamos correcto, ya que con el tiempo algunas cosas se actulizan y tenemos que estar en constante aprendizaje para poder entregar lo mejor en nuestros trabajos.<br>
                 Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>Investigué por mi cuenta sobre Impact Mapping y Bounded Context, usando documentación y ejemplos externos, aplicando estrategias de autoaprendizaje para completar correctamente mi parte del proyecto.<br></td>
-            <td>Alonso Garay, Diego Jesus<br>TB1<br>lorem<br>
-                Oliveira Paucar, Mauricio<br>TB1<br>lorem<br>
-                Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>Comprendí que el aprendizaje continuo es clave para enfrentar desafíos reales en proyectos, y que debo seguir actualizándome constantemente.<br></td>
+            <td>El equipo comprendió que el aprendizaje continuo es esencial para enfrentar desafíos reales en proyectos, y que es necesario mantenerse actualizado de manera constante para seguir creciendo profesionalmente.<br></td>
         </tr>
     </table>
 
