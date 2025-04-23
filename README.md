@@ -757,6 +757,44 @@ Para visualizar el Product Backlog de manera interactiva, se ha utilizado **Trel
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design
 ### 4.1.1. EventStorming
+En esta fase, se adoptó un enfoque colaborativo y visual para facilitar el modelado del contexto del dominio. Esto se logró mediante la exploración de etapas como el Candidate Context Discovery, Domain Message Flows Modeling y la creación de Bounded Context Canvases.
+
+**Unstructured Exploration**
+Este método utiliza una representación gráfica donde todos los involucrados en un proyecto se juntan para analizar a fondo cómo funciona un sistema. Para esto, se emplean notas de colores variados que simbolizan diferentes componentes, lo que hace más sencilla la conversación y la identificación de lo que se necesita.
+<img src="assets/eventstorming.png" alt="eventstorming"/>
+
+**Pain Points**
+Los pain points son esos obstáculos o complicaciones que experimentan tanto los usuarios como las personas interesadas en el sistema. Detectar estos problemas es crucial porque nos permite enfocarnos en crear funcionalidades y soluciones que de verdad resuelvan las necesidades de quienes van a usar el sistema.
+<img src="assets/painpoints.png" alt="painpoints"/>
+
+**Timelines**
+La línea de tiempo del sistema describe el orden en que suceden las cosas dentro de él. Al definir esta secuencia de eventos, podemos entender mejor cómo se relacionan las acciones y cómo impactan el desarrollo del trabajo.
+<img src="assets/timelines.png" alt="timelines"/>
+
+**Pivotal Points**
+Los puntos pivote son esos instantes cruciales dentro de la secuencia de eventos que tienen la capacidad de transformar la condición del sistema o de afectar de manera importante la vivencia del usuario. Reconocer estos momentos nos permite enfocar nuestras energías en las partes más trascendentales del proceso.
+<img src="assets/pivotalpoints.png" alt="pivotalpoints"/>
+
+**Commands**
+Los comandos son las acciones o las órdenes que un usuario o el mismo sistema pueden llevar a cabo para generar una modificación en cómo se encuentra el sistema en un momento dado.
+<img src="assets/commands.png" alt="commands"/>
+
+**Policies**
+Las políticas son los lineamientos o normas que definen la manera en que se deben tomar las decisiones dentro del sistema. Esto puede abarcar reglas de negocio que establecen el momento en que ciertos comandos deben ejecutarse o la forma en que ciertos eventos deben ser gestionados.
+<img src="assets/policies1.png" alt="policies1"/>
+<img src="assets/policies2.png" alt="policies2"/>
+<img src="assets/policies3.png" alt="policies3"/>
+<img src="assets/policies4.png" alt="policies4"/>
+<img src="assets/policies5.png" alt="policies5"/>
+
+**Read Model**
+Estos modelos se crean específicamente para que la búsqueda de datos sea rápida, y a menudo se diseñan de forma diferente a cómo se guardan los datos inicialmente para que el sistema funcione mejor y pueda manejar más trabajo.
+<img src="assets/readmodel.png" alt="readmodel"/>
+
+**External Systems**
+Los sistemas externos son aquellos otros sistemas o servicios con los que el sistema principal se comunica o trabaja en conjunto. Reconocer cuáles son estos sistemas nos ayuda a comprender qué conexiones y dependencias son necesarias para que todo funcione correctamente.
+<img src="assets/externalsystem.png" alt="externalsystem"/>
+
 #### 4.1.1.1. Candidate Context Discovery
 
 **User Managment:**
