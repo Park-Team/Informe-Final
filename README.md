@@ -153,38 +153,40 @@ EAC - Student Outcome 7.
 **Oliveira Paucar, Mauricio**
 
 **Objetivo 1**
-- **Our focus is on** working as a backend developer using Python to build secure and efficient APIs for user management.  
-- **We believe it delivers** faster onboarding and authentication experiences for end users in small-to-medium-sized digital platforms.  
-- **This will be confirmed when** the APIs I develop are deployed and used in production with positive feedback from users or QA metrics.
+- Nos centramos en trabajar como desarrollador backend con Python para crear API seguras y eficientes para la gestión de usuarios.
+- Creemos que ofrece experiencias de incorporación y autenticación más rápidas para los usuarios finales en plataformas digitales pequeñas y medianas.
+- Esto se confirmará cuando las API que desarrollo se implementen y utilicen en producción con comentarios positivos de los usuarios o métricas de control de calidad.
 
 **Objetivo 2** 
-- **Our focus is on** completing three backend-focused bootcamps that cover authentication, RESTful design, and system architecture.  
-- **We believe it delivers** a robust knowledge foundation to build scalable solutions for web and mobile platforms.  
-- **This will be confirmed when** I complete the bootcamps and apply those concepts in a demo project validated by technical peers.
+- Nos centramos en completar tres bootcamps centrados en backend que abarcan autenticación, diseño RESTful y arquitectura de sistemas.
+- Creemos que proporciona una sólida base de conocimientos para crear soluciones escalables para plataformas web y móviles.
+- Esto se confirmará cuando complete los bootcamps y aplique esos conceptos en un proyecto de demostración validado por colegas técnicos.
 
 **Alonso Garay, Diego Jesús**
 
- **Objetivo 1**
-- **Our focus is on** building and launching an MVP for an urban mobility app inspired by EzPark's value proposition.  
-- **We believe it delivers** increased accessibility and convenience for drivers seeking short-term parking in busy districts.  
-- **This will be confirmed when** the MVP is publicly released and used by at least 20 external users with feedback collected.
+**Objetivo 1**
 
-**Objetivo 2** 
-- **Our focus is on** completing an advanced UX/UI design course and redesigning a legacy app interface.  
-- **We believe it delivers** improved usability and user satisfaction for individuals using service-based applications.  
-- **This will be confirmed when** users report higher task success rates or NPS (Net Promoter Score) in user testing sessions.
+- Nos centramos en desarrollar y lanzar un MVP para una aplicación de movilidad urbana inspirada en la propuesta de valor de EzPark.
+- Creemos que ofrece mayor accesibilidad y comodidad para los conductores que buscan aparcamiento de corta estancia en zonas concurridas.
+- Esto se confirmará cuando el MVP se publique y sea utilizado por al menos 20 usuarios externos, tras recopilar sus comentarios.
+
+**Objetivo 2**
+- Nos centramos en completar un curso avanzado de diseño UX/UI y rediseñar la interfaz de una aplicación heredada.
+- Creemos que ofrece mayor usabilidad y satisfacción del usuario para quienes utilizan aplicaciones basadas en servicios.
+- Esto se confirmará cuando los usuarios reporten mayores tasas de éxito en las tareas o un NPS (Net Promoter Score) en las sesiones de prueba de usuario.
 
 **Rodriguez Zuluoeta, Andrés Fernando**
 
  **Objetivo 1**  
-- **Our focus is on** applying Domain-Driven Design in the development of a real-world software module.  
-- **We believe it delivers** a scalable and maintainable architecture that improves collaboration between developers and stakeholders in small tech companies.  
-- **This will be confirmed when** the module is deployed in a freelance or open-source project and reviewed positively by collaborators.
+ 
+- Nos centramos en aplicar el Diseño Orientado al Dominio en el desarrollo de un módulo de software real.
+- Creemos que ofrece una arquitectura escalable y fácil de mantener que mejora la colaboración entre desarrolladores y partes interesadas en pequeñas empresas tecnológicas.
+- Esto se confirmará cuando el módulo se implemente en un proyecto freelance o de código abierto y reciba una evaluación positiva de los colaboradores.
 
-**Objetivo 2** 
-- **Our focus is on** earning a Scrum Master certification (PSM I) and applying agile practices in a cross-functional team.  
-- **We believe it delivers** continuous improvement and effective team coordination in early-stage product development.  
-- **This will be confirmed when** I pass the certification and complete a full agile cycle in a real team setting with retrospectives and sprint reviews.
+**Objetivo 2**
+- Nos centramos en obtener una certificación de Scrum Master (PSM I) y aplicar prácticas ágiles en un equipo multifuncional.
+- Creemos que ofrece mejora continua y coordinación eficaz del equipo en las etapas iniciales del desarrollo de productos.
+- Esto se confirmará cuando apruebe la certificación y complete un ciclo ágil completo en un entorno de equipo real con retrospectivas y revisiones de sprint.
 
 # Capítulo I: Presentación
 ## 1.1. Startup Profile
