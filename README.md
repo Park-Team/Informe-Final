@@ -355,6 +355,14 @@ Nuestro segmento objetivo está compuesto por dos tipos de usuarios:
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
+
+En el mercado actual, varias aplicaciones buscan resolver el problema de estacionamiento en entornos urbanos, cada una con enfoques y modelos de negocio distintos. Nosotros hemos encontrado a estos competidores:
+- EzPark<br><img width="100px"  src="assets/ezpark.png" alt="ezpark" />
+- Apparka<br><img width="100px" src="assets/Apparka.png" alt="Apparka" />
+- Quadra<br><img width="100px" src="assets/Quadra.png" alt="Quadra" />
+- Parkopedia<br><img width="100px" src="assets/Parkopedia.png" alt="Parkopedia" />
+
+
 ### 2.1.1. Análisis competitivo
 EzPark se enfrentará a una competencia formada por aplicaciones móviles que facilitan la búsqueda y gestión de espacios de estacionamiento. A continuación, se presentan algunas de las más representativas en este rubro:
 **Apparka**
@@ -372,10 +380,10 @@ Es una de las más completas a nivel mundial sobre estacionamientos, incluyendo 
     </tr>
     <tr>
       <th colspan="2">Competidores</th>
-      <th>EzPark</th>
-      <th>Apparka</th>
-      <th>Quadra</th>
-      <th>Parkopedia</th>
+      <th>EzPark<br><img src="assets/ezpark.png" alt="ezpark" /></th>
+      <th>Apparka<br><img src="assets/Apparka.png" alt="Apparka" /></th>
+      <th>Quadra<br><img src="assets/Quadra.png" alt="Quadra" /></th>
+      <th>Parkopedia<br><img src="assets/Parkopedia.png" alt="Parkopedia" /></th>
     </tr>
   </thead>
   <tbody>
