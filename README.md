@@ -902,6 +902,11 @@ Los sistemas externos son aquellos otros sistemas o servicios con los que el sis
 
 ### 4.1.2. Context Mapping
 
+El Bounded Context de User Management se encarga de toda la lógica relacionada con los usuarios y su información, la cual es utilizada tanto por Parking Management para gestionar la información de los administradores de los parkings, como por Reservation Management para identificar a los usuarios que realizan las reservas. A su vez, Parking Management se centra en la gestión de los parkings y su información, y Reservation Management es responsable de la lógica de negocio de las reservas, gestionando las reservas específicamente para los parkings administrados por el Bounded Context de Parking Management.
+
+<img src="assets/contextmapping.png" alt="contextmapping" />
+
+
 
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture Context Level Diagrams
@@ -915,9 +920,13 @@ Este diagrama de contexto ilustra cómo los Guests y los Hosts interactúan dire
 
 Este diagrama muestra cómo los usuarios interactúan con EzPark a través de interfaces web y móviles. Estas interfaces se comunican con la Aplicaciones API, que contiene la lógica del negocio. La API interactúa con una Base de Datos para la gestión de usuarios y con Google Cloud Storage para el almacenamiento de datos específicos. Es una vista de la arquitectura de software del sistema EzPark.
 
-<img src="assets/containerlevel.png" alt="containerlevel" />
+<img src="assets/conteinerlevel.png" alt="conteinerlevel" />
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
+
+Este diagrama representa una arquitectura de software distribuida en la nube donde una Single-Page Application se ejecuta en navegadores web, mientras que una Aplicación Móvil permite a los usuarios realizar llamadas API desde dispositivos iOS o Android.
+
+<img src="assets/deploydiagram1.png" alt="deploydiagram1" />
 
 
 ## 4.2. Tactical-Level Domain-Driven Design
