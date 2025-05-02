@@ -109,6 +109,40 @@
 - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
 - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
 - [2.6.3.6.2. Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)
+- [**Capítulo V: Solution UI/UX Design**](#capítulo-v-solution-uiux-design)
+- [5.1. Product design](#51-product-design)
+- [5.1.1. Style Guidelines](#511-style-guidelines)
+- [5.1.1.1. General Style Guidelines](#5111-general-style-guidelines)
+- [5.1.2. Information Architecture](#512-information-architecture)
+- [5.1.2.1. Organization Systems](#5121-organization-systems)
+- [5.1.2.2. Labelling Systems](#5122-labelling-systems)
+- [5.1.2.3. SEO Tags and Meta Tags](#5123-seo-tags-and-meta-tags)
+- [5.1.2.4. Searching Systems](#5124-searching-systems)
+- [5.1.2.5. Navigation Systems](#5125-navigation-systems)
+- [5.1.3. Landing Page UI Design](#513-landing-page-ui-design)
+- [5.1.3.1. Landing Page Wireframe](#5131-landing-page-wireframe)
+- [5.1.3.2. Landing Page Mock-up](#5132-landing-page-mock-up)
+- [5.1.4. Mobile Applications UX/UI Design](#514-mobile-applications-uxui-design)
+- [5.1.4.1. Mobile Applications Wireframes](#5141-mobile-applications-wireframes)
+- [5.1.4.2. Mobile Applications Wireflow Diagrams](#5142-mobile-applications-wireflow-diagrams)
+- [5.1.4.3. Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
+- [5.1.4.4. Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
+- [5.1.4.5. Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
+- [**Capítulo VI: Product Implementation, Validation & Deployment**](#capítulo-vi-product-implementation-validation--deployment)
+- [6.1. Software Configuration Management](#61-software-configuration-management)
+- [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+- [6.1.2. Source Code Management](#612-source-code-management)
+- [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+- [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+- [6.2. Landing Page & Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
+- [6.2.1. Sprint 1](#621-sprint-1)
+- [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+- [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+- [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+- [6.2.1.4. Execution Evidence for Sprint Review](#6214-execution-evidence-for-sprint-review)
+- [6.2.1.5. Services Documentation Evidence for Sprint Review](#6215-services-documentation-evidence-for-sprint-review)
+- [6.2.1.6. Software Deployment Evidence for Sprint Review](#6216-software-deployment-evidence-for-sprint-review)
+- [6.2.1.7. Team Collaboration Insights during Sprint](#6217-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
 - [Video About-the-team](#video-about-the-team)
@@ -137,7 +171,7 @@ EAC - Student Outcome 7.
                 Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>lDesarrollé los capítulos 2 y 3 del proyecto EzPark, incluyendo análisis de requerimientos, user stories, Impact Mapping y Domain Message Flow Modeling. Aprendí a aplicar conceptos como Bounded Context y flujos de dominio en un sistema real.<br>
             </td>
             <td>El proyecto permitió al equipo adquirir nuevos conocimientos sobre modelado de dominio y diseño de soluciones, herramientas fundamentales para el desarrollo profesional en ingeniería de software."<br>
-                </td>
+            </td>
         </tr>
         <tr>
             <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
@@ -1148,6 +1182,137 @@ Este diagrama de clases ilustra las principales entidades y sus relaciones dentr
 Este diagrama representa el esquema de la base de datos para el bounded context de "Reservation Management". Cada recuadro representa una tabla, y dentro de cada tabla se listan las columnas con su nombre y, en algunos casos, su tipo y si es una clave primaria (PK) o clave foránea (FK).
 
 <img src="assets/reservationdatabasedesign.png" alt="reservationdatabasedesign" />
+
+# Capítulo V: Solution UI/UX Design
+
+## 5.1. Product design
+
+
+
+### 5.1.1. Style Guidelines
+
+
+
+#### 5.1.1.1. General Style Guidelines
+
+
+
+### 5.1.2. Information Architecture
+
+
+
+#### 5.1.2.1. Organization Systems
+
+
+
+#### 5.1.2.2. Labelling Systems
+
+
+
+#### 5.1.2.3. SEO Tags and Meta Tags
+
+
+
+#### 5.1.2.4. Searching Systems
+
+
+
+#### 5.1.2.5. Navigation Systems
+
+
+
+### 5.1.3. Landing Page UI Design
+
+
+
+#### 5.1.3.1. Landing Page Wireframe
+
+
+
+#### 5.1.3.2. Landing Page Mock-up
+
+
+
+### 5.1.4. Mobile Applications UX/UI Design
+
+
+
+#### 5.1.4.1. Mobile Applications Wireframes
+
+
+
+#### 5.1.4.2. Mobile Applications Wireflow Diagrams
+
+
+
+#### 5.1.4.3. Mobile Applications Mock-ups
+
+
+
+#### 5.1.4.4. Mobile Applications User Flow Diagrams
+
+
+
+#### 5.1.4.5. Mobile Applications Prototyping
+
+
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+
+
+
+### 6.1.1. Software Development Environment Configuration
+
+
+
+### 6.1.2. Source Code Management
+
+
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+
+
+### 6.1.4. Software Deployment Configuration
+
+
+
+## 6.2. Landing Page & Mobile Application Implementation
+
+
+
+### 6.2.1. Sprint 1
+
+
+
+#### 6.2.1.1. Sprint Planning 1
+
+
+
+#### 6.2.1.2. Sprint Backlog 1
+
+
+
+#### 6.2.1.3. Development Evidence for Sprint Review
+
+
+
+#### 6.2.1.4. Execution Evidence for Sprint Review
+
+
+
+#### 6.2.1.5. Services Documentation Evidence for Sprint Review
+
+
+
+#### 6.2.1.6. Software Deployment Evidence for Sprint Review
+
+
+
+#### 6.2.1.7. Team Collaboration Insights during Sprint
+
 
 
 # Conclusiones
