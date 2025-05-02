@@ -28,7 +28,7 @@
 | Versión |   Fecha    | Autor | Descripción de modificación | 
 |:-------:|:----------:|:-----:|:----------------------------| 
 |TB1      |      23/04/2025      |    ParkTeam   |    Se hizo la entrega del primer avance del Informe, desde la presentacion de la startup, hasta el capitulo 4 y las primeras conclusiones.                         |
-
+|TP| --/--/-- |autores|-----|
 # Project Report Collaboration Insights
 
 ![Project Report Collaboration Insights](./assets/collaboration-insights1.png)
@@ -90,7 +90,7 @@
 - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
 - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
 - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
-- [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)
+- [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
 - [4.2.2. Bounded Context: Parking Management ](#422-bounded-context-parking-management)
 - [4.2.2.1. Domain Layer](#4221-domain-layer)
 - [4.2.2.2. Interface Layer](#4222-interface-layer)
@@ -99,7 +99,7 @@
 - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
 - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
 - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
-- [2.6.2.6.2. Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)
+- [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
 - [4.2.3. Bounded Context: Reservation Management Context ](#423-bounded-context-reservation-management-context)
 - [4.2.3.1. Domain Layer](#4231-domain-layer)
 - [4.2.3.2. Interface Layer](#4232-interface-layer)
@@ -108,7 +108,7 @@
 - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
 - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
 - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
-- [2.6.3.6.2. Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)
+- [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
 - [**Capítulo V: Solution UI/UX Design**](#capítulo-v-solution-uiux-design)
 - [5.1. Product design](#51-product-design)
 - [5.1.1. Style Guidelines](#511-style-guidelines)
@@ -166,18 +166,43 @@ EAC - Student Outcome 7.
         </tr>
         <tr>
             <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
-            <td>Alonso Garay, Diego Jesus<br>TB1<br>Desarrollé el capítulo 4 del proyecto EzPark. Aprendí a comprender los conceptos necesarios para desarrollar los diagramas presentes del capítulo correctamente.<br>
-                Oliveira Paucar, Mauricio<br>TB1<br>En esta entrega realice el Capitulo 1 y algunos puntos del Capitulo 4. En estos puntos pude ver conceptos nuevos, pasados y mejorar aquellos puntos que creia necesarios con la ayuda de mi docente.<br>
-                Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>lDesarrollé los capítulos 2 y 3 del proyecto EzPark, incluyendo análisis de requerimientos, user stories, Impact Mapping y Domain Message Flow Modeling. Aprendí a aplicar conceptos como Bounded Context y flujos de dominio en un sistema real.<br>
+            <td><strong>Alonso Garay, Diego Jesus</strong><br>
+            TB1<br>
+            Desarrollé el capítulo 4 del proyecto EzPark. Aprendí a comprender los conceptos necesarios para desarrollar los diagramas presentes del capítulo correctamente.<br>
+            TP<br>
+            ....<br>
+            <strong>Oliveira Paucar, Mauricio</strong><br>
+            TB1<br>
+            En esta entrega realice el Capitulo 1 y algunos puntos del Capitulo 4. En estos puntos pude ver conceptos nuevos, pasados y mejorar aquellos puntos que creia necesarios con la ayuda de mi docente.<br>
+            TP<br>
+            ....<br>
+            <strong>Rodriguez Zuluoeta, Andres Fernando</strong><br>
+            TB1<br>
+            Desarrollé los capítulos 2 y 3 del proyecto EzPark, incluyendo análisis de requerimientos, user stories, Impact Mapping y Domain Message Flow Modeling. Aprendí a aplicar conceptos como Bounded Context y flujos de dominio en un sistema real.<br>
+            TP<br>
+            ....<br>
             </td>
             <td>El proyecto permitió al equipo adquirir nuevos conocimientos sobre modelado de dominio y diseño de soluciones, herramientas fundamentales para el desarrollo profesional en ingeniería de software."<br>
             </td>
         </tr>
         <tr>
             <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
-            <td>Alonso Garay, Diego Jesus<br>TB1<br>Durante el desarrollo del trabajo aprendimos puntos importantes sobre la colaboración y sobre como se debe investigar para la elaboración de un buen proyecto.<br>
-                Oliveira Paucar, Mauricio<br>TB1<br>En todo momento del trabajo se aprendimos nuevas cosas o mejoramos lo que ya creaiamos correcto, ya que con el tiempo algunas cosas se actulizan y tenemos que estar en constante aprendizaje para poder entregar lo mejor en nuestros trabajos.<br>
-                Rodriguez Zuluoeta, Andres Fernando<br>TB1<br>Investigué por mi cuenta sobre Impact Mapping y Bounded Context, usando documentación y ejemplos externos, aplicando estrategias de autoaprendizaje para completar correctamente mi parte del proyecto.<br></td>
+            <td><strong>Alonso Garay, Diego Jesus</strong><br>
+            TB1<br>
+            Durante el desarrollo del trabajo aprendimos puntos importantes sobre la colaboración y sobre como se debe investigar para la elaboración de un buen proyecto.<br>
+            TP<br>
+            ....<br>
+            <strong>Oliveira Paucar, Mauricio</strong><br>
+            TB1<br>
+            En todo momento del trabajo se aprendimos nuevas cosas o mejoramos lo que ya creaiamos correcto, ya que con el tiempo algunas cosas se actulizan y tenemos que estar en constante aprendizaje para poder entregar lo mejor en nuestros trabajos.<br>
+            TP<br>
+            ....<br>
+            <strong>Rodriguez Zuluoeta, Andres Fernando</strong><br>
+            TB1<br>
+            Investigué por mi cuenta sobre Impact Mapping y Bounded Context, usando documentación y ejemplos externos, aplicando estrategias de autoaprendizaje para completar correctamente mi parte del proyecto.<br>
+            TP<br>
+            ....<br>
+            </td>
             <td>El equipo comprendió que el aprendizaje continuo es esencial para enfrentar desafíos reales en proyectos, y que es necesario mantenerse actualizado de manera constante para seguir creciendo profesionalmente.<br></td>
         </tr>
     </table>
@@ -1015,7 +1040,7 @@ Este apartado incluirá el diagrama de componentes del modelo C4 para el contene
 Este apartado presentará el diagrama de clases UML para las clases del Domain Layer en el Bounded Context de gestión de usuarios. Incluirá clases, interfaces, enumeraciones, atributos, métodos, visibilidad y relaciones entre ellas.
 <img src="assets/BoundedContextDomainLayerClassDiagramsUserManagement.png" alt="BoundedContextDomainLayerClassDiagramsUserManagement" />
 
-##### 2.6.1.6.2. Bounded Context Database Design Diagram
+##### 4.2.1.6.2. Bounded Context Database Design Diagram
 Este apartado mostrará el diagrama de la base de datos que incluye las tablas, columnas, claves primarias y foráneas, y las relaciones entre las tablas necesarias para la persistencia de la información de los usuarios.
 <img src="assets/BoundedContextDatabaseDesignDiagramUserManagement.png" alt="BoundedContextDatabaseDesignDiagramUserManagement" />
 
@@ -1121,7 +1146,7 @@ Este diagrama de clases ilustra las principales entidades y sus relaciones dentr
 
 ![Parking Managment Class Diagram](./assets/parking-management-class-diagram.png)
 
-##### 2.6.2.6.2. Bounded Context Database Design Diagram
+##### 4.2.2.6.2. Bounded Context Database Design Diagram
 
 Este diagrama de base de datos ilustra las principales tablas y sus relaciones dentro del contexto de Parking Management. En el diagrama se representan las entidades clave como Parking, Location, Rate, Availability, cada una con sus atributos respectivos.
 
@@ -1177,7 +1202,7 @@ Este diagrama de clases ilustra las principales entidades y sus relaciones dentr
 <img src="assets/reservationlayerclass.png" alt="reservationlayerclass" />
 
 
-##### 2.6.3.6.2. Bounded Context Database Design Diagram
+##### 4.2.3.6.2. Bounded Context Database Design Diagram
 
 Este diagrama representa el esquema de la base de datos para el bounded context de "Reservation Management". Cada recuadro representa una tabla, y dentro de cada tabla se listan las columnas con su nombre y, en algunos casos, su tipo y si es una clave primaria (PK) o clave foránea (FK).
 
