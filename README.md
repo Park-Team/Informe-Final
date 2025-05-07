@@ -1264,71 +1264,71 @@ Este diagrama representa el esquema de la base de datos para el bounded context 
 
 **Confirm Parking detail**
 
-<img src="Confirm Parking detail.png" alt="Confirm Parking detail" /><br>
+<img src="assets/Confirm Parking detail.png" alt="Confirm Parking detail" /><br>
 
 **Credit Card payment**
 
-<img src="Credit Card payment.png" alt="Credit Card payment" /><br>
+<img src="assets/Credit Card payment.png" alt="Credit Card payment" /><br>
 
 **Don't have a payment method**
 
-<img src="Don't have a payment method.png" alt="Don't have a payment method" /><br>
+<img src="assets/Don't have a payment method.png" alt="Don't have a payment method" /><br>
 
 **Edit profile**
 
-<img src="Edit profile.png" alt="Edit profile" /><br>
+<img src="assets/Edit profile.png" alt="Edit profile" /><br>
 
 **Find Parking**
 
-<img src="Find Parking.png" alt="Find Parking" /><br>
+<img src="assets/Find Parking.png" alt="Find Parking" /><br>
 
 **Parking detail**
 
-<img src="Parking detail.png" alt="Parking detail" /><br>
+<img src="assets/Parking detail.png" alt="Parking detail" /><br>
 
 **Password Recovery**
 
-<img src="Password Recovery.png" alt="Password Recovery" /><br>
+<img src="assets/Password Recovery.png" alt="Password Recovery" /><br>
 
 **Post Parking detail**
 
-<img src="Post Parking detail.png" alt="Post Parking detail" /><br>
+<img src="assets/Post Parking detail.png" alt="Post Parking detail" /><br>
 
 **Rating & Reviews**
 
-<img src="Rating & Reviews.png" alt="Rating & Reviews" /><br>
+<img src="assets/Rating & Reviews.png" alt="Rating & Reviews" /><br>
 
 **Recover Password**
 
-<img src="Recover Password.png" alt="Recover Password" /><br>
+<img src="assets/Recover Password.png" alt="Recover Password" /><br>
 
 **Schedule detail**
 
-<img src="Schedule detail.png" alt="Schedule detail" /><br>
+<img src="assets/Schedule detail.png" alt="Schedule detail" /><br>
 
 **Sidebar**
 
-<img src="Sidebar.png" alt="Sidebar" /><br>
+<img src="assets/Sidebar.png" alt="Sidebar" /><br>
 
 **Sign In**
 
-<img src="Sign In.png" alt="Sign In" /><br>
+<img src="assets/Sign In.png" alt="Sign In" /><br>
 
 **Sign Up**
 
-<img src="Sign Up.png" alt="Sign Up" /><br>
+<img src="assets/Sign Up.png" alt="Sign Up" /><br>
 
 **Successful reservation**
 
-<img src="Successful reservation.png" alt="Successful reservation" /><br>
+<img src="assets/Successful reservation.png" alt="Successful reservation" /><br>
 
 **Yape payment**
 
-<img src="Yape payment.png" alt="Yape payment" /><br>
+<img src="assets/Yape payment.png" alt="Yape payment" /><br>
 
 **Add method payment**
 
-<img src="Add method payment.png" alt="Add method payment" /><br>
+<img src="assets/Add method payment.png" alt="Add method payment" /><br>
 
 
 #### 5.1.4.2. Mobile Applications Wireflow Diagrams
