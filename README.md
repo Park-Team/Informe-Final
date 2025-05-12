@@ -1330,9 +1330,36 @@ Este diagrama representa el esquema de la base de datos para el bounded context 
 
 <img src="assets/Add method payment.png" alt="Add method payment" /><br>
 
+**Link de Figma con los wireframes:**
+
+https://www.figma.com/design/blD58WKWlK7qnpIysYOsBq/Mobile-Applications?node-id=0-1
 
 #### 5.1.4.2. Mobile Applications Wireflow Diagrams
 
+**User goal:** El Host o Guest crea una cuenta, puede restablecer su contraseña y accede a la aplicación utilizando sus credenciales.
+
+<img src="assets/wireframe-wireflow-1.jpg" alt="wireframe-wireflow-1" />
+
+**Descripción:**
+Al abrir la aplicación, el Host o Guest será dirigido al formulario de registro. Si ya dispone de una cuenta, tiene la opción de acceder mediante el botón de inicio de sesión. En ese caso, deberá ingresar sus credenciales en el formulario correspondiente y, si son correctas, podrá entrar a la página principal de la plataforma. Si no recuerda sus datos de acceso, puede hacer clic en "recuperar contraseña" para recibir un enlace que le permita restablecerla. Una vez que el inicio de sesión se realiza con éxito, el Host o Guest tendrá acceso a la página principal.
+
+---
+
+**User goal:** El Guest tiene la intención de buscar y reservar un espacio de estacionamiento.
+
+<img src="assets/wireframe-wireflow-2.jpg" alt="wireframe-wireflow-1" />
+
+**Descripción:**
+Cuando el Guest accede a la sección "Find your parking", podrá explorar y buscar estacionamientos según sus preferencias. Al elegir uno, se le mostrará información detallada del mismo. Desde esta vista, el Guest tendrá tres opciones: regresar al menú principal, revisar los comentarios o dirigirse a la selección de horario para realizar una reserva. En esta sección, podrá ver los horarios disponibles y aquellos que ya han sido reservados. Luego de seleccionar el horario que más le convenga, será redirigido al proceso de pago, donde podrá completar la transacción usando tarjetas de crédito, débito o billeteras digitales. Una vez finalizado el pago, se mostrará un mensaje confirmando que la reserva fue realizada con éxito.
+
+---
+
+**User goal:** El Host quiere poner en alquiler un espacio de estacionamiento que tiene disponible.
+
+<img src="assets/wireframe-wireflow-3.jpg" alt="wireframe-wireflow-1" />
+
+**Descripción:**
+Al ingresar a la sección "Rent your parking", el Host podrá ver todos los requisitos obligatorios que debe completar para poder publicar su espacio. Al seleccionar la opción "Post parking", la aplicación le notificará que su espacio ha sido publicado exitosamente. Si es la primera vez que el Host realiza una publicación, aparecerá una alerta indicando que aún no ha registrado un método de pago para recibir sus ganancias. Luego de ingresar los datos correspondientes a su cuenta, y tras la verificación, la publicación del espacio se realizará con normalidad.
 
 
 #### 5.1.4.3. Mobile Applications Mock-ups
