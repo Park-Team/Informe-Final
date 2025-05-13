@@ -1402,6 +1402,14 @@ Product UX/UI Design
 
 Software Development
 
+- Node: Es un entorno de trabajo que nos permite ejecutar el lenguaje de programación JavaScript en el escritorio. Es fundamental tener conocimientos básicos de Node para un correcto desarrollo de aplicaciones web e integraciones de frameworks y/o librerías.
+
+- VueJS: Framework empleado para el desarrollo Frontend de la aplicación. Esta herramienta nos permite crear interfaces de usuarios, facilitandonos diversos problemas como manejo de estados o consultas de API REST.
+
+- ASP.Net Core: Framework empleado para el desarrollo Backend de la aplicación. Nos permite crear servicios de manera estructurada para una mayor escalabilidad del proyecto.
+
+- Visual Studio Code: IDE empleado por equipo de desarrollo debido a su gran comunidad y extensiones que facilita la integración de diversos lenguajes y frameworks de aplicación. Es usado principalmente para el desarrollo Frontend.
+
 - Kotlin: El desarrollo de la aplicación móvil se llevará a cabo utilizando Kotlin, un lenguaje de programación moderno y conciso, ideal para la plataforma Android.
 
 - Android Studio: El entorno de desarrollo integrado (IDE) principal será Android Studio, la herramienta oficial de Google para el desarrollo de aplicaciones Android. Ofrece un conjunto completo de herramientas para la codificación, depuración y prueba de aplicaciones.
@@ -1417,10 +1425,106 @@ Software Documentation
 
 ### 6.1.2. Source Code Management
 
+Para asegurar un flujo de trabajo organizado en las distintas etapas de nuestro proyecto de software, como producción, desarrollo y los espacios de trabajo dedicados a cada requerimiento del Product Backlog, hemos seleccionado la herramienta Git. Su sistema de control de versiones y su metodología de trabajo basada en ramas nos proporcionan la estructura necesaria. Adicionalmente, para facilitar el desarrollo colaborativo del proyecto entre los miembros del equipo, utilizaremos la plataforma GitHub.
 
+Organización: https://github.com/Park-Team
+
+Repositorio LandingPage: https://github.com/Park-Team/LandingPage
+
+Flujo de trabajo en Git Para llevar a cabo el proyecto, establecimos un modelo de ramas basado en el tradicional GitFlow.
+
+Commit Conventions
+Para estandarizar la creación de commits durante el desarrollo del proyecto, adoptaremos la estructura definida por "Conventional Commits". Este modelo fue seleccionado por su sencillez y la claridad que aporta al identificar el impacto de cada commit.
+La estructura general para cada commit será:
+
+<type>(scope): <description>
+Ejemplo:
+
+feat #3: add Test
+
+¡Entendido! Aquí tienes la adaptación parafraseada, manteniendo las palabras en inglés:
+
+Commit Conventions
+
+Para estandarizar la creación de commits durante el desarrollo del proyecto, adoptaremos la estructura definida por "Conventional Commits" (https://www.conventionalcommits.org/en/v1.0.0/). Este modelo fue seleccionado por su sencillez y la claridad que aporta al identificar el impacto de cada commit.
+La estructura general para cada commit será:
+
+<type>(scope): <description>
+
+Ejemplo:
+
+feat #2: add testimonials carousel
+
+Donde:
+-type: Campo obligatorio. Especifica la categoría del cambio realizado. Los tipos de commit permitidos son:
+-feat: Introduce una nueva funcionalidad al código fuente.
+-fix: Corrige un error en el código fuente.
+-style: Aplica modificaciones de estilo al producto, principalmente en los archivos CSS.
+-refactor: Realiza mejoras en el código fuente sin agregar nuevas funcionalidades. Esto puede incluir la implementación de "buenas prácticas".
+-docs: Incluye cambios en la documentación del proyecto, sin afectar la funcionalidad.
+-build: Modifica la configuración del proyecto, como la adición, eliminación o actualización de dependencias.
+-scope: Campo opcional. Indica el área o módulo del proyecto al que afecta el commit. Utilizaremos los identificadores de las user stories o requirements.
+-description: Campo obligatorio. Un breve resumen del commit, redactado en inglés y comenzando con un verbo en infinitivo.
+
+Release Versioning Conventions
+
+Para definir el formato de nuestras versiones de lanzamiento, utilizaremos el modelo de "Semantic Versioning 2.0.0" con algunas adaptaciones decididas por el equipo para optimizar el versionamiento.
+Los commits y las etiquetas (tags) para los lanzamientos seguirán la siguiente estructura:
+
+Release vX.Y.Z
+
+Donde:
+
+-X: Representa un cambio de versión MAJOR. Este número se incrementará cuando los cambios introducidos generen una incompatibilidad significativa con versiones anteriores.
+-Y: Representa un cambio de versión MINOR. Se utiliza para indicar la integración de nuevas features en el producto final.
+-Z: Representa un PATCH. Se emplea para indicar correcciones de errores (bugs) en las funcionalidades existentes, sin introducir cambios funcionales.
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
+En esta sección, se detallarán las convenciones de nomenclatura para los lenguajes de programación y frameworks que se emplearán en el proyecto. Es importante destacar que todas las convenciones se definirán en inglés.
+
+HTML
+- Los nombres de las etiquetas deben escribirse en minúsculas (lowercase).
+- Todas las etiquetas deben tener su correspondiente etiqueta de cierre.
+- Los atributos de las etiquetas deben escribirse en minúsculas (lowercase).
+- Los valores asignados a los atributos deben estar encerrados entre comillas dobles.
+- Por motivos de accesibilidad y rendimiento, las imágenes deben incluir los atributos alt, width y height.
+- Se evitarán líneas en blanco y espacios innecesarios.
+
+CSS
+- Se utilizarán nombres de clase específicos o lo suficientemente generales para su propósito.
+- Los nombres de clase se abreviarán siempre que se mantenga la claridad de su significado.
+- Para separar palabras en los nombres de clase, se utilizará el guion medio ("-").
+- Se evitará el uso de selectores de ID.
+- Se emplearán valores abreviados para las propiedades CSS siempre que sea posible.
+- No se utilizará la declaración !important.
+
+Vue
+- La propiedad data de un componente debe ser una función que retorne un objeto.
+- Las props de los componentes deben definirse con la mayor especificidad posible (tipos, validaciones, valores por defecto).
+- Al utilizar la directiva v-for, siempre se debe incluir el atributo key.
+- Se evitará el uso combinado de v-if con v-for en el mismo elemento.
+- Cada componente debe definirse en su propio archivo .vue.
+- Los nombres de los componentes y sus correspondientes archivos deben seguir la convención PascalCase.
+- Los nombres de las props deben seguir la convención camelCase.
+- Los valores de los atributos HTML dentro de las plantillas Vue deben ir entre comillas.
+- Se recomienda utilizar las abreviaciones para las directivas (por ejemplo, : en lugar de v-bind: y @ en lugar de v-on:).
+
+Kotlin
+- Los nombres de clases y objetos deben seguir la convención PascalCase.
+- Los nombres de variables y funciones deben seguir la convención camelCase.
+- Los nombres de constantes deben escribirse en mayúsculas (UPPERCASE).
+- Se recomienda utilizar la inferencia de tipo para las variables locales siempre que sea posible.
+- Se utilizarán las data classes para representar datos de forma concisa.
+- Se emplearán las funciones de extensión para añadir funcionalidad a clases existentes sin necesidad de heredar.
+
+Flutter
+- Los nombres de las clases Widget deben seguir la convención PascalCase.
+- Los nombres de las variables y funciones deben seguir la convención camelCase.
+- Se utilizará la palabra clave const para los constructores siempre que sea posible para optimizar el rendimiento.
+- Se preferirá el uso de StatelessWidget cuando el widget no necesite mantener un estado mutable.
+- Se organizará el código en widgets pequeños y reutilizables.
+- Se utilizará la propiedad key cuando sea necesario para controlar la identidad de los widgets.
 
 
 ### 6.1.4. Software Deployment Configuration
