@@ -1446,7 +1446,7 @@ feat #3: add Test
 
 Commit Conventions
 
-Para estandarizar la creación de commits durante el desarrollo del proyecto, adoptaremos la estructura definida por "Conventional Commits" (https://www.conventionalcommits.org/en/v1.0.0/). Este modelo fue seleccionado por su sencillez y la claridad que aporta al identificar el impacto de cada commit.
+Para estandarizar la creación de commits durante el desarrollo del proyecto, adoptaremos la estructura definida por "Conventional Commits". Este modelo fue seleccionado por su sencillez y la claridad que aporta al identificar el impacto de cada commit.
 La estructura general para cada commit será:
 
 <type>(scope): <description>
@@ -1456,15 +1456,16 @@ Ejemplo:
 feat #2: add testimonials carousel
 
 Donde:
--type: Campo obligatorio. Especifica la categoría del cambio realizado. Los tipos de commit permitidos son:
--feat: Introduce una nueva funcionalidad al código fuente.
--fix: Corrige un error en el código fuente.
--style: Aplica modificaciones de estilo al producto, principalmente en los archivos CSS.
--refactor: Realiza mejoras en el código fuente sin agregar nuevas funcionalidades. Esto puede incluir la implementación de "buenas prácticas".
--docs: Incluye cambios en la documentación del proyecto, sin afectar la funcionalidad.
--build: Modifica la configuración del proyecto, como la adición, eliminación o actualización de dependencias.
--scope: Campo opcional. Indica el área o módulo del proyecto al que afecta el commit. Utilizaremos los identificadores de las user stories o requirements.
--description: Campo obligatorio. Un breve resumen del commit, redactado en inglés y comenzando con un verbo en infinitivo.
+- type: Campo obligatorio. Especifica la categoría del cambio realizado.
+- feat: Introduce una nueva funcionalidad al código fuente.
+- fix: Corrige un error en el código fuente.
+- style: Aplica modificaciones de estilo al producto, principalmente en los archivos CSS.
+- refactor: Realiza mejoras en el código fuente sin agregar nuevas funcionalidades. Esto puede incluir la implementación de "buenas prácticas".
+- docs: Incluye cambios en la documentación del proyecto, sin afectar la funcionalidad.
+- build: Modifica la configuración del proyecto, como la adición, eliminación o actualización de dependencias.
+- scope: Campo opcional. Indica el área o módulo del proyecto al que afecta el commit. Utilizaremos los identificadores de las user stories o requirements.
+- description: Campo obligatorio. Un breve resumen del commit, redactado en inglés y comenzando con un verbo en infinitivo.
+
 
 Release Versioning Conventions
 
@@ -1475,9 +1476,9 @@ Release vX.Y.Z
 
 Donde:
 
--X: Representa un cambio de versión MAJOR. Este número se incrementará cuando los cambios introducidos generen una incompatibilidad significativa con versiones anteriores.
--Y: Representa un cambio de versión MINOR. Se utiliza para indicar la integración de nuevas features en el producto final.
--Z: Representa un PATCH. Se emplea para indicar correcciones de errores (bugs) en las funcionalidades existentes, sin introducir cambios funcionales.
+- X: Representa un cambio de versión MAJOR. Este número se incrementará cuando los cambios introducidos generen una incompatibilidad significativa con versiones anteriores.
+- Y: Representa un cambio de versión MINOR. Se utiliza para indicar la integración de nuevas features en el producto final.
+- Z: Representa un PATCH. Se emplea para indicar correcciones de errores (bugs) en las funcionalidades existentes, sin introducir cambios funcionales.
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
@@ -1529,6 +1530,25 @@ Flutter
 
 ### 6.1.4. Software Deployment Configuration
 
+Para el despliegue de nuestra Landing Page decidimos optar por netlify debido a que admite integraciones automatizadas desde los repositorios remotos, entre ellos GitHub.
+
+Link: https://ezpark-landingpage.netlify.app/
+
+Para lograrlo, seguimos estos pasos:
+
+1. Asegúrate de tener el repositorio de tu Landing Page creado en GitHub.
+
+<img src="assets/LP1.png" alt="lp1" />
+
+2. Accede a la plataforma de Netlify, autoriza a Netlify a acceder a tu cuenta de GitHub y elige el repositorio de tu Landing Page.
+
+<img src="assets/LP2.png" alt="lp2" />
+
+<img src="assets/LP3.png" alt="lp3" />
+
+3. Una vez que inicies el despliegue, Netlify construirá y publicará tu sitio. Serás redirigido al panel de control del sitio, donde podrás gestionar y ver tu Landing Page en vivo.
+
+<img src="assets/LP4.png" alt="lp4" />
 
 
 ## 6.2. Landing Page & Mobile Application Implementation
