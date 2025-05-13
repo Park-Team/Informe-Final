@@ -1382,6 +1382,37 @@ Al ingresar a la sección "Rent your parking", el Host podrá ver todos los requ
 
 ### 6.1.1. Software Development Environment Configuration
 
+Project Management
+
+- Trello: Es una aplicación web y móvil que nos proporciona una mejor gestión para las actividades o tareas del equipo. Esta herramienta nos sirve para tener un mejor seguimiento de actividades, separación de responsabilidades y estimación de tiempos para cada una de ellas, ofreciéndonos un desarrollo del equipo sostenible.
+
+- Discord: Aplicación web y móvil usada para la comunicación. Aporta bastante para las reuniones del equipo por su función de llamadas en grupo, además de la capacidad de compartir pantalla. Se empleó principalmente para comunicar las actividades del proyecto por los siguientes medios: texto, imágenes, videos, llamadas, etc.
+
+Requirements Management
+
+- Trello: Para el manejo de los requerimientos del proyecto se usó el Kanban de Trello, incorporando nuestro Product Backlog. Cuenta con integraciones de GitHub, el cual nos permite relacionar que commits o ramas pertenecen a cada tarjeta (requirement).
+
+Product UX/UI Design
+
+- UXPressia: Se usó para elaborar los User Personas, el Customer Journey Map, Empathy Map e Impact Map debido a su variedad de plantillas y su naturaleza colaborativa y gratuita.
+
+- Miro: Se empleó para desarrollar escenarios mapping para ambos segmentos objetivos.
+
+- Figma: Para crear wireframes, mockups y prototipos de aplicaciones móviles de forma colaborativa, y su acceso es gratuito con una cuenta registrada.
+
+Software Development
+
+- Kotlin: El desarrollo de la aplicación móvil se llevará a cabo utilizando Kotlin, un lenguaje de programación moderno y conciso, ideal para la plataforma Android.
+
+- Android Studio: El entorno de desarrollo integrado (IDE) principal será Android Studio, la herramienta oficial de Google para el desarrollo de aplicaciones Android. Ofrece un conjunto completo de herramientas para la codificación, depuración y prueba de aplicaciones.
+
+- Git y GitHub: Git es una herramienta para el control de versiones y flujo de desarrollo del producto software en base a ramas (branches). Por otro lado, GitHub es una plataforma web basada en Git, lo que significa la capacidad de trabajar los repositorios en remoto y la colaboración entre desarrolladores del equipo.
+
+Software Documentation
+
+- Google Drive: Se usó la plataforma de Google Drive para subir archivos de documentos Word y PowerPoint. Ofrece sesión colaborativa en tiempo real con los miembros de equipo.
+
+- Github: En los repositorios de GitHub existe un archivo especial para mostrar a los usuarios un resumen del proyecto conocido como README, el cual está en formato MarkDown.
 
 
 ### 6.1.2. Source Code Management
