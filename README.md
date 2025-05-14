@@ -1254,7 +1254,24 @@ En el tema de iconos, se emplean los colores creados del sistema de diseño del 
 
 #### 5.1.2.3. SEO Tags and Meta Tags
 
+**Landing Page**
 
+```html
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="index, follow" />
+<link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+<title>EzPark | Reserva tu estacionamiento</title>
+<meta
+  name="keywords"
+  content="estacionamiento,viviendas,anfitriones,gratuito,tarifas por hora,genera ingresos,vehiculos"
+/>
+<meta
+  name="description"
+  content="Estaciona rápido y ahorra tiempo. Más de 1000 estacionamientos disponibles por tu zona."
+/>
+```
 
 #### 5.1.2.4. Searching Systems
 
