@@ -1275,8 +1275,10 @@ En esta sección se mostrará las propuestas de estructuración para el producto
 
 Enlace a producto Landing Page: 
 https://ezpark-landingpage.netlify.app/
+
 Link de los Wireframes: 
 https://www.figma.com/design/0g8A33rVdeAR5X28WeOlnV/Landing-Page-Wireframes---EzPark?node-id=0-1&t=5wUe84Stovg2dnaV-1
+
 Link de los Mock-Ups: 
 https://www.figma.com/design/FIxtZoELrVDQIcKdDcxPWO/Landing-Page-Mockups--EzPark?node-id=0-1&t=TJXYXn9DFY57xRyF-1
 
@@ -1436,7 +1438,59 @@ Al ingresar a la sección "Rent your parking", el Host podrá ver todos los requ
 
 #### 5.1.4.3. Mobile Applications Mock-ups
 
+<p align="center">Registro de cuentas</p>
 
+![Registro de cuentas](./assets/MobileApplication/mockups/mockup-registro.png)
+
+<p align="center">Inicio de sesión</p>
+
+![Inicio de sesión](./assets/MobileApplication/mockups/mockup-login.png)
+
+<p align="center">Recuperar contraseña</p>
+
+![Recuperar contraseña](./assets/MobileApplication/mockups/mockup-recover-password-1.png)
+
+![Recuperar contraseña](./assets/MobileApplication/mockups/mockup-recover-password-2.png)
+
+<p align="center">Sección Find parking</p>
+
+![Sección Find parking](./assets/MobileApplication/mockups/mockup-find-parking.png)
+
+<p align="center">Detalle parking</p>
+
+![Detalle parking](./assets/MobileApplication/mockups/mockup-parking-detail.png)
+
+<p align="center">Ratings & Reviews</p>
+
+![Ratings & Reviews](./assets/MobileApplication/mockups/mockup-reviews.png)
+
+<p align="center">Selección de horario de reserva</p>
+
+![Selección de horario de reserva](./assets/MobileApplication/mockups/mockup-schedule-detail.png)
+
+<p align="center">Selección pago con tarjetas</p>
+
+![Selección pago con tarjetas](./assets/MobileApplication/mockups/mockup-creditcard-payment.png)
+
+<p align="center">Selección pago con billeteras digitales</p>
+
+![Selección pago con billeteras digitales](./assets/MobileApplication/mockups/mockup-yape-payment.png)
+
+<p align="center">Sección de pago con éxito</p>
+
+![Sección de pago con éxito](./assets/MobileApplication/mockups/mockup-succesful-payment.png)
+
+<p align="center">Sección Rent your parking</p>
+
+![Sección Rent your parking](./assets/MobileApplication/mockups/mockup-rent-parking.png)
+
+<p align="center">Sección Añadir cuenta de ingresos</p>
+
+![Sección Añadir cuenta de ingresos](./assets/MobileApplication/mockups/mockup-adding-payment-method.png)
+
+<p align="center">Sección de Cuenta añadida con éxito</p>
+
+![Sección de Cuenta añadida con éxito](./assets/MobileApplication/mockups/mockup-succesful-post.png)
 
 #### 5.1.4.4. Mobile Applications User Flow Diagrams
 
@@ -1444,7 +1498,11 @@ Al ingresar a la sección "Rent your parking", el Host podrá ver todos los requ
 
 #### 5.1.4.5. Mobile Applications Prototyping
 
+En esta sección se compartirán los prototipos relacionados a la aplicación web, donde se presentan el alcance de los user goals en ambos segmentos objetivos.
 
+| Figma Web Applications Prototype:                                                                                                     | Figma Mobile Applications Prototype:                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| https://www.figma.com/file/jpHULfZ1ozRiihWhbgP1NZ/Web-ApPlication-Mock-Ups?type=design&node-id=0%3A1&mode=design&t=FqIctUgttGI6bP5t-1 | https://www.figma.com/design/vxCvtsiWx0sAyu1ZebxlrH/Mobile-Application-Mock-Ups?node-id=0-1&t=71K4o1Jz9G8IO3MX-1 |
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
