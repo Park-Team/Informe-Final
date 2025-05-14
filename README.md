@@ -180,7 +180,7 @@ EAC - Student Outcome 7.
             TB1<br>
             Desarrollé los capítulos 2 y 3 del proyecto EzPark, incluyendo análisis de requerimientos, user stories, Impact Mapping y Domain Message Flow Modeling. Aprendí a aplicar conceptos como Bounded Context y flujos de dominio en un sistema real.<br>
             TP<br>
-            ....<br>
+            Diseñé los wireframes y wireflows de la aplicación móvil de EzPark, centrándome en la experiencia de usuario (UX) para flujos clave como reserva de estacionamientos y pagos. Además, contribuí al desarrollo de la landing page y al prototipo funcional de la mobile application.<br>
             </td>
             <td>El proyecto permitió al equipo adquirir nuevos conocimientos sobre modelado de dominio y diseño de soluciones, herramientas fundamentales para el desarrollo profesional en ingeniería de software."<br>
             </td>
@@ -201,7 +201,7 @@ EAC - Student Outcome 7.
             TB1<br>
             Investigué por mi cuenta sobre Impact Mapping y Bounded Context, usando documentación y ejemplos externos, aplicando estrategias de autoaprendizaje para completar correctamente mi parte del proyecto.<br>
             TP<br>
-            ....<br>
+            Durante esta entrega, identificué la necesidad de aprender sobre patrones de diseño móvil para garantizar la calidad del producto. Esta experiencia reforzó mi convicción de que la actualización constante es clave para enfrentar desafíos técnicos y aportar soluciones innovadoras en equipo."<br>
             </td>
             <td>El equipo comprendió que el aprendizaje continuo es esencial para enfrentar desafíos reales en proyectos, y que es necesario mantenerse actualizado de manera constante para seguir creciendo profesionalmente.<br></td>
         </tr>
