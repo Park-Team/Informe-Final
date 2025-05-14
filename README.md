@@ -1629,6 +1629,20 @@ Para lograrlo, seguimos estos pasos:
 
 ### 6.2.1. Sprint 1
 
+| Sprint 1                           |                                     |
+|------------------------------------|-------------------------------------|
+| **Sprint Planning Background**     |                                     |
+| Date                               | 13/05/2025                                     |
+| Time                               | 3:22 pm                                     |
+| Location                           | Reunión Virtual en Discord                                    |
+| Prepared By                        | Mauricio Oliveira                                     |
+| Attendees (to planning meeting)    | Diego Alonso, Andres Rodriguez                                      |
+| Sprint n - 1 Review Summary        | Avanzar el landing page y brindar sugerencias para el estilo de la página                                     |
+| Sprint n - 1 Retrospective Summary | Se destacó la importancia de completar el landing page para nuestro proyecto                                      |
+| **Sprint Goal & User Stories**     |                                     |
+| Spring 1 Goal                      | El objetivo que tenemos es tener el landing page listo y empezar a completar las funcionalidades de nuestra aplicación móvil                                   |
+| Sprint 1 Velocity                  |  5 Story Points                                    |
+| Sum of Story Points                |  En este sprint nos hemos centrado exclusivamente en el landing Page y un poco en la primera versión de la aplicación móvil                                   |
 
 
 #### 6.2.1.1. Sprint Planning 1
