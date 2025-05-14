@@ -28,7 +28,7 @@
 | Versión |   Fecha    | Autor | Descripción de modificación | 
 |:-------:|:----------:|:-----:|:----------------------------| 
 |TB1      |      23/04/2025      |    ParkTeam   |    Se hizo la entrega del primer avance del Informe, desde la presentacion de la startup, hasta el capitulo 4 y las primeras conclusiones.                         |
-|TP| --/--/-- |autores|-----|
+|TP|       14/05/2025      |    ParkTeam   |    Se hizo la entrega del segundo avance del Informe, Se dearrollaron los capitulos 5 y 6, la landing page y el primer avance del proyecto.|
 # Project Report Collaboration Insights
 
 ![Project Report Collaboration Insights](./assets/collaboration-insights1.png)
@@ -175,7 +175,7 @@ EAC - Student Outcome 7.
             TB1<br>
             En esta entrega realice el Capitulo 1 y algunos puntos del Capitulo 4. En estos puntos pude ver conceptos nuevos, pasados y mejorar aquellos puntos que creia necesarios con la ayuda de mi docente.<br>
             TP<br>
-            ....<br>
+            Diseñé los style guidelines, Information architecture y gran parte de los mockups de la aplicación móvil de EzPark. Además, contribuí al desarrollo del prototipo funcional de la mobile application.<br>
             <strong>Rodriguez Zuluoeta, Andres Fernando</strong><br>
             TB1<br>
             Desarrollé los capítulos 2 y 3 del proyecto EzPark, incluyendo análisis de requerimientos, user stories, Impact Mapping y Domain Message Flow Modeling. Aprendí a aplicar conceptos como Bounded Context y flujos de dominio en un sistema real.<br>
@@ -194,9 +194,9 @@ EAC - Student Outcome 7.
             ....<br>
             <strong>Oliveira Paucar, Mauricio</strong><br>
             TB1<br>
-            En todo momento del trabajo se aprendimos nuevas cosas o mejoramos lo que ya creaiamos correcto, ya que con el tiempo algunas cosas se actulizan y tenemos que estar en constante aprendizaje para poder entregar lo mejor en nuestros trabajos.<br>
+            En todo momento del trabajo se aprendio nuevas cosas y mejoramos lo que ya creaiamos correcto, ya que con el tiempo algunas cosas se actulizan y tenemos que estar en constante aprendizaje para poder entregar lo mejor en nuestros trabajos.<br>
             TP<br>
-            ....<br>
+            Para esta entrega revisamos conceptos previos sobre ux/ui para poder implementar las mejores practicas al momento de desarrollar los estilos y prototipados necesarios para el proyecto.<br>
             <strong>Rodriguez Zuluoeta, Andres Fernando</strong><br>
             TB1<br>
             Investigué por mi cuenta sobre Impact Mapping y Bounded Context, usando documentación y ejemplos externos, aplicando estrategias de autoaprendizaje para completar correctamente mi parte del proyecto.<br>
@@ -1776,7 +1776,7 @@ https://github.com/Park-Team/LandingPage
 
 - La viabilidad de EzPark se sustenta en la creciente digitalización de los servicios y la adopción de soluciones tecnológicas para la vida cotidiana. La conveniencia de gestionar el estacionamiento a través de una aplicación móvil responde a las necesidades de un público cada vez más conectado y que valora la eficiencia y el ahorro de tiempo.
 
-- Creemos que se han cumplido adecuadamente todos los criterios solicitados para esta primera entrega. Cabe mencionar que el trabajo colaborativo y bien planificado ha sido muy importante para completar las secciones de este informe, como recomendación, sería excelente tener fechas y horarios preestablecidos para cada reunión.
+- Creemos que se han cumplido adecuadamente todos los criterios solicitados para esta segunda entrega. Cabe mencionar que el trabajo colaborativo y bien planificado ha sido muy importante para completar las secciones de este informe, como recomendación, sería excelente tener fechas y horarios preestablecidos para cada reunión.
 # Bibliografía
 
 Carranza Casana, N. C., Céspedes Amanzo, E. B., & Salgado Bolaños, E. (2017). Propuesta de solución para el déficit de estacionamiento vehicular, caso de estudio la zona del nuevo centro empresarial del distrito de Magdalena del Mar, provincia y departamento de Lima. Recuperado de https://repositorioacademico.upc.edu.pe/handle/10757/622734
@@ -1787,4 +1787,3 @@ Quispe Quispealaya, J., & Ramirez Gil, K. J. (2022). Evaluación de la infraestr
 
 Reghellin Palacios, A. F. (2018). La congestión vehicular en Lima Metropolitana entre los años 2012 y 2016 afecta económicamente a las empresas aseguradoras de vida y a sus trabajadores. Recuperado de https://repositorio.ulima.edu.pe/handle/20.500.12724/6170
 
-# Anexos
