@@ -1792,6 +1792,11 @@ https://github.com/Park-Team/LandingPage
 
 #### 6.2.1.7. Team Collaboration Insights during Sprint
 
+El equipo desarrolló la primera versión de la aplicación móvil de Ezpark.
+
+Link del repositorio de la App: https://github.com/Park-Team/MobileApplication-kotlin
+
+<img src="assets/INS1.png" alt="ins1" />
 
 
 # Conclusiones
