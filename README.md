@@ -1687,30 +1687,83 @@ Para lograrlo, seguimos estos pasos:
 
 ### 6.2.1. Sprint 1
 
-
-
 #### 6.2.1.1. Sprint Planning 1
+
+| Sprint 1                           |                                     |
+|------------------------------------|-------------------------------------|
+| **Sprint Planning Background**     |                                     |
+| Date                               | 13/05/2025                                     |
+| Time                               | 3:22 pm                                     |
+| Location                           | Reunión Virtual en Discord                                    |
+| Prepared By                        | Mauricio Oliveira                                     |
+| Attendees (to planning meeting)    | Diego Alonso, Andres Rodriguez                                      |
+| Sprint n - 1 Review Summary        | Avanzar el landing page y brindar sugerencias para el estilo de la página                                     |
+| Sprint n - 1 Retrospective Summary | Se destacó la importancia de completar el landing page para nuestro proyecto                                      |
+| **Sprint Goal & User Stories**     |                                     |
+| Spring 1 Goal                      | El objetivo que tenemos es tener el landing page listo y empezar a completar las funcionalidades de nuestra aplicación móvil                                   |
+| Sprint 1 Velocity                  |  5 Story Points                                    |
+| Sum of Story Points                |  En este sprint nos hemos centrado exclusivamente en el landing Page y un poco en la primera versión de la aplicación móvil                                   |
 
 
 
 #### 6.2.1.2. Sprint Backlog 1
 
+| Sprint #   | 1             |
+|------------|---------------|
+| User Story | Work Item / Task |
 
+
+| Id  | Title          | ID  | Title                        | Description                                                              | Estimation (Hours) | Assigned To   | Status (ToDo InProgress ToReview Done) |
+|-----|----------------|-----|------------------------------|--------------------------------------------------------------------------|--------------------|---------------|---------------------------------------|
+| US1 | Barra de Navegación | W1  | Maquetar header              | Implementar navbar con enlaces a secciones y inicio de sesión a la aplicación | 3h                 | Mauricio | Done                                  |
+| US2 | Sección Hero   | W2  | Implementar sección Hero     | Maquetar en HTML y CSS la sección Hero                               | 3h                 | Andres | Done                                  |
+| US3 | Sección Product| W3  | Implementar información del producto | Maquetar en HTML y CSS de información del producto                   | 2h                 | Diego | Done                                  |
+| US3 | Sección Product| W4  | Implementar los beneficios   | Maquetar en HTML y CSS de beneficios del producto                      | 1h                 | Mauricio | Done                                  |
+| US4 | Sección Reviews| W5  | Implementar sección Reviews  | Maquetar en HTML y CSS la sección Reviews                              | 1h                 | Andres | Done                                  |
+| US4 | Sección Reviews| W6  | Crear componente Carrusel de testimonios | Crear un carrusel para mostrar los testimonios de 3 items por slide | 3h                 | Diego | Done                                  |
+| US5 | Sección Pricing| W7  | Implementar sección Pricing  | Maquetar en HTML y CSS la sección Pricing                              | 1h                 | Andres | Done                                  |
+| US6 | Sección About Us | W8  | Implementar sección About Us | Maquetar en HTML y CSS la sección About Us                             | 1h                 | Andres | Done                                  |
 
 #### 6.2.1.3. Development Evidence for Sprint Review
 
+| Repository   | Branch      | Commit Id                            | Commit Message                       | Commit Message Body   | Committed on (Date) |
+|--------------|-------------|--------------------------------------|--------------------------------------|-----------------------|---------------------|
+| LandingPage  | feat/navbar | 5afa2b26712978718924bf866f8198d1e9e48604 | feat #1: maquetar barra de navegacion |                       | 12/05/2025          |
+| LandingPage  | feat/navbar | f9eab5f89d06d96a171e48ea4fe1e0ac472d1123 | fix #1: agregar redireccionamiento de las secciones |                       | 13/04/2024          |
+| LandingPage  | feat/hero   | b775834d2575478ef56705a1e0a476551fd7fc9c | feat #2: maquetar seccion hero     |                       | 12/05/2025          |
+| LandingPage  | feat/product| 28cfd3b02b69f8c4af82222e281a2fccfd7727a8 | feat #3: maquetar seccion product  |                       | 12/05/2025          |
+| LandingPage  | feat/product| 52558598ca145270a6274c0f2a2f30058d9ee414 | feat #3: maquetar seccion features |                       | 12/05/2025          |
+| LandingPage  | feat/reviews| bebb40f7e8814e8e51049ffc0416f31b570a3bb6 | feat #4: maquetar seccion reviews y crear componente |                       | 13/04/2024          |
+| LandingPage  | feat/pricing| 077f06de9d7dbaba0b98714b6b1f689234fc9895 | feat #5: maquetar seccion pricing |                       | 13/05/2025          |
+| LandingPage  | feat/about-us| 1e5ebb2ddf7883b692327fd680a90d42da8b97a3 | feat #6: maquetar seccion sobre nosotros |                       | 13/05/2025          |
 
 
 #### 6.2.1.4. Execution Evidence for Sprint Review
 
+Para esta entrega, el producto Landing Page se encuentra en lanzamiento y de acceso abierto para todos los usuarios. URL del producto: https://ezpark-landingpage.netlify.app/
+
+<img src="assets/LP4.png" alt="lp4" />
 
 
 #### 6.2.1.5. Services Documentation Evidence for Sprint Review
 
-
+En el alcance del sprint 1 se ha desarrollado el landing page como primera instancia, y solo un pequeño avance del prototipo de App Móvil.
 
 #### 6.2.1.6. Software Deployment Evidence for Sprint Review
 
+A continuación, se presentan los commits realizados en el repositorio del landing page en Github. Link del Github:
+https://github.com/Park-Team/LandingPage
+
+| Repository   | Branch | Commit Id                            | Commit Message                       | Commit Message Body   | Committed on (Date) |
+|--------------|--------|--------------------------------------|--------------------------------------|-----------------------|---------------------|
+| LandingPage  | dev    | 5afa2b26712978718924bf866f8198d1e9e48604 | feat #1: maquetar barra de navegacion |                       | 12/05/2025          |
+| LandingPage  | dev    | f9eab5f89d06d96a171e48ea4fe1e0ac472d1123 | fix #1: agregar redireccionamiento de las secciones |                       | 13/05/2025          |
+| LandingPage  | dev    | b775834d2575478ef56705a1e0a476551fd7fc9c | feat #2: maquetar seccion hero     |                       | 12/05/2025          |
+| LandingPage  | dev    | 28cfd3b02b69f8c4af82222e281a2fccfd7727a8 | feat #3: maquetar seccion product  |                       | 12/05/2025          |
+| LandingPage  | dev    | 52558598ca145270a6274c0f2a2f30058d9ee414 | feat #3: maquetar seccion features |                       | 12/05/2025          |
+| LandingPage  | dev    | bebb40f7e8814e8e51049ffc0416f31b570a3bb6 | feat #4: maquetar seccion reviews y crear componente carrusel |                       | 13/05/2025          |
+| LandingPage  | dev    | 077f06de9d7dbaba0b98714b6b1f689234fc9895 | feat #5: maquetar seccion pricing |                       | 13/05/2025          |
+| LandingPage  | dev    | 1e5ebb2ddf7883b692327fd680a90d42da8b97a3 | feat #6: maquetar seccion sobre nosotros |                       | 13/05/2025         |
 
 
 #### 6.2.1.7. Team Collaboration Insights during Sprint
