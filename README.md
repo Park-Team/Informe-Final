@@ -170,7 +170,7 @@ EAC - Student Outcome 7.
             TB1<br>
             Desarrollé el capítulo 4 del proyecto EzPark. Aprendí a comprender los conceptos necesarios para desarrollar los diagramas presentes del capítulo correctamente.<br>
             TP<br>
-            ....<br>
+            Diseñé los User flows de la aplicación móvil de EzPark, centrándome en la experiencia de usuario (UX) para flujos clave como incio de sesión, reserva de estacionamientos y pagos. Además, contribuí al desarrollo del prototipo funcional de la mobile application.<br>
             <strong>Oliveira Paucar, Mauricio</strong><br>
             TB1<br>
             En esta entrega realice el Capitulo 1 y algunos puntos del Capitulo 4. En estos puntos pude ver conceptos nuevos, pasados y mejorar aquellos puntos que creia necesarios con la ayuda de mi docente.<br>
@@ -191,7 +191,7 @@ EAC - Student Outcome 7.
             TB1<br>
             Durante el desarrollo del trabajo aprendimos puntos importantes sobre la colaboración y sobre como se debe investigar para la elaboración de un buen proyecto.<br>
             TP<br>
-            ....<br>
+            Para esta entrega,  investigué sobre patrones de diseño móvil para garantizar la calidad del producto. Esta experiencia reforzó mi convicción de que la renovación continua de conocimientos es fundamental para abordar retos técnicos y contribuir con soluciones novedosas trabajando en equipo.<br>
             <strong>Oliveira Paucar, Mauricio</strong><br>
             TB1<br>
             En todo momento del trabajo se aprendio nuevas cosas y mejoramos lo que ya creaiamos correcto, ya que con el tiempo algunas cosas se actulizan y tenemos que estar en constante aprendizaje para poder entregar lo mejor en nuestros trabajos.<br>
@@ -1494,6 +1494,30 @@ Al ingresar a la sección "Rent your parking", el Host podrá ver todos los requ
 
 #### 5.1.4.4. Mobile Applications User Flow Diagrams
 
+**User goal:** El Host o Guest crea una cuenta, puede restablecer su contraseña y accede a la aplicación utilizando sus credenciales.
+
+<img src="assets/UF1.png" alt="UF1" />
+
+**Descripción:**
+Al iniciar la aplicación, el Host o Guest será conducido al formulario de registro. En caso de ya poseer una cuenta, se ofrece la alternativa de acceder a través del botón de login. Al hacerlo, deberá ingresar sus credenciales en el formulario provisto y, si son válidas, podrá acceder a la página principal de la plataforma. Si ha olvidado sus datos de acceso, puede hacer clic en "recuperar contraseña" para recibir un enlace que le permitirá restablecerla. Una vez que el login sea exitoso, el Host o Guest tendrá acceso a la main page.
+
+---
+
+**User goal:** El Guest tiene la intención de buscar y reservar un espacio de estacionamiento.
+
+<img src="assets/UF2.png" alt="UF2" />
+
+**Descripción:**
+Cuando el Guest acceda a la sección "Find your parking", podrá explorar y buscar estacionamientos según sus preferencias. Al elegir uno, se le mostrará información detallada del mismo. Desde esta view, el Guest tendrá tres opciones: regresar al main menu, revisar los comments o dirigirse a la selección de horario para realizar una reserva. En esta sección, podrá ver los horarios disponibles y aquellos que ya han sido reservados. Luego de seleccionar el horario que más le convenga, será redirigido al proceso de payment, donde podrá completar la transacción usando credit cards, debit cards o digital wallets. Una vez finalizado el payment, se mostrará un message confirmando que la reserva fue realizada con éxito.
+
+---
+
+**User goal:** El Host quiere poner en alquiler un espacio de estacionamiento que tiene disponible.
+
+<img src="assets/UF3.png" alt="UF3.png" />
+
+**Descripción:**
+Al acceder a la sección "Rent your parking", el Host podrá visualizar todos los required fields que necesita completar para poder listar su espacio. Al seleccionar la opción "Post parking", la aplicación le notificará que su espacio ha sido publicado correctamente. Si es la primera vez que el Host realiza una publicación, aparecerá una notification indicando que aún no ha registrado un payment method para recibir sus ganancias. Después de ingresar la información correspondiente a su cuenta, y tras la verification, la publicación del espacio se llevará a cabo normalmente.
 
 
 #### 5.1.4.5. Mobile Applications Prototyping
