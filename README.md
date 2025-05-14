@@ -1212,27 +1212,45 @@ Este diagrama representa el esquema de la base de datos para el bounded context 
 
 ## 5.1. Product design
 
-
-
 ### 5.1.1. Style Guidelines
-
-
 
 #### 5.1.1.1. General Style Guidelines
 
+Branding 
+- El logo principal está conformado por los colores principales de la aplicación. Tiene variantes donde se puede adaptar para diferentes dimensiones como horizontal, vertical o espacios pequeños.
 
+![Branding ](./assets/branding.png)
+
+Typography 
+- Para la fuente a emplear usaremos dos tipografías, ambas en sus variantes de peso Regular, Medium, Semi Bold y Bold. Rubik. Principalmente usado para los títulos, subtítulos y encabezados de artículos. Mulish. Empleado para contenido como párrafos, texto informativo, articulos, etc. Elaboramos unas reglas para un estilo uniforme en los contenidos de la Landing Page y Aplicación Web. Cabe recalcar que el sistema varía con el principio de Responsive Design.
+
+![Typography ](./assets/typography.png)
+
+Spacing System 
+- Para el sistema de espaciado se ha decidido que se usará una cantidad de medida múltiple de 4px para mantener una continuidad en todos los elementos y sus distancias entre ellos.
+
+![Spacing System ](./assets/spacing.png)
+
+Colors 
+- Como equipo, hemos decidido seleccionar colores que brindan al usuario una sensación de confianza, seguridad y aventura. Para ello, seleccionamos los colores Azules y Naranja con sus códigos #3C4E67 y #EF6C42 respectivamente. Además, para agregar una mayor utilidad al sistema decidimos usar sus tonalidades desde la más clara hasta la más oscura. Por último, para los textos optamos por los un color negro y gris oscuro.
+
+![Colors](./assets/colors.png)
 
 ### 5.1.2. Information Architecture
 
-
-
 #### 5.1.2.1. Organization Systems
 
+En cuanto al sistema de organización del contenido, se optó el patrón jerárquico (visal hierarchy) para organizar la información de las secciones. El tamaño de las fuentes es crucial para el usuario, donde la información más importante serán desde los textos más grandes hasta los más pequeños.
 
+Por otro lado, se utiliza categorización por audiencia para dirigirnos a postulantes y profesionales de recursos humanos, con secciones específicas para cada uno. Además, se implementa orden cronológico descendente en las entradas de la base de datos, priorizando las más recientes al principio para facilitar la consulta de los usuarios.
 
 #### 5.1.2.2. Labelling Systems
 
+Para el contenido, se prioriza la reducción de textos para brindar una mejor redacción y legibilidad de estos para los usuarios.
 
+Para el uso de botones se ha optado por un estilo minimalista, donde se usarán los colores primarios como fondo y bordes redondeados.
+
+En el tema de iconos, se emplean los colores creados del sistema de diseño del equipo.
 
 #### 5.1.2.3. SEO Tags and Meta Tags
 
@@ -1240,22 +1258,76 @@ Este diagrama representa el esquema de la base de datos para el bounded context 
 
 #### 5.1.2.4. Searching Systems
 
+En cuanto al sistema de búsqueda, se implementará la API de Google Maps para usar el mapa y el autocompletado para una mejor interacción y conseguir los datos de coordenadas.
+
+El mapa principalmente es usado para mostrar al usuario la ubicación actual de la dirección seleccionada. Además, este contará con un sistema de navegación que permitirá asignar la dirección de manera interactiva.
+
+El input es usado para usar el autocompletado de Google, el cual nos proporciona datos reales de direcciones, coordenadas y mostrará en el mapa la ubicación seleccionada.
 
 
 #### 5.1.2.5. Navigation Systems
 
-
+Para la landing page, el sistema de navegación se encontrará en el header donde se encontrarán enlaces que al presionar dirige al usuario hasta la sección correspondiente.
 
 ### 5.1.3. Landing Page UI Design
 
+En esta sección se mostrará las propuestas de estructuración para el producto Landing Page y como estará seccionado la información sobre este. La herramienta empleada es Figma, una aplicación colaborativa para el desarrollo de diseños, en este caso web.
 
+Enlace a producto Landing Page: 
+https://ezpark-landingpage.netlify.app/
+Link de los Wireframes: 
+https://www.figma.com/design/0g8A33rVdeAR5X28WeOlnV/Landing-Page-Wireframes---EzPark?node-id=0-1&t=5wUe84Stovg2dnaV-1
+Link de los Mock-Ups: 
+https://www.figma.com/design/FIxtZoELrVDQIcKdDcxPWO/Landing-Page-Mockups--EzPark?node-id=0-1&t=TJXYXn9DFY57xRyF-1
 
 #### 5.1.3.1. Landing Page Wireframe
 
+**<p align="center">Header</p>**
+
+![Wireframe header](./assets/landing/wireframes/wireframe-header.jpg)
+
+**<p align="center">Sección Hero (Principal)</p>**
+![Wireframe hero](./assets/landing/wireframes/wireframe-hero.jpg)
+
+**<p align="center">Sección Producto</p>**
+![Wireframe producto](./assets/landing/wireframes/wireframe-product.jpg)
+
+**<p align="center">Sección Testimonios (Reseñas)</p>**
+![Wireframe testimonios](./assets/landing/wireframes/wireframe-reviews.jpg)
+
+**<p align="center">Sección Precios (Pricing)</p>**
+![Wireframe pricing](./assets/landing/wireframes/wireframe-pricing.jpg)
+
+**<p align="center">Sección Sobre Nosotros</p>**
+![Wireframe about us](./assets/landing/wireframes/wireframe-about-us.jpg)
+
+**<p align="center">Footer</p>**
+![Wireframe footer](./assets/landing/wireframes/wireframe-footer.jpg)
 
 
 #### 5.1.3.2. Landing Page Mock-up
 
+**<p align="center">Header</p>**
+
+![Mockup header](./assets/landing/mockups/mockup-header.jpg)
+
+**<p align="center">Sección Hero (Principal)</p>**
+![Mockup hero](./assets/landing/mockups/mockup-hero.jpg)
+
+**<p align="center">Sección Producto</p>**
+![Mockup producto](./assets/landing/mockups/mockup-product.jpg)
+
+**<p align="center">Sección Testimonios (Reseñas)</p>**
+![Mockup testimonios](./assets/landing/mockups/mockup-reviews.jpg)
+
+**<p align="center">Sección Precios (Pricing)</p>**
+![Mockup pricing](./assets/landing/mockups/mockup-pricing.jpg)
+
+**<p align="center">Sección Sobre Nosotros</p>**
+![Mockup about us](./assets/landing/mockups/mockup-about-us.jpg)
+
+**<p align="center">Footer</p>**
+![Mockup footer](./assets/landing/mockups/mockup-footer.jpg)
 
 
 ### 5.1.4. Mobile Applications UX/UI Design
