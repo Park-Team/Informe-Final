@@ -392,7 +392,6 @@ Nuestro producto es usado como un gestor de cocheras sobre reservas, estados, re
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 - Creemos que la función de reservar cocheras facilitará al usuario encontrar un espacio para estacionamiento.
-
 Sabremos que tendremos éxito cuando el 100% de los usuarios consigan un estacionamiento en un plazo máximo de 5 minutos.
 
 - Creemos que la implementación de Google Maps en la aplicación permitirá al usuario localizar las cocheras de manera más eficiente.
