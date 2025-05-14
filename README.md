@@ -314,9 +314,9 @@ El problema de la escasez de espacios de estacionamiento afecta de manera signif
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 
-En las zonas urbanas del Perú, la creciente demanda de espacios de estacionamiento ha generado una experiencia problemática tanto para los conductores como para los propietarios de garajes. Los conductores se enfrentan a una situación frustrante al buscar estacionamiento, perdiendo tiempo valioso y, en muchos casos, dejando sus vehículos en la vía pública, lo que genera riesgos innecesarios. Mientras tanto, los propietarios de cocheras tienen espacios vacíos que podrían ser alquilados para generar ingresos pasivos.
+En las zonas urbanas del Perú, la creciente demanda de espacios de estacionamiento ha generado una experiencia problemática para los conductores. Los conductores se enfrentan a una situación frustrante al buscar estacionamiento, perdiendo tiempo valioso y, en muchos casos, dejando sus vehículos en la vía pública, lo que genera riesgos innecesarios. 
 
-Actualmente, los conductores carecen de una forma eficiente y segura para encontrar estacionamientos disponibles cerca de su destino. Esto no solo aumenta el tiempo que invierten en la búsqueda de un lugar donde estacionar, sino que también contribuye a la congestión del tráfico. Por otro lado, los propietarios de cocheras tienen dificultades para aprovechar sus espacios debido a la inseguridad y desconfianza que sienten al permitir que personas desconocidas accedan a sus propiedades, que en muchos casos están integradas a sus viviendas.
+Actualmente, los conductores carecen de una forma eficiente y segura para encontrar estacionamientos disponibles cerca de su destino. Esto no solo aumenta el tiempo que invierten en la búsqueda de un lugar donde estacionar, sino que también contribuye a la congestión del tráfico. 
 
 Es necesario crear una solución que permita a los conductores encontrar de manera rápida y segura espacios de estacionamiento disponibles, mientras que, al mismo tiempo, ofrezca un entorno confiable y seguro para que los propietarios de cocheras puedan alquilar sus espacios sin temor a los riesgos asociados. La solución debe abordar las necesidades y preocupaciones de ambas partes sin comprometer la experiencia ni la seguridad de ninguna de ellas.
 
@@ -392,7 +392,8 @@ Nuestro producto es usado como un gestor de cocheras sobre reservas, estados, re
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 - Creemos que la función de reservar cocheras facilitará al usuario encontrar un espacio para estacionamiento.
-Sabremos que tendremos éxito cuando la mayoría de los usuarios consigan un estacionamiento en un plazo máximo de 5 minutos.
+
+Sabremos que tendremos éxito cuando el 100% de los usuarios consigan un estacionamiento en un plazo máximo de 5 minutos.
 
 - Creemos que la implementación de Google Maps en la aplicación permitirá al usuario localizar las cocheras de manera más eficiente.
 Sabremos que estaremos en lo cierto cuando el 100% de los usuarios no tengan dificultades para encontrar estacionamientos en la plataforma.
