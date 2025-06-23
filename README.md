@@ -1880,6 +1880,22 @@ Link del repositorio de la App: https://github.com/Park-Team/MobileApplication-k
 
 #### 6.2.2.4.Testing Suite Evidence for Sprint Review.
 
+| **Repository**   | **Branch**   | **Commit ID** | **Commit Message**             | **Commit Message Body**                                                       | **Committed on (Date)** |
+|------------------|--------------|---------------|--------------------------------|--------------------------------------------------------------------------------|-------------------------|
+|  EzPark-Platform  |  main  |  f63e4466ab30694e993e544de4b510f15148d3c6   | chore: initial commit   |  initial commit      |    23/06/2025           |
+
+| **Repository**   | **Branch**   | **Commit ID** | **Commit Message**             | **Commit Message Body**                                                       | **Committed on (Date)** |
+|------------------|--------------|---------------|--------------------------------|--------------------------------------------------------------------------------|-------------------------|
+|  MobileApplication-Flutter |  main  |  2702d133d6337791fd257f29ffe4eb48bb44a0a3   | First commit   |  initial commit      |    24/06/2025          |
+
+
+Se adjunta imagen de los repositorios del front y del backend de nuestra aplicación móvil.
+
+<img src="assets/fff7.png" alt="fff7" />
+
+<img src="assets/fff8.png" alt="fff8" />
+
+
 #### 6.2.2.5.Execution Evidence for Sprint Review.
 
 Para esta entrega, el front se encuentra en lanzamiento de manera local.
