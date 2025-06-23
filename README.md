@@ -33,7 +33,7 @@
 
 # Project Report Collaboration Insights
 
-![Project Report Collaboration Insights](./assets/collaboration-insights1.png)
+![Project Report Collaboration Insights](./assets/collaboration-insights2.png)
 
 ![Project Report Collaboration Insights](./assets/fff6.png)
 
