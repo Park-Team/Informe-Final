@@ -1880,6 +1880,13 @@ Link del repositorio de la App: https://github.com/Park-Team/MobileApplication-k
 
 #### 6.2.2.4.Testing Suite Evidence for Sprint Review.
 
+Se adjunta imagen de los repositorios del front y del backend de nuestra aplicación móvil.
+
+<img src="assets/fff7.png" alt="fff7" />
+
+<img src="assets/fff8.png" alt="fff8" />
+
+
 #### 6.2.2.5.Execution Evidence for Sprint Review.
 
 Para esta entrega, el front se encuentra en lanzamiento de manera local.
