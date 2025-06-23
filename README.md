@@ -187,6 +187,8 @@ EAC - Student Outcome 7.
             Desarrollé el capítulo 4 del proyecto EzPark. Aprendí a comprender los conceptos necesarios para desarrollar los diagramas presentes del capítulo correctamente.<br>
             TP<br>
             Diseñé los User flows de la aplicación móvil de EzPark, centrándome en la experiencia de usuario (UX) para flujos clave como incio de sesión, reserva de estacionamientos y pagos. Además, contribuí al desarrollo del prototipo funcional de la mobile application.<br>
+            TB2<br>
+            Desarrollé sprint 2 del proyecto EzPark. Reforcé la forma de documentar el avance del trabajo que hicimos mediante la herramienta del uso commits.<br> 
             <strong>Oliveira Paucar, Mauricio</strong><br>
             TB1<br>
             En esta entrega realice el Capitulo 1 y algunos puntos del Capitulo 4. En estos puntos pude ver conceptos nuevos, pasados y mejorar aquellos puntos que creia necesarios con la ayuda de mi docente.<br>
@@ -210,6 +212,7 @@ EAC - Student Outcome 7.
             Durante el desarrollo del trabajo aprendimos puntos importantes sobre la colaboración y sobre como se debe investigar para la elaboración de un buen proyecto.<br>
             TP<br>
             Para esta entrega,  investigué sobre patrones de diseño móvil para garantizar la calidad del producto. Esta experiencia reforzó mi convicción de que la renovación continua de conocimientos es fundamental para abordar retos técnicos y contribuir con soluciones novedosas trabajando en equipo.<br>
+            TB2<br> Durante el desarrollo de este parte del trabajo, aprendimos a repartirnos mejor las tareas y medir el tiempo para entregarlas para que el avance tenga un ritmo óptimo.<br> 
             <strong>Oliveira Paucar, Mauricio</strong><br>
             TB1<br>
             En todo momento del trabajo se aprendio nuevas cosas y mejoramos lo que ya creaiamos correcto, ya que con el tiempo algunas cosas se actulizan y tenemos que estar en constante aprendizaje para poder entregar lo mejor en nuestros trabajos.<br>
