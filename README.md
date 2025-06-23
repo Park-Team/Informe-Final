@@ -143,6 +143,20 @@
 - [6.2.1.5. Services Documentation Evidence for Sprint Review](#6215-services-documentation-evidence-for-sprint-review)
 - [6.2.1.6. Software Deployment Evidence for Sprint Review](#6216-software-deployment-evidence-for-sprint-review)
 - [6.2.1.7. Team Collaboration Insights during Sprint](#6217-team-collaboration-insights-during-sprint)
+- [6.2.2. Sprint 2](#622-sprint-2)
+- [6.2.2.1.Sprint Planning 2.](#6221sprint-planning-2)
+- [6.2.2.2.Sprint Backlog 2.](#6222sprint-backlog-2)
+- [6.2.2.3.Development Evidence for Sprint Review.](#6223development-evidence-for-sprint-review)
+- [6.2.2.4.Testing Suite Evidence for Sprint Review.](#6224testing-suite-evidence-for-sprint-review)
+- [6.2.2.5.Execution Evidence for Sprint Review.](#6225execution-evidence-for-sprint-review)
+- [6.2.2.6.Services Documentation Evidence for Sprint Review.](#6226services-documentation-evidence-for-sprint-review)
+- [6.2.2.7.Software Deployment Evidence for Sprint Review.](#6227software-deployment-evidence-for-sprint-review)
+- [6.2.2.8.Team Collaboration Insights during Sprint](#6228team-collaboration-insights-during-sprint)
+- [6.3. Validation Interviews.](#63-validation-interviews)
+- [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
+- [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
+- [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
+- [6.4. Video About-the-Product.](#64-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
 - [Video About-the-team](#video-about-the-team)
@@ -1814,6 +1828,62 @@ El equipo desarrolló la primera versión de la aplicación móvil de Ezpark.
 Link del repositorio de la App: https://github.com/Park-Team/MobileApplication-kotlin
 
 <img src="assets/INS1.png" alt="ins1" />
+
+
+## 6.2.2. Sprint 2
+
+
+
+#### 6.2.2.1.Sprint Planning 2.
+
+
+
+#### 6.2.2.2.Sprint Backlog 2.
+
+
+
+#### 6.2.2.3.Development Evidence for Sprint Review.
+
+
+
+#### 6.2.2.4.Testing Suite Evidence for Sprint Review.
+
+
+
+#### 6.2.2.5.Execution Evidence for Sprint Review.
+
+
+
+#### 6.2.2.6.Services Documentation Evidence for Sprint Review.
+
+
+
+#### 6.2.2.7.Software Deployment Evidence for Sprint Review.
+
+
+
+#### 6.2.2.8.Team Collaboration Insights during Sprint.
+
+
+
+## 6.3. Validation Interviews.
+
+
+
+### 6.3.1. Diseño de Entrevistas.
+
+
+
+### 6.3.2. Registro de Entrevistas.
+
+
+
+### 6.3.3. Evaluaciones según heurísticas.
+
+
+
+## 6.4. Video About-the-Product.
+
 
 
 # Conclusiones
