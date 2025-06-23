@@ -1832,11 +1832,39 @@ Link del repositorio de la App: https://github.com/Park-Team/MobileApplication-k
 
 ## 6.2.2. Sprint 2
 
+| Sprint 2                           |                                     |
+|------------------------------------|-------------------------------------|
+| **Sprint Planning Background**     |                                     |
+| Date                               | 19/06/2025                                     |
+| Time                               | 5:52 pm                                     |
+| Location                           | Reunión Virtual en Discord                                    |
+| Prepared By                        | Mauricio Oliveira                                     |
+| Attendees (to planning meeting)    | Diego Alonso, Andres Rodriguez                                      |
+| Sprint n - 1 Review Summary        | Avanzar el front en flutter y terminar los detalles del backend                                     |
+| Sprint n - 1 Retrospective Summary | Se destacó la importancia de avanzar con el front en flutter                                      |
+| **Sprint Goal & User Stories**     |                                     |
+| Spring 1 Goal                      | El objetivo que tenemos es tener un avance extenso del front de nuestra aplicación móvil                                   |
+| Sprint 1 Velocity                  |  5 Story Points                                    |
+| Sum of Story Points                |  En este sprint nos hemos centrado exclusivamente en el front en flutter de la aplicación móvil                                   |
 
 
 #### 6.2.2.1.Sprint Planning 2.
 
+| Sprint #   | 1             |
+|------------|---------------|
+| User Story | Work Item / Task |
 
+
+| Id  | Title          | ID  | Title                        | Description                                                              | Estimation (Hours) | Assigned To   | Status (ToDo InProgress ToReview Done) |
+|-----|----------------|-----|------------------------------|--------------------------------------------------------------------------|--------------------|---------------|---------------------------------------|
+| US1 | Barra de Navegación | W1  | Maquetar header              | Implementar navbar con enlaces a secciones y inicio de sesión a la aplicación | 3h                 | Mauricio | Done                                  |
+| US2 | Sección Hero   | W2  | Implementar sección Hero     | Maquetar en HTML y CSS la sección Hero                               | 3h                 | Andres | Done                                  |
+| US3 | Sección Product| W3  | Implementar información del producto | Maquetar en HTML y CSS de información del producto                   | 2h                 | Diego | Done                                  |
+| US3 | Sección Product| W4  | Implementar los beneficios   | Maquetar en HTML y CSS de beneficios del producto                      | 1h                 | Mauricio | Done                                  |
+| US4 | Sección Reviews| W5  | Implementar sección Reviews  | Maquetar en HTML y CSS la sección Reviews                              | 1h                 | Andres | Done                                  |
+| US4 | Sección Reviews| W6  | Crear componente Carrusel de testimonios | Crear un carrusel para mostrar los testimonios de 3 items por slide | 3h                 | Diego | Done                                  |
+| US5 | Sección Pricing| W7  | Implementar sección Pricing  | Maquetar en HTML y CSS la sección Pricing                              | 1h                 | Andres | Done                                  |
+| US6 | Sección About Us | W8  | Implementar sección About Us | Maquetar en HTML y CSS la sección About Us                             | 1h                 | Andres | Done                                  |
 
 #### 6.2.2.2.Sprint Backlog 2.
 
