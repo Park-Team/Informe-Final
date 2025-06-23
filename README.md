@@ -1832,6 +1832,9 @@ Link del repositorio de la App: https://github.com/Park-Team/MobileApplication-k
 
 ## 6.2.2. Sprint 2
 
+
+#### 6.2.2.1.Sprint Planning 2.
+
 | Sprint 2                           |                                     |
 |------------------------------------|-------------------------------------|
 | **Sprint Planning Background**     |                                     |
@@ -1847,8 +1850,7 @@ Link del repositorio de la App: https://github.com/Park-Team/MobileApplication-k
 | Sprint 1 Velocity                  |  5 Story Points                                    |
 | Sum of Story Points                |  En este sprint nos hemos centrado exclusivamente en el front en flutter de la aplicación móvil                                   |
 
-
-#### 6.2.2.1.Sprint Planning 2.
+#### 6.2.2.2.Sprint Backlog 2.
 
 | Sprint #   | 1             |
 |------------|---------------|
@@ -1857,37 +1859,50 @@ Link del repositorio de la App: https://github.com/Park-Team/MobileApplication-k
 
 | Id  | Title          | ID  | Title                        | Description                                                              | Estimation (Hours) | Assigned To   | Status (ToDo InProgress ToReview Done) |
 |-----|----------------|-----|------------------------------|--------------------------------------------------------------------------|--------------------|---------------|---------------------------------------|
-| US1 | Barra de Navegación | W1  | Maquetar header              | Implementar navbar con enlaces a secciones y inicio de sesión a la aplicación | 3h                 | Mauricio | Done                                  |
-| US2 | Sección Hero   | W2  | Implementar sección Hero     | Maquetar en HTML y CSS la sección Hero                               | 3h                 | Andres | Done                                  |
-| US3 | Sección Product| W3  | Implementar información del producto | Maquetar en HTML y CSS de información del producto                   | 2h                 | Diego | Done                                  |
-| US3 | Sección Product| W4  | Implementar los beneficios   | Maquetar en HTML y CSS de beneficios del producto                      | 1h                 | Mauricio | Done                                  |
-| US4 | Sección Reviews| W5  | Implementar sección Reviews  | Maquetar en HTML y CSS la sección Reviews                              | 1h                 | Andres | Done                                  |
-| US4 | Sección Reviews| W6  | Crear componente Carrusel de testimonios | Crear un carrusel para mostrar los testimonios de 3 items por slide | 3h                 | Diego | Done                                  |
-| US5 | Sección Pricing| W7  | Implementar sección Pricing  | Maquetar en HTML y CSS la sección Pricing                              | 1h                 | Andres | Done                                  |
-| US6 | Sección About Us | W8  | Implementar sección About Us | Maquetar en HTML y CSS la sección About Us                             | 1h                 | Andres | Done                                  |
-
-#### 6.2.2.2.Sprint Backlog 2.
-
+| US7 | Ver parkings | W1  | Implementar Ver parkings   | Permite al Guest ver todos los parkings disponibles con sus detalles. | 3h                 | Mauricio | Done                                  |
+| US8 | Reservar parking   | W2  | Implementar Reservar parking     | Permite al Guest seleccionar un parking y reservarlo.                              | 3h                 | Andres | Done                                  |
+| US9 | Pago de reserva| W3  | Implementar Pago de reserva | Permite al Guest realizar el pago para completar la reserva                   | 2h                 | Diego | Done                                  |
+| US10 | Historial de reservas | W4  | Implementar Historial de reservas   | ermite al Guest ver un historial de sus reservas realizadas.                      | 1h                 | Mauricio | Done                                  |
 
 
 #### 6.2.2.3.Development Evidence for Sprint Review.
 
+| Repository   | Branch      | Commit Id                            | Commit Message                       | Commit Message Body   | Committed on (Date) |
+|--------------|-------------|--------------------------------------|--------------------------------------|-----------------------|---------------------|
+| MobileAplication-flutter | feat/parkings | 5afa2b26712978718924bf866f8198d1e9e48604 | feat #1: Implementar Ver parkings  |                       | 22/06/2025          |
+| MobileAplication-flutter  | feat/bookings | f9eab5f89d06d96a171e48ea4fe1e0ac472d1123 | fix #1: Implementar Reservar parking |                       | 23/06/2024          |
+| MobileAplication-flutter  | feat/payments   | b775834d2575478ef56705a1e0a476551fd7fc9c | feat #2: Implementar Pago de reserva    |                       | 22/06/2025          |
+| MobileAplication-flutter  | feat/history| 28cfd3b02b69f8c4af82222e281a2fccfd7727a8 | feat #3: Implementar Historial de reservas  |                       | 22/06/2025          |
 
 
 #### 6.2.2.4.Testing Suite Evidence for Sprint Review.
 
-
-
 #### 6.2.2.5.Execution Evidence for Sprint Review.
 
+Para esta entrega, el front se encuentra en lanzamiento de manera local.
 
+<img src="assets/fff1.png" alt="fff1" />
 
 #### 6.2.2.6.Services Documentation Evidence for Sprint Review.
 
+En este apartado se muestra el avance de las funcionalidades del front que hemos hecho a este punto. 
 
+<img src="assets/fff2.png" alt="fff2" />
+<img src="assets/fff3.png" alt="fff3" />
+<img src="assets/fff4.png" alt="fff4" />
+<img src="assets/fff5.png" alt="fff5" />
 
 #### 6.2.2.7.Software Deployment Evidence for Sprint Review.
 
+A continuación, se presentan los commits realizados en el repositorio del landing page en Github. Link del Github:
+https://github.com/Park-Team/MobileApplication-Flutter
+
+| Repository   | Branch | Commit Id                            | Commit Message                       | Commit Message Body   | Committed on (Date) |
+|--------------|--------|--------------------------------------|--------------------------------------|-----------------------|---------------------|
+| MobileApplication-Flutter  | dev    | 5afa2b26712978718924bf866f8198d1e9e48604 | feat #1: Implementar Ver parkings |                       | 22/06/2025          |
+| MobileApplication-Flutter  | dev    | f9eab5f89d06d96a171e48ea4fe1e0ac472d1123 | fix #1: Implementar Reservar parking |                       | 23/06/2025          |
+| MobileApplication-Flutter  | dev    | b775834d2575478ef56705a1e0a476551fd7fc9c | feat #2: Implementar Pago de reserva    |                       | 22/06/2025          |
+| MobileApplication-Flutter  | dev    | 28cfd3b02b69f8c4af82222e281a2fccfd7727a8 | feat #3: Implementar Historial de reservas   |                       | 22/06/2025          |
 
 
 #### 6.2.2.8.Team Collaboration Insights during Sprint.
