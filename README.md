@@ -29,13 +29,13 @@
 |:-------:|:----------:|:-----:|:----------------------------| 
 |TB1      |      23/04/2025      |    ParkTeam   |    Se hizo la entrega del primer avance del Informe, desde la presentacion de la startup, hasta el capitulo 4 y las primeras conclusiones.                         |
 |TP|       14/05/2025      |    ParkTeam   |    Se hizo la entrega del segundo avance del Informe, Se dearrollaron los capitulos 5 y 6, la landing page y el primer avance del proyecto.|
-|TB2|22/05/2025|ParkTeam|Se hizo la entre del tercer avance del informe, se desarrollo el backend y parte del frontend de la aplicacion EzPark para el Guest|
+|TB2|22/06/2025|ParkTeam|Se hizo la entre del tercer avance del informe, se desarrollo el backend y parte del frontend de la aplicacion EzPark para el Guest|
 
 # Project Report Collaboration Insights
 
 ![Project Report Collaboration Insights](./assets/collaboration-insights1.png)
 
-![Project Report Collaboration Insights](./assets/collaboration-insights3.png)
+![Project Report Collaboration Insights](./assets/fff6.png)
 
 # Contenido
 - [**Student Outcome**](#student-outcome)
@@ -194,6 +194,8 @@ EAC - Student Outcome 7.
             En esta entrega realice el Capitulo 1 y algunos puntos del Capitulo 4. En estos puntos pude ver conceptos nuevos, pasados y mejorar aquellos puntos que creia necesarios con la ayuda de mi docente.<br>
             TP<br>
             Diseñé los style guidelines, Information architecture y gran parte de los mockups de la aplicación móvil de EzPark. Además, contribuí al desarrollo del prototipo funcional de la mobile application.<br>
+            TB2<br>
+            Diseñé las preguntas de investigación, el video about the product y apoye a mis compañeros con el desarrollo del frontend.<br>
             <strong>Rodriguez Zuluoeta, Andres Fernando</strong><br>
             TB1<br>
             Desarrollé los capítulos 2 y 3 del proyecto EzPark, incluyendo análisis de requerimientos, user stories, Impact Mapping y Domain Message Flow Modeling. Aprendí a aplicar conceptos como Bounded Context y flujos de dominio en un sistema real.<br>
@@ -218,6 +220,8 @@ EAC - Student Outcome 7.
             En todo momento del trabajo se aprendio nuevas cosas y mejoramos lo que ya creaiamos correcto, ya que con el tiempo algunas cosas se actulizan y tenemos que estar en constante aprendizaje para poder entregar lo mejor en nuestros trabajos.<br>
             TP<br>
             Para esta entrega revisamos conceptos previos sobre ux/ui para poder implementar las mejores practicas al momento de desarrollar los estilos y prototipados necesarios para el proyecto.<br>
+            TB2<br>
+            Para esta entrega revisamos conceptos previos sobre el despliegue y desarrollo del backend, ya que aun necesitaba algunas mejoras. Además, investigamos mas acerca de flutter para poder implementar los estilos deseados para la aplicación.<br>
             <strong>Rodriguez Zuluoeta, Andres Fernando</strong><br>
             TB1<br>
             Investigué por mi cuenta sobre Impact Mapping y Bounded Context, usando documentación y ejemplos externos, aplicando estrategias de autoaprendizaje para completar correctamente mi parte del proyecto.<br>
@@ -1942,7 +1946,7 @@ https://github.com/Park-Team/MobileApplication-Flutter
 
 ## 6.3. Validation Interviews.
 
-Después de avanzar en el desarrollo de la Landing page, la aplicación front-end y la API RESTful del producto EzPark, llevamos a cabo entrevistas de validación. Estas entrevistas permitieron a nuestros usuarios de los segmentos objetivo obtener una primera impresión del software.
+Después de avanzar en el desarrollo de la Landing page, la aplicación mobile en Jetpack Compose y Flutter de EzPark, llevamos a cabo entrevistas de validación. Estas entrevistas permitieron a nuestros usuarios de los segmentos objetivo obtener una primera impresión del software.
 
 ### 6.3.1. Diseño de Entrevistas.
 
