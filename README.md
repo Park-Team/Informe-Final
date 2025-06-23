@@ -1886,8 +1886,7 @@ Link del repositorio de la App: https://github.com/Park-Team/MobileApplication-k
 
 | **Repository**   | **Branch**   | **Commit ID** | **Commit Message**             | **Commit Message Body**                                                       | **Committed on (Date)** |
 |------------------|--------------|---------------|--------------------------------|--------------------------------------------------------------------------------|-------------------------|
-|  MobileApplication-Flutter
-  |  main  |  2702d133d6337791fd257f29ffe4eb48bb44a0a3   | First commit   |  initial commit      |    24/06/2025          |
+|  MobileApplication-Flutter |  main  |  2702d133d6337791fd257f29ffe4eb48bb44a0a3   | First commit   |  initial commit      |    24/06/2025          |
 
 
 Se adjunta imagen de los repositorios del front y del backend de nuestra aplicación móvil.
