@@ -1917,11 +1917,18 @@ https://github.com/Park-Team/MobileApplication-Flutter
 
 ## 6.3. Validation Interviews.
 
-
+Después de avanzar en el desarrollo de la Landing page, la aplicación front-end y la API RESTful del producto EzPark, llevamos a cabo entrevistas de validación. Estas entrevistas permitieron a nuestros usuarios de los segmentos objetivo obtener una primera impresión del software.
 
 ### 6.3.1. Diseño de Entrevistas.
 
+Segmento objetivo: Usuario de Guest y Host
 
+1. ¿Cuál es su nombre completo? ¿Qué edad tiene? ¿En qué distrito vive actualmente?
+1. ¿Qué opinas del diseño del Landing page? ¿Le incentiva a entrar a la aplicación y registrarse?
+1. ¿Considera que la aplicación dispone de una interfaz fácil e intuitiva de utilizar? En caso afirmativo, ¿qué funcionalidades le agradaron más? En caso negativo, ¿qué funcionalidad cree que falta o sobra para aumentar su interés en usarla?
+1. ¿Qué sistema operativo y versión (IOS, Android, etc.) utilizó para probar la aplicación web?
+1. ¿Cuál es el modelo de telefono utilizado?
+1. ¿Hubo algún aspecto visual, como la disposición de los elementos, que no le agradó?
 
 ### 6.3.2. Registro de Entrevistas.
 
@@ -1933,7 +1940,8 @@ https://github.com/Park-Team/MobileApplication-Flutter
 
 ## 6.4. Video About-the-Product.
 
-
+![Miniatura de Video About-the-Product](./assets/min-video-atp.png)
+[Enlace al video](https://youtu.be/aJEJUWgcU6o)
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
