@@ -1869,10 +1869,13 @@ Link del repositorio de la App: https://github.com/Park-Team/MobileApplication-k
 
 | Repository   | Branch      | Commit Id                            | Commit Message                       | Commit Message Body   | Committed on (Date) |
 |--------------|-------------|--------------------------------------|--------------------------------------|-----------------------|---------------------|
-| MobileAplication-flutter | feat/parkings | 5afa2b26712978718924bf866f8198d1e9e48604 | feat #1: Implementar Ver parkings  |                       | 22/06/2025          |
-| MobileAplication-flutter  | feat/bookings | f9eab5f89d06d96a171e48ea4fe1e0ac472d1123 | fix #1: Implementar Reservar parking |                       | 23/06/2024          |
-| MobileAplication-flutter  | feat/payments   | b775834d2575478ef56705a1e0a476551fd7fc9c | feat #2: Implementar Pago de reserva    |                       | 22/06/2025          |
-| MobileAplication-flutter  | feat/history| 28cfd3b02b69f8c4af82222e281a2fccfd7727a8 | feat #3: Implementar Historial de reservas  |                       | 22/06/2025          |
+| MobileAplication-flutter | main | fbbac76d0e90f26a49b24a3d4f1160e548245e68 | feat: config  |                       | 22/06/2025          |
+| MobileAplication-flutter  | main | 76caf2b8d0bddc824d035be55e573770a8bea0e4 | feat: models |                       | 23/06/2024          |
+| MobileAplication-flutter  | main   | b775834d2575478ef56705a1e0a476551fd7fc9c | feat: services    |                | 22/06/2025          |
+| MobileAplication-flutter  | main | 7828fa720f852f6fafac7edb6fdfec7da706af17 | feat: utils  |                       | 22/06/2025          |
+| MobileAplication-flutter | main | 2702d133d6337791fd257f29ffe4eb48bb44a0a3 | feat: providers |                       | 22/06/2025          |
+| MobileAplication-flutter  | main | a0954b5911d86e7dbee070535d57c4c4390712af | feat: widgets |                       | 23/06/2024          |
+| MobileAplication-flutter  | main   | 2702d133d6337791fd257f29ffe4eb48bb44a0a3 | feat: screens    |                | 22/06/2025          |
 
 
 #### 6.2.2.4.Testing Suite Evidence for Sprint Review.
@@ -1897,17 +1900,20 @@ En este apartado se muestra el avance de las funcionalidades del front que hemos
 A continuación, se presentan los commits realizados en el repositorio del landing page en Github. Link del Github:
 https://github.com/Park-Team/MobileApplication-Flutter
 
-| Repository   | Branch | Commit Id                            | Commit Message                       | Commit Message Body   | Committed on (Date) |
-|--------------|--------|--------------------------------------|--------------------------------------|-----------------------|---------------------|
-| MobileApplication-Flutter  | dev    | 5afa2b26712978718924bf866f8198d1e9e48604 | feat #1: Implementar Ver parkings |                       | 22/06/2025          |
-| MobileApplication-Flutter  | dev    | f9eab5f89d06d96a171e48ea4fe1e0ac472d1123 | fix #1: Implementar Reservar parking |                       | 23/06/2025          |
-| MobileApplication-Flutter  | dev    | b775834d2575478ef56705a1e0a476551fd7fc9c | feat #2: Implementar Pago de reserva    |                       | 22/06/2025          |
-| MobileApplication-Flutter  | dev    | 28cfd3b02b69f8c4af82222e281a2fccfd7727a8 | feat #3: Implementar Historial de reservas   |                       | 22/06/2025          |
+| Repository   | Branch      | Commit Id                            | Commit Message                       | Commit Message Body   | Committed on (Date) |
+|--------------|-------------|--------------------------------------|--------------------------------------|-----------------------|---------------------|
+| MobileAplication-flutter | main | fbbac76d0e90f26a49b24a3d4f1160e548245e68 | feat: config  |                       | 22/06/2025          |
+| MobileAplication-flutter  | main | 76caf2b8d0bddc824d035be55e573770a8bea0e4 | feat: models |                       | 23/06/2024          |
+| MobileAplication-flutter  | main   | b775834d2575478ef56705a1e0a476551fd7fc9c | feat: services    |                | 22/06/2025          |
+| MobileAplication-flutter  | main | 7828fa720f852f6fafac7edb6fdfec7da706af17 | feat: utils  |                       | 22/06/2025          |
+| MobileAplication-flutter | main | 2702d133d6337791fd257f29ffe4eb48bb44a0a3 | feat: providers |                       | 22/06/2025          |
+| MobileAplication-flutter  | main | a0954b5911d86e7dbee070535d57c4c4390712af | feat: widgets |                       | 23/06/2024          |
+| MobileAplication-flutter  | main   | 2702d133d6337791fd257f29ffe4eb48bb44a0a3 | feat: screens    |                | 22/06/2025          |
 
 
 #### 6.2.2.8.Team Collaboration Insights during Sprint.
 
-
+<img src="assets/fff6.png" alt="fff6" />
 
 ## 6.3. Validation Interviews.
 
