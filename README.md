@@ -1865,7 +1865,7 @@ Link del repositorio de la App: https://github.com/Park-Team/MobileApplication-k
 
 #### 6.2.2.2.Sprint Backlog 2.
 
-| Sprint #   | 1             |
+| Sprint #   | 2             |
 |------------|---------------|
 | User Story | Work Item / Task |
 
