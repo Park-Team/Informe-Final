@@ -836,47 +836,47 @@ Se le ha realizado una entrevista a Rodrigo Tornero Loayza que cuenta con 21 añ
 
 ## 3.4. Product Backlog.
 
-| # Orden | User Story ID | Título | Story Points |
-|---------|---------------|--------|--------------|
-|1| US13 | Reservar un Estacionamiento         | 8 |
-|2| US07 | Registrar una Cuenta                | 5 |
-|3| US08 | Iniciar Sesión                      | 3 |
-|4| US10 | Buscar Estacionamientos Cercanos    | 5 |
-|5| US12 | Visualizar Mapa Interactivo         | 8 |
-|6| US39 | Verificar Identidad                 | 5 |
-|7| US24 | Publicar una Cochera                | 5 |
-|8| US28 | Pagar por Reserva                   | 5 |
-|9| US22 | Listar Estacionamientos             | 3 |
-|10| US21 | Revisar Detalles de Estacionamiento | 3 |
-|11| US23 | Previsualizar Entorno (Street View) | 5 |
-|12| US14 | Cancelar una Reserva                | 3 |
-|13| US15 | Consultar Historial de Reservas     | 2 |
-|14| US25 | Modificar Información de Cochera | 3 |
-|15| US26 | Ver Cocheras Publicadas          | 2 |
-|16| US27 | Eliminar una Cochera             | 3 |
-|17| US30 | Guardar Métodos de Pago          | 3 |
-|18| US29 | Descargar Facturas               | 2 |
-|19| US11 | Filtrar por Precio               | 3 |
-|20| US36 | Personalizar Notificaciones      | 2 |
-|21| US37 | Recibir Notificación de Reserva  | 2 |
-|22| US38 | Alertar sobre Expiración         | 3 |
-|23| US17 | Ver Próximas Reservas            | 3 |
-|24| US16 | Calificar Experiencias           | 2 |
-|25| US18 | Actualizar Perfil                | 3 |
-|26| US32 | Agregar Vehículo                 | 3 |
-|27| US33 | Editar Datos de Vehículo         | 2 |
-|28| US34 | Eliminar Vehículo                | 2 |
-|29| US35 | Gestionar Métodos de Pago        | 3 |
-|30| US09 | Recuperar Contraseña             | 3 |
-|31| US20 | Vincular Métodos de Login        | 3 |
-|32| US19 | Eliminar Cuenta                  | 3 |
-|33| US02 | Acceder a la Sección comenzar       | 2 |
-|34| US01 | Acceder a la Barra de Navegación    | 1 |
-|35| US03 | Acceder a la Sección Ventajas       | 2 |
-|36| US04 | Acceder a la Sección Funcionamiento | 3 |
-|37| US05 | Acceder a la Sección Testimonios    | 2 |
-|38| US06 | Acceder a la Sección Precios        | 3 |
-|39| US31 | Ver Perfil                          | 1 |
+| # Orden | User Story ID | Título                              | Story Points |
+| ------- | ------------- | ----------------------------------- | ------------ |
+| 1       | US13          | Reservar un Estacionamiento         | 8            |
+| 2       | US14          | Cancelar una Reserva                | 3            |
+| 3       | US15          | Consultar Historial de Reservas     | 2            |
+| 4       | US17          | Ver Próximas Reservas               | 3            |
+| 5       | US16          | Calificar Experiencias              | 2            |
+| 6       | US24          | Publicar una Cochera                | 5            |
+| 7       | US25          | Modificar Información de Cochera    | 3            |
+| 8       | US26          | Ver Cocheras Publicadas             | 2            |
+| 9       | US27          | Eliminar una Cochera                | 3            |
+| 10      | US10          | Buscar Estacionamientos Cercanos    | 5            |
+| 11      | US12          | Visualizar Mapa Interactivo         | 8            |
+| 12      | US11          | Filtrar por Precio                  | 3            |
+| 13      | US21          | Revisar Detalles de Estacionamiento | 3            |
+| 14      | US22          | Listar Estacionamientos             | 3            |
+| 15      | US23          | Previsualizar Entorno (Street View) | 5            |
+| 16      | US28          | Pagar por Reserva                   | 5            |
+| 17      | US29          | Descargar Facturas                  | 2            |
+| 18      | US30          | Guardar Métodos de Pago             | 3            |
+| 19      | US35          | Gestionar Métodos de Pago           | 3            |
+| 20      | US07          | Registrar una Cuenta                | 5            |
+| 21      | US08          | Iniciar Sesión                      | 3            |
+| 22      | US09          | Recuperar Contraseña                | 3            |
+| 23      | US20          | Vincular Métodos de Login           | 3            |
+| 24      | US39          | Verificar Identidad                 | 5            |
+| 25      | US19          | Eliminar Cuenta                     | 3            |
+| 26      | US18          | Actualizar Perfil                   | 3            |
+| 27      | US31          | Ver Perfil                          | 1            |
+| 28      | US32          | Agregar Vehículo                    | 3            |
+| 29      | US33          | Editar Datos de Vehículo            | 2            |
+| 30      | US34          | Eliminar Vehículo                   | 2            |
+| 31      | US36          | Personalizar Notificaciones         | 2            |
+| 32      | US37          | Recibir Notificación de Reserva     | 2            |
+| 33      | US38          | Alertar sobre Expiración            | 3            |
+| 34      | US01          | Acceder a la Barra de Navegación    | 1            |
+| 35      | US02          | Acceder a la Sección comenzar       | 2            |
+| 36      | US03          | Acceder a la Sección Ventajas       | 2            |
+| 37      | US04          | Acceder a la Sección Funcionamiento | 3            |
+| 38      | US05          | Acceder a la Sección Testimonios    | 2            |
+| 39      | US06          | Acceder a la Sección Precios        | 3            |
 
 
 ### **Herramienta de Gestión del Product Backlog**
