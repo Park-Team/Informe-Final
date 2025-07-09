@@ -1944,6 +1944,104 @@ https://github.com/Park-Team/MobileApplication-Flutter
 
 <img src="assets/fff6.png" alt="fff6" />
 
+
+## 6.2.3. Sprint 3
+
+
+#### 6.2.3.1.Sprint Planning 3.
+
+| Sprint 2                           |                                     |
+|------------------------------------|-------------------------------------|
+| **Sprint Planning Background**     |                                     |
+| Date                               | 19/06/2025                                     |
+| Time                               | 5:52 pm                                     |
+| Location                           | Reunión Virtual en Discord                                    |
+| Prepared By                        | Mauricio Oliveira                                     |
+| Attendees (to planning meeting)    | Diego Alonso, Andres Rodriguez                                      |
+| Sprint n - 1 Review Summary        | Terminar las dos apps                                     |
+| Sprint n - 1 Retrospective Summary | Se destacó la importancia de terminar las aplicaciones                                      |
+| **Sprint Goal & User Stories**     |                                     |
+| Spring 1 Goal                      | El objetivo que tenemos es terminar el trabajo                                  |
+| Sprint 1 Velocity                  |  5 Story Points                                    |
+| Sum of Story Points                |  En este sprint nos hemos centrado exclusivamente en terminar todo                                  |
+
+#### 6.2.2.2.Sprint Backlog 3.
+
+| Sprint #   | 2             |
+|------------|---------------|
+| User Story | Work Item / Task |
+
+
+| Id  | Title          | ID  | Title                        | Description                                                              | Estimation (Hours) | Assigned To   | Status (ToDo InProgress ToReview Done) |
+|-----|----------------|-----|------------------------------|--------------------------------------------------------------------------|--------------------|---------------|---------------------------------------|
+| US7 | Ver parkings | W1  | Implementar Ver parkings   | Permite al Guest ver todos los parkings disponibles con sus detalles. | 3h                 | Mauricio | Done                                  |
+| US8 | Reservar parking   | W2  | Implementar Reservar parking     | Permite al Guest seleccionar un parking y reservarlo.                              | 3h                 | Andres | Done                                  |
+| US9 | Pago de reserva| W3  | Implementar Pago de reserva | Permite al Guest realizar el pago para completar la reserva                   | 2h                 | Diego | Done                                  |
+| US10 | Historial de reservas | W4  | Implementar Historial de reservas   | ermite al Guest ver un historial de sus reservas realizadas.                      | 1h                 | Mauricio | Done                                  |
+
+
+#### 6.2.2.3.Development Evidence for Sprint Review.
+
+| Repository   | Branch      | Commit Id                            | Commit Message                       | Commit Message Body   | Committed on (Date) |
+|--------------|-------------|--------------------------------------|--------------------------------------|-----------------------|---------------------|
+| MobileAplication-flutter | main | fbbac76d0e90f26a49b24a3d4f1160e548245e68 | feat: config  |                       | 22/06/2025          |
+| MobileAplication-flutter  | main | 76caf2b8d0bddc824d035be55e573770a8bea0e4 | feat: models |                       | 23/06/2024          |
+| MobileAplication-flutter  | main   | b775834d2575478ef56705a1e0a476551fd7fc9c | feat: services    |                | 22/06/2025          |
+| MobileAplication-flutter  | main | 7828fa720f852f6fafac7edb6fdfec7da706af17 | feat: utils  |                       | 22/06/2025          |
+| MobileAplication-flutter | main | 2702d133d6337791fd257f29ffe4eb48bb44a0a3 | feat: providers |                       | 22/06/2025          |
+| MobileAplication-flutter  | main | a0954b5911d86e7dbee070535d57c4c4390712af | feat: widgets |                       | 23/06/2024          |
+| MobileAplication-flutter  | main   | 2702d133d6337791fd257f29ffe4eb48bb44a0a3 | feat: screens    |                | 22/06/2025          |
+
+
+#### 6.2.2.4.Testing Suite Evidence for Sprint Review.
+
+| **Repository**   | **Branch**   | **Commit ID** | **Commit Message**             | **Commit Message Body**                                                       | **Committed on (Date)** |
+|------------------|--------------|---------------|--------------------------------|--------------------------------------------------------------------------------|-------------------------|
+|  EzPark-Platform  |  main  |  f63e4466ab30694e993e544de4b510f15148d3c6   | chore: initial commit   |  initial commit      |    23/06/2025           |
+
+| **Repository**   | **Branch**   | **Commit ID** | **Commit Message**             | **Commit Message Body**                                                       | **Committed on (Date)** |
+|------------------|--------------|---------------|--------------------------------|--------------------------------------------------------------------------------|-------------------------|
+|  MobileApplication-Flutter |  main  |  2702d133d6337791fd257f29ffe4eb48bb44a0a3   | First commit   |  initial commit      |    24/06/2025          |
+
+
+Se adjunta imagen de los repositorios del front y del backend de nuestra aplicación móvil.
+
+<img src="assets/fff7.png" alt="fff7" />
+
+
+#### 6.2.2.5.Execution Evidence for Sprint Review.
+
+Para esta entrega, el front y guest se encuentra en lanzamiento de manera apk.
+
+<img src="assets/fff1.png" alt="fff1" />
+
+#### 6.2.2.6.Services Documentation Evidence for Sprint Review.
+
+En este apartado se muestra el avance de las funcionalidades del front y guest
+
+<img src="assets/fff2.png" alt="fff2" />
+
+#### 6.2.2.7.Software Deployment Evidence for Sprint Review.
+
+A continuación, se presentan los commits realizados en el repositorio del landing page en Github. Link del Github:
+https://github.com/Park-Team/MobileApplication-Flutter
+
+| Repository   | Branch      | Commit Id                            | Commit Message                       | Commit Message Body   | Committed on (Date) |
+|--------------|-------------|--------------------------------------|--------------------------------------|-----------------------|---------------------|
+| MobileAplication-flutter | main | fbbac76d0e90f26a49b24a3d4f1160e548245e68 | feat: config  |                       | 22/06/2025          |
+| MobileAplication-flutter  | main | 76caf2b8d0bddc824d035be55e573770a8bea0e4 | feat: models |                       | 23/06/2024          |
+| MobileAplication-flutter  | main   | b775834d2575478ef56705a1e0a476551fd7fc9c | feat: services    |                | 22/06/2025          |
+| MobileAplication-flutter  | main | 7828fa720f852f6fafac7edb6fdfec7da706af17 | feat: utils  |                       | 22/06/2025          |
+| MobileAplication-flutter | main | 2702d133d6337791fd257f29ffe4eb48bb44a0a3 | feat: providers |                       | 22/06/2025          |
+| MobileAplication-flutter  | main | a0954b5911d86e7dbee070535d57c4c4390712af | feat: widgets |                       | 23/06/2024          |
+| MobileAplication-flutter  | main   | 2702d133d6337791fd257f29ffe4eb48bb44a0a3 | feat: screens    |                | 22/06/2025          |
+
+
+#### 6.2.2.8.Team Collaboration Insights during Sprint.
+
+<img src="assets/fff6.png" alt="fff6" />
+
+
 ## 6.3. Validation Interviews.
 
 Después de avanzar en el desarrollo de la Landing page, la aplicación mobile en Jetpack Compose y Flutter de EzPark, llevamos a cabo entrevistas de validación. Estas entrevistas permitieron a nuestros usuarios de los segmentos objetivo obtener una primera impresión del software.
