@@ -1965,7 +1965,7 @@ https://github.com/Park-Team/MobileApplication-Flutter
 | Sprint 1 Velocity                  |  5 Story Points                                    |
 | Sum of Story Points                |  En este sprint nos hemos centrado exclusivamente en terminar todo                                  |
 
-#### 6.2.2.2.Sprint Backlog 3.
+#### 6.2.3.2.Sprint Backlog 3.
 
 | Sprint #   | 2             |
 |------------|---------------|
@@ -1980,7 +1980,7 @@ https://github.com/Park-Team/MobileApplication-Flutter
 | US10 | Historial de reservas | W4  | Implementar Historial de reservas   | ermite al Guest ver un historial de sus reservas realizadas.                      | 1h                 | Mauricio | Done                                  |
 
 
-#### 6.2.2.3.Development Evidence for Sprint Review.
+#### 6.2.3.3.Development Evidence for Sprint Review.
 
 | Repository   | Branch      | Commit Id                            | Commit Message                       | Commit Message Body   | Committed on (Date) |
 |--------------|-------------|--------------------------------------|--------------------------------------|-----------------------|---------------------|
@@ -1993,7 +1993,7 @@ https://github.com/Park-Team/MobileApplication-Flutter
 | MobileAplication-flutter  | main   | 2702d133d6337791fd257f29ffe4eb48bb44a0a3 | feat: screens    |                | 22/06/2025          |
 
 
-#### 6.2.2.4.Testing Suite Evidence for Sprint Review.
+#### 6.2.3.4.Testing Suite Evidence for Sprint Review.
 
 | **Repository**   | **Branch**   | **Commit ID** | **Commit Message**             | **Commit Message Body**                                                       | **Committed on (Date)** |
 |------------------|--------------|---------------|--------------------------------|--------------------------------------------------------------------------------|-------------------------|
@@ -2009,19 +2009,20 @@ Se adjunta imagen de los repositorios del front y del backend de nuestra aplicac
 <img src="assets/fff7.png" alt="fff7" />
 
 
-#### 6.2.2.5.Execution Evidence for Sprint Review.
+#### 6.2.3.5.Execution Evidence for Sprint Review.
 
 Para esta entrega, el front y guest se encuentra en lanzamiento de manera apk.
 
 <img src="assets/fff1.png" alt="fff1" />
 
-#### 6.2.2.6.Services Documentation Evidence for Sprint Review.
+#### 6.2.3.6.Services Documentation Evidence for Sprint Review.
 
 En este apartado se muestra el avance de las funcionalidades del front y guest
 
-<img src="assets/fff2.png" alt="fff2" />
+<img src="assets/fff3.png" alt="fff3" />
+<img src="assets/fff1.png" alt="fff1" />
 
-#### 6.2.2.7.Software Deployment Evidence for Sprint Review.
+#### 6.2.3.7.Software Deployment Evidence for Sprint Review.
 
 A continuación, se presentan los commits realizados en el repositorio del landing page en Github. Link del Github:
 https://github.com/Park-Team/MobileApplication-Flutter
@@ -2037,7 +2038,7 @@ https://github.com/Park-Team/MobileApplication-Flutter
 | MobileAplication-flutter  | main   | 2702d133d6337791fd257f29ffe4eb48bb44a0a3 | feat: screens    |                | 22/06/2025          |
 
 
-#### 6.2.2.8.Team Collaboration Insights during Sprint.
+#### 6.2.3.8.Team Collaboration Insights during Sprint.
 
 <img src="assets/fff6.png" alt="fff6" />
 
