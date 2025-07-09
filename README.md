@@ -197,6 +197,8 @@ EAC - Student Outcome 7.
             Diseñé los style guidelines, Information architecture y gran parte de los mockups de la aplicación móvil de EzPark. Además, contribuí al desarrollo del prototipo funcional de la mobile application.<br>
             TB2<br>
             Diseñé las preguntas de investigación, el video about the product y apoye a mis compañeros con el desarrollo del frontend.<br>
+            TF<br>
+            Realice los videos de las entrevistas, el video about the team y apoye a mis compañeros con el desarrollo del frontend.<br>
             <strong>Rodriguez Zuluoeta, Andres Fernando</strong><br>
             TB1<br>
             Desarrollé los capítulos 2 y 3 del proyecto EzPark, incluyendo análisis de requerimientos, user stories, Impact Mapping y Domain Message Flow Modeling. Aprendí a aplicar conceptos como Bounded Context y flujos de dominio en un sistema real.<br>
@@ -223,6 +225,8 @@ EAC - Student Outcome 7.
             Para esta entrega revisamos conceptos previos sobre ux/ui para poder implementar las mejores practicas al momento de desarrollar los estilos y prototipados necesarios para el proyecto.<br>
             TB2<br>
             Para esta entrega revisamos conceptos previos sobre el despliegue y desarrollo del backend, ya que aun necesitaba algunas mejoras. Además, investigamos mas acerca de flutter para poder implementar los estilos deseados para la aplicación.<br>
+            TF<br>
+            Para esta entrega se volvio a repasar conceptos de flutter y jetpack compose, para realizar las mejoras e implementaciones necesarias.<br>
             <strong>Rodriguez Zuluoeta, Andres Fernando</strong><br>
             TB1<br>
             Investigué por mi cuenta sobre Impact Mapping y Bounded Context, usando documentación y ejemplos externos, aplicando estrategias de autoaprendizaje para completar correctamente mi parte del proyecto.<br>
