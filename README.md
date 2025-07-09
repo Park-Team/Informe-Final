@@ -29,7 +29,8 @@
 |:-------:|:----------:|:-----:|:----------------------------| 
 |TB1      |      23/04/2025      |    ParkTeam   |    Se hizo la entrega del primer avance del Informe, desde la presentacion de la startup, hasta el capitulo 4 y las primeras conclusiones.                         |
 |TP|       14/05/2025      |    ParkTeam   |    Se hizo la entrega del segundo avance del Informe, Se dearrollaron los capitulos 5 y 6, la landing page y el primer avance del proyecto.|
-|TB2|22/06/2025|ParkTeam|Se hizo la entre del tercer avance del informe, se desarrollo el backend y parte del frontend de la aplicacion EzPark para el Guest|
+|TB2|22/06/2025|ParkTeam|Se hizo la entrega del tercer avance del informe, se desarrollo el backend y parte del frontend de la aplicacion EzPark para el Guest|
+|TF|09/07/2025|ParkTeam|Se hizo la entre del cuarto avance del informe, se desarrollo gran parte del frontend de la aplicacion EzPark para el Guest y Host. Ademas de las entrevitas y diversos videos del equipo y producto|
 
 # Project Report Collaboration Insights
 
@@ -2053,18 +2054,126 @@ Segmento objetivo: Usuario de Guest y Host
 
 1. ¿Cuál es su nombre completo? ¿Qué edad tiene? ¿En qué distrito vive actualmente?
 1. ¿Qué opinas del diseño del Landing page? ¿Le incentiva a entrar a la aplicación y registrarse?
-1. ¿Considera que la aplicación dispone de una interfaz fácil e intuitiva de utilizar? En caso afirmativo, ¿qué funcionalidades le agradaron más? En caso negativo, ¿qué funcionalidad cree que falta o sobra para aumentar su interés en usarla?
-1. ¿Qué sistema operativo y versión (IOS, Android, etc.) utilizó para probar la aplicación web?
+1. ¿Qué sistema operativo y versión (IOS, Android, etc.) utilizó para probar la aplicación?
 1. ¿Cuál es el modelo de telefono utilizado?
-1. ¿Hubo algún aspecto visual, como la disposición de los elementos, que no le agradó?
+1. ¿Qué funcionalidades le agradaron más?
+1. ¿qué funcionalidad cree que falta o sobra para aumentar su interés en usarla?
+1. ¿Considera que la aplicación dispone de una interfaz fácil e intuitiva de utilizar?
+1. ¿Hubo algún aspecto visual, como la disposición de los elementos, que no le agradó?
 
 ### 6.3.2. Registro de Entrevistas.
 
+Segmento objetivo: Usuario de Host y Guest
+Entrevista 1: André Arroyo
+
+URL del video: [Entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201719831_upc_edu_pe/ETZXRIvWLzdBgDKh1ngUucoBMdYZa_Ks389fXms3jAtgHw?e=xmbNAG)
+<img width =100% src="./assets/entrevistah1.png" alt="Entrevista 1" />
+
+---
+
+Segmento objetivo: Usuario de Host y Guest
+Entrevista 2: Marcelo Garro
+URL del video: [Entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201719831_upc_edu_pe/ETZXRIvWLzdBgDKh1ngUucoBMdYZa_Ks389fXms3jAtgHw?e=xmbNAG)
+
+<img width=100% src="./assets/entrevistah2.png" alt="Entrevista 2" />
 
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
+<p align="center">UX Heuristics & Principles Evaluation
 
+<p align="center"> Usability – Inclusive Design – Information Architecture
+
+**CARRERA:** Ingeniería de Software
+
+**CURSO:** Aplicaciones Web
+
+**SECCIÓN:** SW55
+
+**PROFESORES:** Todos
+
+**AUDITOR:** Los Parkers
+
+**CLIENTE(S):** Andre Arroyo y Marcelo Garro
+
+---
+
+**SITE o APP A EVALUAR:** EzPark
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Diseño de la Landing Page
+1. Funcionalidad de la Landing Page
+1. Diseño del Frontend
+1. Funcionalidad de la page Sign up
+1. Funcionalidad de la page Login
+1. Funcionalidad de la page Forgot password
+1. Funcionalidad de la page Find your park
+1. Funcionalidad de la page Rent your park
+1. Funcionalidad de la page Parking detail
+1. Funcionalidad de la page History
+1. Funcionalidad de la page Edit Profile
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Funcionalidad de la page Garages
+1. Funcionalidad de la page Reviews
+1. Funcionalidad del Backend
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                   |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+**TABLA RESUMEN:**
+
+| #   | Problema                                                                  | Escala de severidad | Heurística/Principio violada(o)         |
+| --- | ------------------------------------------------------------------------- | ------------------- | --------------------------------------- |
+| 1   | Incluye un botón “Edit Profile” pero no existe contenido al que dirigirse | 2                   | Information Architecture: Is it usable? |
+| 2   | Incluye una sección “History” pero no existe contenido en dicha ventana   | 2                   | Information Architecture: Is it usable? |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+PROBLEMA #1: Incluye un botón “Edit Profile” pero no existe contenido al que dirigirse
+
+Severidad: 2
+
+Heurística violada:
+
+Problema: Information Architecture: Is it usable?
+
+Al momento de ingresar a la plataforma, no podemos ingresar al apartado de Edit profile, en caso el usuario quiera cambiar sus datos después del registro no podrá hacerlo, ya que dicha vista aún no está implementada.
+
+
+Recomendación:
+
+Lo más rápido y factible es que implementemos dicha vista, para que el usuario pueda modificar sus datos en caso de error al registrarse o cambie ciertos datos de su información en un futuro, como podría ser su número de celular o su foto de perfil.
+
+---
+
+PROBLEMA #2: Incluye un botón “History” pero no existe contenido al que dirigirse
+
+Severidad: 2
+
+Heurística violada:
+
+Problema: Information Architecture: Is it usable?
+
+Al momento de ingresar a la aplicacion, no podemos ingresar al apartado de History, en caso el usuario quiera revisar el historial de sus parkings reservados no podrá hacerlo, ya que dicha vista aún no está implementada.
+
+
+
+Recomendación:
+
+Lo más recomendable es que implementemos dicha vista, para que el usuario pueda visualizar su historial de reservas, en caso desee reservar de nuevo en un estacionamiento o desee monitorear su uso de la aplicación.
 
 ## 6.4. Video About-the-Product.
 
